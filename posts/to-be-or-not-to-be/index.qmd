@@ -21,7 +21,7 @@ The above-described situation perfectly demonstrates how goal-based efforts work
 <p>
     <center>
         <img src="identity_goals.png"
-        width="60%" height="30%">
+        width="100%" height="30%">
     </center>
 </p>
 
@@ -35,8 +35,8 @@ A little beaten down by reality, an old friend of mine, Tom, taught me a valuabl
 
 <p>
     <center>
-        <img src="tobeornot.jpeg"
-        width="60%" height="30%">
+        <img src="tobe.png"
+        width="100%" height="30%">
     </center>
 </p>
 For those who want to understand the profound contemplation behind this quote, and not just my misuse of it, check out [this fun Youtube Video](https://www.youtube.com/watch?v=Q2vlVwaq5ro&ab_channel=TCPPoetry)!
