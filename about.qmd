@@ -4,12 +4,17 @@ about:
   template: jolla
   links:
     - icon: linkedin
-      text: LinkedIn
+      text: Kay
       href: https://www.linkedin.com/in/kay-kozaronek/
     - icon: github
-      text: Github
+      text: Kay
       href: https://github.com/KayKozaronek
-
+    - icon: linkedin
+      text: Gerold
+      href: https://www.linkedin.com/in/gcsendes/
+    - icon: github
+      text: Gerold
+      href: https://github.com/gerold-csendes-epam
 ---
 
 <!-- <p>
