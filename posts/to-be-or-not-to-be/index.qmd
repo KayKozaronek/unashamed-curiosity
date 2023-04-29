@@ -1,6 +1,6 @@
 ---
 title: "To be or not to be"
-description: "What I've learned from trying too hard."
+description: "What I learned from trying too hard: How to start and stick to a new endeavor by shifting your perspective from goal-based to identity-based efforts."
 author: "Kay Kozaronek"
 date: "2020-04-15"
 categories: [Goals, Identity]
