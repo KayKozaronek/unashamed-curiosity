@@ -1,12 +1,15 @@
 ---
 title: "COVID-19, boredom and artificial intelligence"
+description: "Discovering the hidden blessing of the pandemic, finding time for what matters and embarking on a journey to becoming a data scientist."
 author: "Kay Kozaronek"
 date: "2020-03-25"
-categories: [covid, AI]
-image: "image.jpg"
+categories: [Covid, AI, Philosophy]
+image: "before_after_philosophy.jpeg"
 ---
 
-> I highly recommended listening [Epic Mountain](https://open.spotify.com/track/4LqS6wEyZPyDaXeF0gzUeJ?si=79Asr6tHR4OCmmlQB190Rw&nd=1) while reading this piece.
+# Smelly Vagabounds(,) and Thinkers
+
+> **I highly recommended listening [Epic Mountain](https://open.spotify.com/track/4LqS6wEyZPyDaXeF0gzUeJ?si=79Asr6tHR4OCmmlQB190Rw&nd=1) while reading this piece.**
 
 
 It all started last year when I began reading "The master algorithm" by Pedro Domingos. The smell of sweaty hungover travelers was thickening the air in the Columbian 10-bed dorm I found shelter in. Although I would later find out how little I actually understood, a profound feeling of understanding the complex world we have to navigate, creeped up my sleeve as I kept on reading about artificial intelligence, algorithms, and philosophy. Wait a moment - philosophy? Yeah, philosophy. Many brilliant thoughts that Domingos writes about started out their journey in the head of a thinker's curiosity-driven pursuit of knowledge - ergo philosophy. As you might guess the epiphanic feeling of understanding "what the heck was going on in the world of tech" didn't last long. Soon enough I was not only surrounded by smelly vagabonds but also by heavily complex thoughts ranging from philosophy to computer science and back to the world of mathematics. A little lost and confused I decided to put down the book and get to grips with the basics first. That's when I decided to devote the majority of my time reading and studying philosophy. The next image is a depiction of me. Literally, go ask my friends!
@@ -27,7 +30,7 @@ Weeks later, near the end of February 2020, I finally managed to pull through th
 "Finally, every day I'll be surrounded by like-minded people with whom I'll share a common goal: Becoming a Data Scientist. " - At least that's what I thought. Invigorated, enthusiastic and full of joy I completed the first two sessions of the Bootcamp only to wake up the next day to realize that the Corona Crisis had reached Madrid. Another setback to my efforts of becoming a Data Scientist? No, not this time!
 
 
-## Regnosis: The Corona Crisis, a blessing in disguise?
+# Regnosis: The Corona Crisis, a blessing in disguise?
 Like many of you out there, I am trapped at home, prohibited from going out. It's shit, right? Well, actually, no! Why's that, you might ask. Here's the thing, let's make a thought experiment, good ol' philosopher-style. In hindsight, what will you think of today's situation 6 months from now? Go ahead, take a couple of minutes, maybe write down your thoughts, it's a great way to stay sane!
 
 <p>
@@ -44,14 +47,14 @@ Here's what I think. 6 months from now many of us will look back at today and re
 
 People who realize this fast enough will be able to act upon the newly freed time and will profit tremendously in whatever area they choose to apply it to.
 
-## Call to arms
+# Call to arms
 For those of you who have not already changed the Browser Tab to start another binging marathon on Netflix, firstly, thanks. Secondly, here's the deal! I want you to take 5 minutes and think of everything that you always wanted to do but never "found time for". Then pick one thing and start acting on it.
 
 As I know that it's always easier said than done, I encourage you to follow my lead. I'll have a weekly posting schedule where I'll blog about my journey of becoming a Data Scientist. I want you to engage with me and comment on what you did in your personal project.
 
 Ok, that's basically it. If you're done, feel free to write a comment down below or hit me up on LinkedIn to help each other stay motivated on our journey.
 
-## Gratefulness:
+# Gratefulness:
 
 Before ending this post I would like to give a big thank you to the following people for inspiring me to take action and embark on a crazy journey to becoming a Data Scientist:
 
