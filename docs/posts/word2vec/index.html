@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.340">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2023-04-29">
+<meta name="description" content="Discover how to make computers understand the awesomeness of dachshunds. An explainer of Word2Vec.">
+
+<title>Unashamed Curiosity - Dachshund to Numbers</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Unashamed Curiosity</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com" rel="" target=""><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Dachshund to Numbers</h1>
+                  <div>
+        <div class="description">
+          Discover how to make computers understand the awesomeness of dachshunds. An explainer of Word2Vec.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">ML</div>
+                <div class="quarto-category">AI</div>
+                <div class="quarto-category">NLP</div>
+                <div class="quarto-category">Word2Vec</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Authors</div>
+      <div class="quarto-title-meta-contents">
+               <p>Gerold Csendes </p>
+               <p>Kay Kozaronek </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">April 29, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#intro" id="toc-intro" class="nav-link active" data-scroll-target="#intro">Intro</a></li>
+  <li><a href="#word-embeddings" id="toc-word-embeddings" class="nav-link" data-scroll-target="#word-embeddings">Word embeddings</a></li>
+  <li><a href="#the-word2vec-algorithm" id="toc-the-word2vec-algorithm" class="nav-link" data-scroll-target="#the-word2vec-algorithm">The Word2Vec algorithm</a>
+  <ul class="collapse">
+  <li><a href="#continous-bag-of-words-cbow" id="toc-continous-bag-of-words-cbow" class="nav-link" data-scroll-target="#continous-bag-of-words-cbow">Continous Bag-of-Words (CBOW)</a>
+  <ul class="collapse">
+  <li><a href="#illustrated-forward-and-backward-pass" id="toc-illustrated-forward-and-backward-pass" class="nav-link" data-scroll-target="#illustrated-forward-and-backward-pass">Illustrated Forward and Backward Pass</a></li>
+  <li><a href="#objective-function-explained" id="toc-objective-function-explained" class="nav-link" data-scroll-target="#objective-function-explained">Objective Function Explained</a></li>
+  </ul></li>
+  <li><a href="#skip-gram" id="toc-skip-gram" class="nav-link" data-scroll-target="#skip-gram">Skip-Gram</a></li>
+  <li><a href="#expensive-softmax-and-alternatives" id="toc-expensive-softmax-and-alternatives" class="nav-link" data-scroll-target="#expensive-softmax-and-alternatives">Expensive Softmax and Alternatives</a>
+  <ul class="collapse">
+  <li><a href="#negative-sampling" id="toc-negative-sampling" class="nav-link" data-scroll-target="#negative-sampling">Negative Sampling</a></li>
+  </ul></li>
+  <li><a href="#subsampling-of-frequent-words" id="toc-subsampling-of-frequent-words" class="nav-link" data-scroll-target="#subsampling-of-frequent-words">Subsampling of frequent words</a></li>
+  <li><a href="#other-notes" id="toc-other-notes" class="nav-link" data-scroll-target="#other-notes">Other notes</a>
+  <ul class="collapse">
+  <li><a href="#hyperparameters" id="toc-hyperparameters" class="nav-link" data-scroll-target="#hyperparameters">Hyperparameters</a></li>
+  <li><a href="#dataset" id="toc-dataset" class="nav-link" data-scroll-target="#dataset">Dataset</a></li>
+  <li><a href="#evaluation" id="toc-evaluation" class="nav-link" data-scroll-target="#evaluation">Evaluation</a></li>
+  <li><a href="#bias" id="toc-bias" class="nav-link" data-scroll-target="#bias">Bias</a></li>
+  </ul></li>
+  <li><a href="#acknowledgement" id="toc-acknowledgement" class="nav-link" data-scroll-target="#acknowledgement">Acknowledgement</a></li>
+  </ul></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<section id="intro" class="level1">
+<h1>Intro</h1>
+<p>Word2Vec is one of the most well-known word embedding algorithms. Although it has been succeeded in efficacy by more recent transformer-based algorithms like BERT and GPT, Word2Vec remains a valuable algorithm to understand. It was the first algorithm to produce word embeddings that captured both syntactic and semantic relationships between words, famously demonstrated by the “king - man + woman = queen” analogy. This made a profound contribution to natural language processing and kicked off a swath of impressive developments. In this post, we will take a deep dive into the nuts and bolts of Word2Vec. But before we do that, let’s first review why word embeddings are crucial for NLP tasks.</p>
+<p>
+</p><center>
+<img src="kay_drawings/00_Highlights_NLP.png" width="100%" height="30%">
+</center>
+<p></p>
+</section>
+<section id="word-embeddings" class="level1">
+<h1>Word embeddings</h1>
+<p><strong>[NOTE This section could definitely be more elaborated from a theoretical point. Also, better illustration and more examples could help.]</strong></p>
+<p><strong>Word embeddings</strong> (also called as vectors, representations) <strong>are high-dimensional</strong> (usually 50-1000 dimensions) <strong>dense vectors</strong> over which you can do all kinds of arithmetics and most importantly encode similarity. Arithmetics like the notories example “king–man+woman=queen” or “good-best+bad=worst”. These two examples illustrate how semantic (meaning) and syntactic (grammar) similarities are encoded in the word vectors.</p>
+<p>The whole idea of word embeddings is based on distributional semantics which is the concept of representing a word based on its usual context. This idea waw popularized by a linguist, J. R. Firth, with his famous quote “You shall know a word by the company it keeps” in the 1950s. <a href="https://en.wikipedia.org/wiki/Distributional_semantics">“The basic idea of distributional semantics can be summed up in the so-called distributional hypothesis: linguistic items with similar distributions have similar meanings.”</a></p>
+<p>
+</p><center>
+<img src="kay_drawings/05_King_Queen.png" width="100%" height="30%">
+</center>
+<p></p>
+<p>What is a reasonable alternative to dense word representations? <strong>One-hot-encoding</strong> (OHE) might first come to your mind which was the way to go in traditional NLP. When using OHE, you basically treat words as discrete, atomic symbols. This way of representing words is usually refered to as <strong>sparse</strong>, in contrast to dense, distributed <strong>representation</strong> (like Word2Vec).</p>
+<p>Let’s look at a toy example to illustrate the differences better. Let’s say I want to represent the words: “Chinese crested dog”, “Dachshund”, “Bolognese”, “Labrador” and “Newfoondland”. Using sparse, OHE representation, we would end up with the below word vectors. The individual words have their own dedicated dimension and if you were to calculate similarity between of these words vectors e.g.&nbsp;dot product, you end up with 0.</p>
+<p>
+</p><center>
+<img src="kay_drawings/01_Onehot_Encoding.PNG" width="100%" height="30%">
+</center>
+<p></p>
+<p>Let’s see how we could represent these words in a dense way. How about we define 2 dimensions that are suitable to capture the meaning of these words to some extent. I think the body size (y-axis) and the fur size(x-axis) are good candidates for our goal. Below you can see my estimation of the word vectors.</p>
+<p>
+</p><center>
+<img src="kay_drawings/02_Dense_Encoding.PNG" width="100%" height="30%">
+</center>
+<p></p>
+<p>Here is how the word vectors compare to each other. For the dense representation, distributed, representation only 2 dimensions are used in contrast to the 5 dimensions using sparse, OHE representation. In my opinion, this toy example illustrates how dense vectors capture meaning. Using the very simple distance metric, the taxicab distance (also known as L1 and Manhattan distance), we can clearly see that a dachshund is more similar to bolognese (d=0.88) than to a Newfoondland (d=4.78) because the distance between the two is smaller. Using sparse representation, you would be not able to calculate different degrees of similarity. All sparse vectors would have 0 similarity because the vectors are orthogonal to each other.</p>
+<p>
+</p><center>
+<img src="kay_drawings/03_Dense_vs_OneHot.PNG" width="100%" height="30%">
+</center>
+<p></p>
+<p>NOTE: though in this toy example, the dimensions of the dense vectors have a direct interpretation (body and fur size), this is not the case in a real application. There are papers attempting to interpret word vector dimensions in one way or another. For example, in [7] they attempted to extract the ‘gender’ dimension (and debias the word vectors, more about this in section ‘Other Notes’)</p>
+<p>Back to the question of why we care about (good) word embeddings. We could not only decrease the dimensionality of the representation which may have its own regularization effect but we did in a way that we can now compare them and calculate similarities. This way of encoding information seems a lot mor informative than the sparse one! Intuitively, it just makes sense that any downstream application (chatbots, named entity recognition, text summarization) would prefer making use of this information. Isn’t this fascinating? We have assessed the importance of word vectors, now let’s say how to make one!</p>
+</section>
+<section id="the-word2vec-algorithm" class="level1">
+<h1>The Word2Vec algorithm</h1>
+<p><strong>Here, better and more illustrations would be welcome. Some ideas in particular: sliding over the text, show dot products for a given context size with examples for both CBOW and Skip-Gram</strong></p>
+<p>In summary, Word2Vec beat all previous benchmarks and managed to cut down the on training time vastly which allowed the authors to train on a larger corpus than it was possible before. They used the Google News, a Google proprietary, dataset which contains ca. 6B tokens and has a vocabulary size of 3M. For reference, the Oxford English Dictionary contains over 600,000 words and Phrases [4]. What comes to my surprise is that only a few epochs are needed to train the model. In the paper they used 1-3 epochs. Probably this is enough because the 6B token long dataset containts ca. 6B samples which is quite a number. <em>FUN FACT: Word2Vec was originally implemented on CPUs. It was 2013 and GPUs were already on their way revolutionizing AI but still a year after the seminal paper of Krizhevsky et. al.&nbsp;I guess there were strong reasons why they did all this on CPUs.</em> At this point, I think it is important to note that Word2Vec was first introduced in [1] and then further developed in [2].</p>
+<p>It is now time to give a one sentence description of Word2Vec:</p>
+<blockquote class="blockquote">
+<p>Word2Vec is a neural network-based pre-training, unsupervised algorithm that produces word embeddings, trained on a large corpus of text data which can be used as input features for various natural language processing tasks.</p>
+</blockquote>
+<p>This is quite a dense description which is worth elaborating in more detail. It is important to highlight that Word2Vec is an <strong>NN-based</strong> algorithm because around the time of its publication there were other, non-NN-based algorithms like count-based methods e.g.&nbsp;co-occurence matrix factorization methods and GloVe [9]. It is a <strong>pre-training</strong> algorithm because its resulting word embeddings is mostly used for downstream NLP tasks where these embeddings are either frozen or jointly optimzied in the downstream task. It is also <strong>unsupervised</strong> which means that no human supervision like labels are being used during training. The supervision comes from the data itself i.e.&nbsp;how words follow each other.</p>
+<p>The success of Word2Vec was based on multiple innovations: 1. Two new training algorithms: - Continous Bag-Of-Word (CBOW) - Skip-Gram 1. Two tricks optimizing computational efficiency - Negative Sampling - Hierarchical Softmax</p>
+<p>Here, I am using a somewhat sloppy description because strictly speaking Negative Sampling and Hierarchical Softmax are also part of the training algorithm. I just refer to them as “computational tricks” because, to me, they do not really deal with high-level concepts like how to relate context to a specific (center) word but more about the nuanced implementation details of the loss function. I think later this taxonomy will make sense.</p>
+<p>First, let’s review the easier of the two training algorithms, CBOW.</p>
+<section id="continous-bag-of-words-cbow" class="level2">
+<h2 class="anchored" data-anchor-id="continous-bag-of-words-cbow">Continous Bag-of-Words (CBOW)</h2>
+<p>In both CBOW and Skip-Gram, we differentiate between center and context words. The context words around the center word are limited by a context window, which was exactly 4 in the paper. This means that there are 4 context words preceeding (history) and 4 (future) following the center word. The choice of this parameter was not explained in the paper and one might actually want to tune it.</p>
+<p>Let’s look at a specific example but instead of using 4, let’s use a context window of 2 words. Here, the center Word “ChatGPT” is surrounded by the context words “GPT-4”, “outperforms”, “in”, “general”.</p>
+<p>
+</p><center>
+<img src="kay_drawings/04_Example_Sentence.PNG" width="100%" height="30%">
+</center>
+<p></p>
+<p><strong>The difference between CBOW and Skip-Gram is what we actually want to predict.</strong> While CBOW uses the context words to predict the center word, Skip-Gram does the opposite and predicts the context words from the center word.</p>
+<p>By now, we have a good high-level overview of Word2Vec. It is time to move to the tecnhical implementation of CBOW. We will first look at the trainable weight matrices and an illustrative forward and backward pass. Later, we will interpret the more math-heavy part, the loss function.</p>
+<section id="illustrated-forward-and-backward-pass" class="level3">
+<h3 class="anchored" data-anchor-id="illustrated-forward-and-backward-pass">Illustrated Forward and Backward Pass</h3>
+<p>There are 2 trainable weight matrices: the input and output matrix. N denotes the number of embedding dimensions, V the vocabulary size. N is usually 50-300 and V in the Google News Dataset, as mentioned before, 3M. The input weight matrix is tasked with generating the input embedding for the task, while the output matrix will produce the predictions i.e.&nbsp;probability distribution over the entire vocabulary. This will make more sense in a bit. For now what is crucial to understand, is that each token has an embedding in the input word matrix, this will be its context embedding and an embedding in the output word matrix which is its center embedding in. In other words, each word has 2 embeddings. The tokens in the Vocabulary need to be mapped to indices, so we can look up their embeddings in the input or output matrices using indexing. <em>FUN FACT: Zyzzyva is an actual word and refers to a type of weevils. I looked up on Google what is the last item in English dictionaries.</em></p>
+<p>
+</p><center>
+<img src="kay_drawings/matrices.PNG" width="100%" height="30%">
+</center>
+<p></p>
+<p>Let’s put all we know together and a little more by illustrating the forward and backward pass! Below, we use the same example of center and context words. Using the token-index mapping, we look up the indices of the center and context words. The 4 context words are taken from the input matrix and stacked horizontally. To get the average context, we take the row-wise average of the context word embeddings. Using the output (center) matrix, we calculate the dot product between each word in the vocabulary and the averaged context embedding. This is a matrix-vector multiplication. In the resulting score vector each item refers to the similarity (dot product) between the avereage context and the words in the vocabulary. To get a probability distribution over the vocabulary, we apply softmax normalization. The y_true vector will be OHE where the single non-zero element is at the index of the center word. Finally, we apply Cross-Entropy loss and apply backprop to calculate the gradients.</p>
+<p>
+</p><center>
+<img src="kay_drawings/Word2Vec-forw-backw.PNG" width="100%" height="30%">
+</center>
+<p></p>
+</section>
+<section id="objective-function-explained" class="level3">
+<h3 class="anchored" data-anchor-id="objective-function-explained">Objective Function Explained</h3>
+<p>Now that we have a better understanding of the forward and backward pass of CBOW, let’s look into the math part. Actually, the math of the “vanilla” Word2Vec is not too convoluted, we just need to dissect the objective function. Quick disclaimer: you won’t find these functions in the original paper. Here, I am making use of [2] and [3] but I make an effort at simplyfying the notation and provide a more detailed explanation.</p>
+<p>Our goal is to <strong>maximize the data likelihood</strong> i.e.&nbsp;to maximize the probability of a center word <span class="math inline">\(w_{t-1}\)</span> conditioned on the context words in context window of c <span class="math inline">\(w_{t-c}, \dots, w_{t-1}, w_{t+1}, \dots, w_{t+c}\)</span>, a given parameter set of <span class="math inline">\(\theta\)</span> which is the context and center embedding matrices. T denotes the tokens of the dataset i.e.&nbsp;all the words in the dataset.</p>
+<p><span class="math display">\[
+\text{Likelihood} = L(\theta) =  \prod_{t=1}^{T} P(w_t | w_{t-c}, \dots, w_{t-1}, w_{t+1}, \dots, w_{t+c}; \theta)
+\]</span></p>
+<p>How do we calculate <span class="math inline">\(P(w_t | w_{t-c}, \dots, w_{t-1}, w_{t+1}, \dots, w_{t+c})\)</span>? We are yet to inject the word embeddings into these functions because now they refer to words. In section “Illustrated Forward and Backward Pass”, we said that each word has a corresponding context (input) and center (output) word vector. Let’s denote the context word matrix as <span class="math inline">\(K \in \mathbb{R}^{n \times |V|}\)</span> where <span class="math inline">\(k_{i}\)</span> refers to the i-th column of K meaning the context embedding of word at index i. The center word matrix is denoted by $ U ^{|V| n}$ where center word embeddings are stacked row-wise. Similarly, <span class="math inline">\(u_{i}\)</span> refers to the i-th row of U indicating the center embedding of word at index i.</p>
+<p>Let’s now write up how to express <span class="math inline">\(P(w_t | w_{t-c}, \dots, w_{t-1}, w_{t+1}, \dots, w_{t+c})\)</span> using the contex and center word embeddings and then explain it in more detail. Below <span class="math inline">\(u_{t}\)</span> refers to the context embedding of the context word at position t. <span class="math inline">\(\bar{k_{c}}\)</span> refers to the average context embedding of the context words. By taking the dot product between these two, we get a similarity metric (an unnormalized one) between the center word and the average context. The higher the dot-product the more similar the vectors are i.e.&nbsp;the vectors point to a similar direction. By calculating the dot product between all center word embedding and the average context embedding in the vocabulary (the denominator) and applying softmax, we get a probability distribution over the entire vocabulary.</p>
+<p><span class="math display">\[P(w_t | w_{t-c}, \dots, w_{t-1}, w_{t+1}, \dots, w_{t+c}) = \frac{exp(u_{t}\bar{k_{c}})}{\sum_{w=1}^{V}exp(u_{w}\bar{k_{c}})}\]</span></p>
+<p>In machine learning, it is easier to work with the dual problem of maximizing likelihood which is minimizing the negative log likelihood. Using this trick makes the optimization easier. If you want to know why, I recommend you reading this <a href="https://stats.stackexchange.com/questions/174481/why-to-optimize-max-log-probability-instead-of-probability">thread</a>. Take the log of the product term results in the summation of logs. By convention, we optimize for the average log-likelihood, hence taking <span class="math inline">\(\frac{1}{T}\)</span>.</p>
+<p><span class="math display">\[
+\begin{align*}
+J(\theta) &amp; = -\frac{1}{T} \log L(\theta) \\
+&amp; = -\frac{1}{T} \sum_{t=1}^{T} \log P(w_t | w_{t-c}, \dots, w_{t-1}, w_{t+1}, \dots, w_{t+c}; \theta)
+\end{align*}
+\]</span></p>
+<p>Okay, so now we got a probability distribution over the entire vocabulary which is the prediction of the model but how do we relate this to the ground truth? The cost function does not (yet) include the <code>y_true</code> term though we use it for the cross-entropy loss calculation in the forward pass chart! I just left out this part from the cost function definition to not to make the formula too difficult to understand. The correct loss function for a given sample (a center word and its context) J is:</p>
+<p><span class="math display">\[J = -\sum_{w=1}^{V} y_{w}log(\hat{y}_{w})\]</span></p>
+<p>where</p>
+<p><span class="math display">\[\hat{y} = \frac{exp(u_{t}\bar{k_{c}})}{\sum_{w=1}^{V}exp(u_{w}\bar{k_{c}})}\]</span></p>
+<p>Since the target, <code>y</code> vector is OHE, J reduces to where the <code>i</code> index refers to the target element of the target vector e.g.&nbsp;the index of “ChatGPT” as in the example:</p>
+<p><span class="math display">\[J = -y_{i}log(\hat{y_{i}})\]</span></p>
+<p>If you feel like you can extend the formula to contain all training samples of the dataset but this is pretty much all about the CBOW version of Word2Vec except one last thing. In the next section, we will review the training algorithm again and point out its computation complexity and the methods Negative Sampling and Hierarchical Softmas that serve as remedies ot this issue.</p>
+</section>
+</section>
+<section id="skip-gram" class="level2">
+<h2 class="anchored" data-anchor-id="skip-gram">Skip-Gram</h2>
+<p>Skip-Gram flips the role of the context and center words. Here, the center word is used as input to predict the context (output) words. The forward and backward pass are illustrated below in a similar fashion as for CBOW. Observe the differences between the two architectures. Here, the input matrix is the one containing the center word embeddings, the output contains the context ones. We use the center word representation as input to calcute scores for the context outputs. Just like in CBOW, we make a softmax prediction over the entire vocabulary but we contrast these predictions against the multiple target context words which is indicated by the grey box on the right. In this example, we predict the 4 context words from the center.</p>
+<p>
+</p><center>
+<img src="kay_drawings/Skip-Gram.PNG" width="100%" height="30%">
+</center>
+<p></p>
+<p>For ease of notation, only a single sample’s training objective will be detailed. Let’s first start with the likelihood function again. Here, <strong>we aim to maximize the probability of context words conditioned on the center word</strong>. If we denote context lenght with c, there are 2c context words of which probabilities we aim to maximize (c history and c future context words).</p>
+<p><span class="math display">\[\text{Likelihood}=L(\theta) =\prod_{j=1}^{2c}P(w_{j} \mid w_t; \theta)\]</span></p>
+<p>It is important to note that the formula implies that we make a <strong>strong conditional independence assumption</strong>. Given a center word, all output words are completely independent (hence you can simply multiply the probabilities). This is definitely not true. Just think of simple grammar. If you have a noun center word followed by a verb context, then the upcoming context is quite unlikely to be a verb again. To give you an example, if you have the word <code>Chelsea</code> (a famous football club and also a district in London) as the center followed be <code>played</code> context then the next context is less likely to be a verb like <code>jump</code> and more likely to be an adjective like <code>marvelously</code>. Seeing this example you may even give semantical arguments why the conditional independence does not hold like nouns more related to football e.g.&nbsp;<code>game</code> is more likely to come up than academics related nouns e.g.&nbsp;<code>conference.</code> Nonetheless, Skip-Gram manages to work well in practice, thus we may be okay with this. By the way, it is the very same assumption that the <a href="https://en.wikipedia.org/wiki/Naive_Bayes_classifier">Naive Bayes Classifier</a> model makes. This naive assumption lets us to break out probabilities so we don’t have to deal with figuring out the joint distributions.</p>
+<p><strong>[NOTE] I think an elaboration of this point may be useful</strong></p>
+<p>The softmax is used again to get the probability distribution over the vocabulary. Below <span class="math inline">\(k_{t}\)</span> refers to the center word embedding while <span class="math inline">\(u_{c}\)</span> to the context word embedding. This is the opposite of what we have seen in CBOW.</p>
+<p><span class="math display">\[P(w_{j} \mid w_t) = \frac{\exp(u_{j}k_{t})}{\sum_{w=1}^{V}\exp(u_{w}k_{t})}\]</span></p>
+<p>If you take the negative log-likelihood for a single context word, given a center:</p>
+<p><span class="math display">\[
+\begin{align*}
+J &amp; = -\log P(w_{j} \mid w_t) \\
+&amp; = -\log\frac{\exp(u_{j}k_{t})}{\sum_{w=1}^{V}\exp(u_{w}k_{t})} \\
+&amp; = -\left[\log \exp(u_{j}k_{t}) - \log\sum_{w=1}^{V}\exp(u_{w}k_{t})\right] \\
+&amp; = -\left[u_{j}k_{t} -  \log\sum_{w=1}^{V}\exp(u_{w}k_{t})\right]
+\end{align*}
+\]</span></p>
+<p>Expanding it to all context words:</p>
+<p><span class="math display">\[ J = -\sum_{j=1}^{2m}\left[{u_{j}}{k_t} -log\sum_{w=1}^{V}\exp(u_{w}k_{t})\right]\]</span></p>
+<p>By now, we have grokked the two versions of the Word2Vec algorithms. One detail is still missing though. As it was pointed out, <strong>each word has context and one center embedding. How to make one of them? Just simply average them!</strong> Next, let’s review some practical limitations and their remedies.</p>
+</section>
+<section id="expensive-softmax-and-alternatives" class="level2">
+<h2 class="anchored" data-anchor-id="expensive-softmax-and-alternatives">Expensive Softmax and Alternatives</h2>
+<p>Note that in the softmax normalization, we normalize over the entire vocabulary which is huge. Its comoutational complexity is linear, <span class="math inline">\(\mathcal{O}(n)\)</span>. In the case of Google News dataset it is ca. 6M tokens! Even if you have optimized, vectorized implementation of the softmax calculation, it would take very long to calculate the softmax for each sample in the dataset. As mentioned before, the 2 other innovations of Word2Vec, <strong>Hierarchical Softmax and Negative Sampling</strong> aim at this computational issue. To limit the scope of this blog post, we will only elaborate on Negative Sampling. While Negative sampling is a more straightforward concept and computationally more efficient, the results of Hierarchical Softmax are not better.</p>
+<p>At this point I want to point out a little confusion on my part. Though in the first [1] paper, the authors introduced both Skip-Gram and CBOW, in the second they only proceeded with Skip-Gram without any explanation. At least I could not find any. The results in the first paper did not suggest any superiority of Skip-Gram. If you understand this decision, please let me know! :) Anyway, I will proceed in the same way as the authors did and use Skip-Gram accordingly.</p>
+<section id="negative-sampling" class="level3">
+<h3 class="anchored" data-anchor-id="negative-sampling">Negative Sampling</h3>
+<p>The idea of negative sampling, which was actually introduced in the second Word2Vec paper [2], is simple: instead of contrasting a given center and context word embedding pair against the entire vocabulary, why don’t we just contrast it against noise? In other words, what we aim here is to assess the probability that the center and context words came from the data. The trick is that we ingest negative (or fake if you like) context words so that we expect the model to tell these apart. If I have the center <code>OpenAI</code> and <code>chatGPT</code> as context, I want to assign high probability to this pair but low to a random pair like <code>OpenAI</code> and <code>dachshund</code> or <code>OpenAI</code> and <code>daisy</code>. We use k such negative samples for each positive one. The authors recommend 2-5 negative samples for bigger while 5-20 in smaller datasets. The likelihood function is given as below. <span class="math inline">\(w_{t}\)</span> denotes the center, <span class="math inline">\(w_{j}\)</span> the context word. The tilde marks the negative context sample.</p>
+<p><span class="math display">\[
+\begin{align*}
+\text{Likelihood} &amp; = P(D=1| w_{j}, w_{t}) \prod_{i=1}^{K}P(D = 0| \tilde{w_{j_i}}, w_{t}) \\
+&amp; =  P(D=1) \prod_{i=1}^{K}(1 - P(D = 1 | \tilde{w_{j_i}}, w_{t}))
+\end{align*}
+\]</span></p>
+<p>Word2Vec uses the sigmoid function to model probability and for similarity we again use the dot product. Recall that <span class="math inline">\(k_{t}\)</span> refers to the center word embedding while <span class="math inline">\(u_{j}\)</span> to the context word embedding <span class="math display">\[
+\begin{align*}
+\text{Likelihood} &amp; = \frac{1}{1 + \exp(-u_{j} k_{t})} \prod_{i=1}^{K} \left(1 - \frac{1}{1 + \exp(-u_{j_i} k_{t})}\right) \\
+&amp; =  \frac{1}{1 + \exp(-u_{j} k_{t})} \prod_{i=1}^{K} \frac{1}{1 + \exp(u_{j_i} k_{t})}
+\end{align*}
+\]</span></p>
+<p>Again, taking the negative log likelihood (NLL) as traning objective:</p>
+<p><span class="math display">\[J = - log  \frac{1}{1 + exp(-u_{j} k_{t})} - \sum_{i=1}^{K} log \frac{1}{1 + exp(u_{j_i} k_{t})}\]</span></p>
+<p>It seems that we have a loss function so we are all set! Almost… We still need to figure out <strong>how to draw negative samples</strong> i.e.&nbsp;define <span class="math inline">\(P(\tilde{w_{j_i}})\)</span>. One might think of using a uniform distribution but that does not take into account word frequencies that we may want to take into consideration. The authors recommend using a scaled version of the unigram distribution <span class="math inline">\(U(w)\)</span> (model based on word frequencies). They found empirically that the unigram distribution raised to the power of 3/4 <span class="math inline">\(U(w)^{3/4}\)</span> works best. To build some intuition why this may be a particularly useful setting, let’s look at the below table of example. We have a 3 words, one is very frequent (at), another less frequent (cinema) and an infrequent one (dachshund). If we raise their relative frequencies to 3/4, then relatively, the infrequent dachshund gets 3x more frequent, cinema 1.7 while at only 1.5. You can see that by using this scaled version of unigram distribution for negative sampling, we increase the probability of drawing less frequent words on the expense of more frequent ones. This intuitively makes sense because without this, we may be drawing too similar negative samples e.g.&nbsp;“the, it” which does not seem to be noise, against we want to contrast the word embeddings.</p>
+<table class="table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 31%">
+<col style="width: 45%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Word</th>
+<th>Relative frequency - <span class="math inline">\(f(x)\)</span></th>
+<th>Re-scaled relative frequency - <span class="math inline">\(f(x)^{3/4}\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>at</td>
+<td>0.3</td>
+<td>0.45</td>
+</tr>
+<tr class="even">
+<td>cinema</td>
+<td>0.1</td>
+<td>0.17</td>
+</tr>
+<tr class="odd">
+<td>…</td>
+<td>…</td>
+<td>…</td>
+</tr>
+<tr class="even">
+<td>dachshund</td>
+<td>0.01</td>
+<td>0.03</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="subsampling-of-frequent-words" class="level2">
+<h2 class="anchored" data-anchor-id="subsampling-of-frequent-words">Subsampling of frequent words</h2>
+<p>Another trick that Word2Vec applies to put less emphasis on frequent words is subsampling. The authors argue that words like “in”, “the”, and “a” occur hundreds of millions of times in a large corpus of text. The co-occurence of these words arguably does not provide any useful information with other words e.g.&nbsp;“Paris”. However, the co-occurrence of other words e.g.&nbsp;“Paris” and “France” has immense useful information. Thus, it seems plausible to subsample the frequent words which speeds up training by skipping a share of the frequent word samples. Below, <span class="math inline">\(P(x)\)</span> denotes the probability of x being skippend, <span class="math inline">\(f(x)\)</span> the frequency of the word, <span class="math inline">\(t\)</span> is a chosen threshold recommended to be around <span class="math inline">\(10^{-5}\)</span>. It is obvious that infrequent words will have very high probability of being picked. Frequent words are more likely to be skipped but this may be offset by a higher choice of <span class="math inline">\(t\)</span> hyperparameter.</p>
+<p><span class="math display">\[ P(x) = 1 -  \sqrt{\frac{t}{f(x)}}\]</span></p>
+</section>
+<section id="other-notes" class="level2">
+<h2 class="anchored" data-anchor-id="other-notes">Other notes</h2>
+<p>Though this has been quite an in-depth Word2Vec explainer, there is still a lot more to explore within and beyond the scope of Word2vec. I am going to just share a few more things in an unstructured way. You may decide to explore any of these in more detail.</p>
+<section id="hyperparameters" class="level3">
+<h3 class="anchored" data-anchor-id="hyperparameters">Hyperparameters</h3>
+<p>Throughout the post, I tried to point out the recommended range of hyperparameters. [8] provides further comments and tips by the authors.</p>
+<p>Recommended HPs: - Embedding size: 50-300 - Context size: 5-10 - Algorithm: Skip-gram/ CBOW - #negative samples: 2-5 (if dataset big enough) if using Negative Sampling and not Hierarchical Softmax - Epochs: 1-3 - Subsampling threshold <span class="math inline">\(t\)</span>: ca. <span class="math inline">\(10^{-5}\)</span></p>
+<p>The paper does not touch upon what optimizer to use but one might benefit from using an adaptive one like Adam. This might make sense because we may want to apply larger updates to less frequent words.</p>
+</section>
+<section id="dataset" class="level3">
+<h3 class="anchored" data-anchor-id="dataset">Dataset</h3>
+<p>The quality of the dataset is maybe more important than the specific HP settings we choose. The paper used the proprietary Google News dataset but there are now much bigger datasets! Just look at how GloVe [8] benefits from larger and better datasets.</p>
+<p>
+</p><center>
+<img src="kay_drawings/glove_perf.PNG" width="100%" height="30%">
+</center>
+<p></p>
+</section>
+<section id="evaluation" class="level3">
+<h3 class="anchored" data-anchor-id="evaluation">Evaluation</h3>
+<p>Evaluating word vectors is an interesting task. There are 2 ways to do this: 1) intrinsic and 2) extrinsic. In intrinsic evaluation, typically, we do some kind of arithmetic of word embeddings and contrast it to our expectations. There are word similarity and analogy datasets that have been curated by humans. The authors open-sourced their own datasets for intrinsic evaluation: <a href="https://github.com/nicholas-leonard/word2vec/blob/master/questions-words.txt">link</a>. It contains semantic and syntactic analogies like “Athens-Greece+Madrid=Spain” and “occasional-occasionally+amazing=amazingly” In extrinsic evaluation, we see how the word embeddings influence the performance of downstream applications where these are used as inputs. Note, that the latter is less sterile because we not only expect “good” word embeddings but also a good interaction between them and the downstream-specific application algorithm.</p>
+</section>
+<section id="bias" class="level3">
+<h3 class="anchored" data-anchor-id="bias">Bias</h3>
+<p>Since Word2Vec is trained on large corpus of data, it will be exposed of all the biases that surround us. Just think about how more often it will see male references to politicians or engineers and much less for kingergarten teacher or nurse. This begs loads of ethical questions and for solutions. This is a very important topic and I might devote more time to explore it more in a follow-up post. For now, you can take a look at [10] for more details or the “Bias and overgeneralization” part of [11].</p>
+</section>
+</section>
+<section id="acknowledgement" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgement">Acknowledgement</h2>
+<p>I have made extensive use of the two Word2Vec explainers [1], [5] and the Stanford CS224N notes [3]. I have also used chatGPT to correct my English and generally make the text more comprehensible.</p>
+</section>
+</section>
+<section id="references" class="level1">
+<h1>References</h1>
+<p>[1] <a href="https://arxiv.org/abs/1301.3781">Efficient Estimation of Word Representations inVector Space</a></p>
+<p>[2] <a href="https://arxiv.org/abs/1310.4546">Distributed representations of words and phrases and their compositionality</a></p>
+<p>[3] <a href="https://arxiv.org/abs/1411.2738">word2vec Parameter Learning Explained</a></p>
+<p>[4] <a href="https://arxiv.org/pdf/1402.3722v1.pdf">word2vec Explained: Deriving Mikolov et al.’s Negative-Sampling Word-Embedding Method</a></p>
+<p>[5] <a href="https://web.stanford.edu/class/cs224n/">Stanford NLP CS224N</a></p>
+<p>[6] ChatGPT</p>
+<p>[7] <a href="https://proceedings.neurips.cc/paper_files/paper/2016/file/a486cd07e4ac3d270571622f4f316ec5-Paper.pdf">Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings</a></p>
+<p>[8] <a href="https://code.google.com/archive/p/word2vec/">Initial Word2Vec software release</a></p>
+<p>[9] <a href="https://nlp.stanford.edu/pubs/glove.pdf">GloVe: Global Vectors for Word Representation</a></p>
+<p>[10] <a href="https://developers.googleblog.com/2018/04/text-embedding-models-contain-bias.html">Text Embedding Models Contain Bias. Here’s Why That Matters.</a></p>
+<p>[11] <a href="https://openai.com/research/multimodal-neurons">Multimodal neurons in artificial neural networks</a></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

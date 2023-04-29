@@ -19,5 +19,8 @@
   },
   "posts/to-be-or-not-to-be/index.qmd": {
     "index.html": "de8508ab"
+  },
+  "posts/word2vec/index.qmd": {
+    "index.html": "8ddc6f7e"
   }
 }

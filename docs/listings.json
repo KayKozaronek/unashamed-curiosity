@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/word2vec/reworked_Word2Vec.html",
+      "/posts/word2vec/index.html",
       "/posts/to-be-or-not-to-be/index.html",
       "/posts/covid19-boredom-and-artificial-intelligence/index.html"
     ]
