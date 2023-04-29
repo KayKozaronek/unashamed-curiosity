@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Unashamed Curiosity",
     "section": "",
-    "text": "news\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 5, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost description\n\n\n\n\n\n\nOct 5, 2022\n\n\nUna Shamed\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 2, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 5, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nMy Post\n\n\n\n\n\nPost description\n\n\n\n\n\n\nOct 5, 2022\n\n\nUna Shamed\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 2, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\n  \n\n\n\n\nCOVID-19, boredom and artificial intelligence\n\n\n\n\n\n\n\ncovid\n\n\nAI\n\n\n\n\n\n\n\n\n\n\n\nMar 25, 2020\n\n\nKay Kozaronek\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -25,13 +25,41 @@
     "href": "posts/test-post/index.html",
     "title": "My Post",
     "section": "",
-    "text": "Let’s write some stuff"
+    "text": "This is an exciting first header\n\nLet’s write some stuff"
   },
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
     "title": "Welcome To My Blog",
     "section": "",
-    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/covid19-boredom-and-artificial-intelligence/index.html",
+    "href": "posts/covid19-boredom-and-artificial-intelligence/index.html",
+    "title": "COVID-19, boredom and artificial intelligence",
+    "section": "",
+    "text": "I highly recommended listening Epic Mountain while reading this piece.\nIt all started last year when I began reading “The master algorithm” by Pedro Domingos. The smell of sweaty hungover travelers was thickening the air in the Columbian 10-bed dorm I found shelter in. Although I would later find out how little I actually understood, a profound feeling of understanding the complex world we have to navigate, creeped up my sleeve as I kept on reading about artificial intelligence, algorithms, and philosophy. Wait a moment - philosophy? Yeah, philosophy. Many brilliant thoughts that Domingos writes about started out their journey in the head of a thinker’s curiosity-driven pursuit of knowledge - ergo philosophy. As you might guess the epiphanic feeling of understanding “what the heck was going on in the world of tech” didn’t last long. Soon enough I was not only surrounded by smelly vagabonds but also by heavily complex thoughts ranging from philosophy to computer science and back to the world of mathematics. A little lost and confused I decided to put down the book and get to grips with the basics first. That’s when I decided to devote the majority of my time reading and studying philosophy. The next image is a depiction of me. Literally, go ask my friends!\nFast-forward, December 2019. Over the last couple of months, I devoted a good chunk of my time pondering philosophical questions, when I got curious again. Now that I had at least a basic understanding of philosophy, I remembered that there was something else that bugged my mind. Algorithms, Programming and Mathematics. I should start getting technical right? - Yep. And so I did. Well, at least I tried. Getting into programming and refreshing some of my mathematical knowledge wasn’t as easy as previously thought.\nWeeks later, near the end of February 2020, I finally managed to pull through the strenuous task of finishing my first online Machine Learning Course. Did I enjoy it? Well… It was tough, and I was nowhere near to programming my first line in Python, which by now I knew was the go-to programming language for Machine Learning. But then again, did I even try learning to write any Python code? Mhm, let’s skip that part. Being the problem solver that I am I tried to find a better, more satisfying way to get into AI. I was determined to learn. Hell, so determined that I walked around my new hometown Madrid for 3 weeks on end to talk to people who’d already been navigating the complex world of machine learning, data science and artificial intelligence. After several failed attempts to find a suitable environment to learn, I got lucky. The Immune Coding Institute offered a Data Science Bootcamp, and I was accepted to partake! I jumped on that chance and grabbed it by the balls.\n“Finally, every day I’ll be surrounded by like-minded people with whom I’ll share a common goal: Becoming a Data Scientist.” - At least that’s what I thought. Invigorated, enthusiastic and full of joy I completed the first two sessions of the Bootcamp only to wake up the next day to realize that the Corona Crisis had reached Madrid. Another setback to my efforts of becoming a Data Scientist? No, not this time!"
+  },
+  {
+    "objectID": "posts/covid19-boredom-and-artificial-intelligence/index.html#regnosis-the-corona-crisis-a-blessing-in-disguise",
+    "href": "posts/covid19-boredom-and-artificial-intelligence/index.html#regnosis-the-corona-crisis-a-blessing-in-disguise",
+    "title": "COVID-19, boredom and artificial intelligence",
+    "section": "Regnosis: The Corona Crisis, a blessing in disguise?",
+    "text": "Regnosis: The Corona Crisis, a blessing in disguise?\nLike many of you out there, I am trapped at home, prohibited from going out. It’s shit, right? Well, actually, no! Why’s that, you might ask. Here’s the thing, let’s make a thought experiment, good ol’ philosopher-style. In hindsight, what will you think of today’s situation 6 months from now? Go ahead, take a couple of minutes, maybe write down your thoughts, it’s a great way to stay sane!\n\n\n\n\n\nHere’s what I think. 6 months from now many of us will look back at today and revisit the boredom that they experienced and how they went about changing their relationship to it:\n“Wow, I never thought that the Crisis was such a blessing. All the time it freed up for me. I was so stressed every day, running from one obligation to another, depriving myself of spending time with my friends and family. But then, when I was forced to stay home, it kind of clicked. First, I was bored and tended to binge on Netflix, but that got boring quite quickly too. The realization came late, but when I realized that this crisis was a reminder of all that’s important in life, I quickly gained control over the situation. I remember the day that I finally found time to do what I was longing to do for so long. I eventually started”XYZ” (writing/ playing music/ learning a new language) - fill in whatever dream of yours you wanted to pursue but lacked the time to do. Damn, if it wasn’t for the crisis I might still be wondering what it was like to do “XYZ”.\nPeople who realize this fast enough will be able to act upon the newly freed time and will profit tremendously in whatever area they choose to apply it to."
+  },
+  {
+    "objectID": "posts/covid19-boredom-and-artificial-intelligence/index.html#call-to-arms",
+    "href": "posts/covid19-boredom-and-artificial-intelligence/index.html#call-to-arms",
+    "title": "COVID-19, boredom and artificial intelligence",
+    "section": "Call to arms",
+    "text": "Call to arms\nFor those of you who have not already changed the Browser Tab to start another binging marathon on Netflix, firstly, thanks. Secondly, here’s the deal! I want you to take 5 minutes and think of everything that you always wanted to do but never “found time for”. Then pick one thing and start acting on it.\nAs I know that it’s always easier said than done, I encourage you to follow my lead. I’ll have a weekly posting schedule where I’ll blog about my journey of becoming a Data Scientist. I want you to engage with me and comment on what you did in your personal project.\nOk, that’s basically it. If you’re done, feel free to write a comment down below or hit me up on LinkedIn to help each other stay motivated on our journey."
+  },
+  {
+    "objectID": "posts/covid19-boredom-and-artificial-intelligence/index.html#gratefulness",
+    "href": "posts/covid19-boredom-and-artificial-intelligence/index.html#gratefulness",
+    "title": "COVID-19, boredom and artificial intelligence",
+    "section": "Gratefulness:",
+    "text": "Gratefulness:\nBefore ending this post I would like to give a big thank you to the following people for inspiring me to take action and embark on a crazy journey to becoming a Data Scientist:\n\nAndrei Neagoie and Daniel Bourke for being kick-ass instructors that know how to ignite their students’ passion for a subject as complex as machine learning. Check out their Course if you’re interested in Data Science\nImmune Coding Institute for believing in me and giving me a chance to study Data Science at their wonderful facilities\nPedro Domingos who wrote the challenging book without whom I wouldn’t have had the curiosity to dive deeper and gather the necessary knowledge to understand his brilliant work\nMy girlfriend for preparing world-class scrambled eggs to free up time for my projects\nMy family for supporting me mentally and financially on my crazy adventures\nEpic Mountain for making inspiring music that transforms your brain into a pondering - machine!"
   }
 ]
