@@ -1,0 +1,72 @@
+---
+title: "To be or not to be"
+description: "What I've learned from trying too hard."
+author: "Kay Kozaronek"
+date: "2020-04-15"
+categories: [Goals, Identity]
+image: "identity_goals.png"
+---
+
+# To be or not to be
+
+> What I've learned from trying too hard.
+
+*In what follows I'll explain how to start a new endeavor and stick with it. More concretely the notion of identity-based and goal-based achievement will be discussed in consideration of how to develop the necessary mindset that results in sustainable, repeatable and pleasurable habits which in turn will yield a fruitful ground for achievement.*
+
+A few weeks back an excited youngster sat at his desk trying to make sense of a bad situation and assign it some meaning. He would go on to formulate his ideas in a rush of feel-good endorphins. The pounding of keys would finally end after a short distance writing-sprint. After adding a witty title here and some funny pictures there, his first written piece was ready to be published. That should do for a first blog post, right? Right. Click - post - share - ask for feedback - get lavish praise by friends - wait until next week - hope to be blessed with random sparks of creativity - write again - repeat - become a writer - mission accomplished! As if, haha! Now who am I talking about, you're asking? - Drumroll - That someone was me. Now some of you might ask what's your point here? Isn't that exactly how it works? Well no, here's why.
+
+# Goal-Based - Efforts
+The above-described situation perfectly demonstrates how goal-based efforts work. As I set out on my journey the only thing on my mind was the goal: "Write a blog". Now, a goal in and of itself is not a bad thing, but neither is it good, a goal is just a goal.
+
+<p>
+    <center>
+        <img src="identity_goals.png"
+        width="60%" height="30%">
+    </center>
+</p>
+
+Goal-Based and Identity-Based EffortsAs seen in the diagram above, goal-based efforts work from the outside in. The **typical goal-setting process** starts out by defining what it is that you want to achieve. Let's say your goal is to lose weight. You begin to produce certain outcomes, like losing a pound here and there due to training and eating right. The actions you take might or might not lead to habits, that eventually become automated as you go to the gym every Monday, Wednesday, and Friday. Finally, if you're in luck, you'll finally incorporate being sporty, as part of your life. This process might take weeks, months or even years in some cases, but **let's be honest, we've all tried and failed** at something like this, which leads makes me think, that there has to be a better way. Back to the story.
+
+
+In my last blog post I proudly claimed, that I would upload 1 post per week in order to capture my journey of becoming a Data Scientist and Writer. Well, did you see me write anything in 3 weeks? Exactly, neither did I. Why? Mostly, because the anticipated exhilarating bursts of creativity didn't appear according to plan, which quickly let me question my ability to write. This is by no means a valid excuse, which is precisely why I'm all the more thankful for what followed!
+
+
+A little beaten down by reality, an old friend of mine, Tom, taught me a valuable lesson. He asked me the following: **Are you a writer or do you want to become one? In essence: "to be or not to be?"**
+
+<p>
+    <center>
+        <img src="tobeornot.jpeg"
+        width="60%" height="30%">
+    </center>
+</p>
+For those who want to understand the profound contemplation behind this quote, and not just my misuse of it, check out [this fun Youtube Video](https://www.youtube.com/watch?v=Q2vlVwaq5ro&ab_channel=TCPPoetry)!
+
+Tom went on to explain the **problem with goal-based efforts**. Setting goals, followed up by painstakingly following down that road, without ever stopping and asking "Why?", is the equivalent of going on a hike without any shoes. In short, the journey will be very painful, unenjoyable and over, rather quickly. You'll give up on your hike before it even began.
+
+
+# Identity-based efforts:
+Another approach that works much better than goal-based efforts, is to work from the inside out and focus on your identity first, Tom said. A bit confused I asked: "what do you mean by that? "
+Patiently, he elaborated: Before starting out on a new journey, ask yourself these **fundamentals**:
+
+- Why do I want to do this? What's the purpose of all this?
+- Do I see myself doing this, 10 years from now?
+- Is this something I enjoy or can come to enjoy?
+- Am I willing to invest at least a couple of minutes, every day?
+
+If the answer to most of those is "yes!", or "I don't know, but I'm sure as hell willing to find out", **congratulations**! You're now officially a "(fill in whatever it is that you want to be)". You're probably still a bloody amateur, but that's alright.
+
+I pondered these questions in the back of my mind, as Tom continued teaching. "You have now started to grow. You've incorporated a certain topic as an integral part of your life! This is a great leap forward because now, you don't have the pressure to reach a certain goal anymore. Shifting your perspective away from goals will allow you to view every step onwards as an opportunity to learn. You'll be able to improve who you already are, rather than trying to become someone. This way you recognize your own imperfections and take the actions needed to even them out. Soon enough, this newfound identity you're shaping will result in habits that positively reinforce your growth. Your efforts will materialize in outcomes and you'll lose weight, write something or do whatever it is that you wanted to do in the first place. In summary, you'll set yourself up for success. You might not achieve one or another thing in the short run, but you'll never quit on your new endeavor because now it's part of who you are!"
+Woah. **Let that sink for a moment**. It took me 2 weeks to internalize this!
+
+# Conclusion:
+So, what's the main takeaway and how does it all tie back to my efforts of writing blogs? What Tom taught me is to "be", rather than "become". The hardest part about setting out on a new journey is starting and setting yourself up for success. By accepting that you are already a writer, a runner etc. you'll eliminate the **pressure of becoming** that someone. This, in turn, allows you to shift your perspective towards improving yourself. In short, **don't try hard, try smart**. Remember, the following:
+
+- Goal-based efforts can only get you so far
+- Identity-based efforts are a surefire way to succeed in the long run
+- Ask "Why?" before you start
+- Build habits and results will follow
+
+# Gratefulness:
+
+- Thank you, Tom Munk, for opening my eyes to this fundamental truth about any effort whatsoever in life. I'm back on track and I don't plan on derailing. I owe you a lot and I'm planning on repaying it fully!
+- Thank you, Andrei Neagoie, for teaching me about the truths about learning, habits and compound learning.
