@@ -22,5 +22,8 @@
   },
   "posts/word2vec/index.qmd": {
     "index.html": "8ddc6f7e"
+  },
+  "posts/word2vec/reworked_Word2Vec.ipynb": {
+    "reworked_Word2Vec.html": "cab71c2f"
   }
 }

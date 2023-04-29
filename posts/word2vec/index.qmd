@@ -1,10 +1,10 @@
 ---
-title: "Dachshund to Numbers"
+title: "Dachs2Num"
 description: "Discover how to make computers understand the awesomeness of dachshunds. An explainer of Word2Vec."
 authors: ["Gerold Csendes", "Kay Kozaronek"]
 date: "2023-04-29"
 categories: [ML, AI, NLP, Word2Vec]
-image: "identity_goals.png"
+image: "kay_drawings/05_King_Queen.png"
 toc: True
 ---
 

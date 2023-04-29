@@ -4,7 +4,7 @@ description: "Discovering the hidden blessing of the pandemic, finding time for 
 author: "Kay Kozaronek"
 date: "2020-03-25"
 categories: [Covid, AI, Philosophy]
-image: "before_after_philosophy.jpeg"
+image: "philosophy.png"
 ---
 
 # Smelly Vagabounds(,) and Thinkers
@@ -16,8 +16,8 @@ It all started last year when I began reading "The master algorithm" by Pedro Do
 
 <p>
     <center>
-        <img src="before_after_philosophy.jpeg"
-        width="60%" height="30%">
+        <img src="philosophy.png"
+        width="100%" height="30%">
     </center>
 </p>
 
@@ -35,8 +35,8 @@ Like many of you out there, I am trapped at home, prohibited from going out. It'
 
 <p>
     <center>
-        <img src="quarantine.jpeg"
-        width="60%" height="30%">
+        <img src="quarantine.png"
+        width="100%" height="30%">
     </center>
 </p>
 
