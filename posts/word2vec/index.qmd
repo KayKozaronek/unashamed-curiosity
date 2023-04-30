@@ -42,25 +42,21 @@ Let's look at a toy example to illustrate the differences better. Let's say I wa
     width="100%" height="30%">
 </p>
 
-Let's see how we could represent these words in a dense way. How about we define 2 dimensions that are suitable to capture the meaning of these words to some extent. I think the body size (y-axis) and the fur size(x-axis) are good candidates for our goal. Below you can see my estimation of the word vectors. 
+Let's see how we could represent these words in a dense way. How about we define 2 dimensions that are suitable to capture the meaning of these words to some extent. I think the body size (x-axis) and the amount of fur (y-axis) are good candidates for our goal. Below you can see my estimation of the word vectors. 
 
 
 <p>
-    <center>
-        <img src="kay_drawings/02_Dense_Encoding.PNG"
-        width="100%" height="30%">
-    </center>
+    <img src="kay_drawings/02_Dense_Encoding.PNG"
+    width="100%" height="30%">
 </p>
 
 
-Here is how the word vectors compare to each other. For the dense representation, distributed, representation only 2 dimensions are used in contrast to the 5 dimensions using sparse, OHE representation. In my opinion, this toy example illustrates how dense vectors capture meaning. Using the very simple distance metric, the taxicab distance (also known as L1 and Manhattan distance), we can clearly see that a dachshund is more similar to bolognese (d=0.88) than to a Newfoondland (d=4.78) because the distance between the two is smaller. Using sparse representation, you would be not able to calculate different degrees of similarity. All sparse vectors would have 0 similarity because the vectors are orthogonal to each other. 
+Here is how the word vectors compare to each other. For the dense representation, distributed, representation only 2 dimensions are used in contrast to the 3 dimensions using sparse, OHE representation. In my opinion, this toy example illustrates how dense vectors capture meaning. Using the very simple distance metric, the taxicab distance (also known as L1 and Manhattan distance), we can clearly see that an "Ordinary Dachshund" is more similar to "Mohawk Dachshund" than to a "Lion Dachshund" because the distance between the two is smaller. Using sparse representation, you would be not able to calculate different degrees of similarity. All sparse vectors would have 0 similarity because the vectors are orthogonal to each other. 
 
 
 <p>
-    <center>
-        <img src="kay_drawings/03_Dense_vs_OneHot.PNG"
-        width="100%" height="30%">
-    </center>
+    <img src="kay_drawings/03_Dense_vs_OneHot.PNG"
+    width="100%" height="30%">
 </p>
 
 
@@ -68,30 +64,40 @@ Here is how the word vectors compare to each other. For the dense representation
 NOTE: though in this toy example, the dimensions of the dense vectors have a direct interpretation (body and fur size), this is not the case in a real application. There are papers attempting to interpret word vector dimensions in one way or another. For example, in [7] they attempted to extract the 'gender' dimension (and debias the word vectors, more about this in section 'Other Notes')
 
 
-Back to the question of why we care about (good) word embeddings. We could not only decrease the dimensionality of the representation which may have its own regularization effect but we did in a way that we can now compare them and calculate similarities. This way of encoding information seems a lot mor informative than the sparse one! Intuitively, it just makes sense that any downstream application (chatbots, named entity recognition, text summarization) would prefer making use of this information. Isn't this fascinating? We have assessed the importance of word vectors, now let's say how to make one!
+Back to the question of why we care about (good) word embeddings. We can not only decrease the dimensionality of the representation which may have a desirable regularization effect but we can do it in a way that let's us compare them and calculate similarities. This way of encoding information seems a lot mor informative than the sparse one! 
+
+Intuitively, it just makes sense that any downstream application (chatbots, named entity recognition, text summarization) would prefer making use of this information. Isn't this fascinating? We have assessed the importance of word vectors, now let's say how to make one!
 
 
 # The Word2Vec algorithm 
 
-**Here, better and more illustrations would be welcome. Some ideas in particular: sliding over the text, show dot products for a given context size with examples for both CBOW and Skip-Gram**
-
 In summary, Word2Vec beat all previous benchmarks and managed to cut down the on training time vastly which allowed the authors to train on a larger corpus than it was possible before. They used the Google News, a Google proprietary, dataset which contains ca. 6B tokens and has a vocabulary size of 3M. For reference, the Oxford English Dictionary contains over 600,000 words and Phrases [4]. What comes to my surprise is that only a few epochs are needed to train the model. In the paper they used 1-3 epochs. Probably this is enough because the 6B token long dataset containts ca. 6B samples which is quite a number. _FUN FACT: Word2Vec was originally implemented on CPUs. It was 2013 and GPUs were already on their way revolutionizing AI but still a year after the seminal paper of Krizhevsky et. al. I guess there were strong reasons why they did all this on CPUs._ At this point, I think it is important to note that Word2Vec was first introduced in [1] and then further developed in [2].
 
-It is now time to give a one sentence description of Word2Vec:
+To put it in a sentence:
 
-> Word2Vec is a neural network-based pre-training, unsupervised algorithm that produces word embeddings, trained on a large corpus of text data which can be used as input features for various natural language processing tasks.
+> Word2Vec is an unsupervised pre-training algorithm that utilizes neural networks to produce word embeddings from a vast corpus of text data, which can be leveraged as input features for a wide range of natural language processing tasks.
 
-This is quite a dense description which is worth elaborating in more detail. It is important to highlight that Word2Vec is an **NN-based** algorithm because around the time of its publication there were other, non-NN-based algorithms like count-based methods e.g. co-occurence matrix factorization methods and GloVe [9]. It is a **pre-training** algorithm because its resulting word embeddings is mostly used for downstream NLP tasks where these embeddings are either frozen or jointly optimzied in the downstream task. It is also **unsupervised** which means that no human supervision like labels are being used during training. The supervision comes from the data itself i.e. how words follow each other. 
+<p>
+    <img src="kay_drawings/06_Soup.PNG"
+    width="100%" height="30%">
+</p>
 
-The success of Word2Vec was based on multiple innovations:
+This is quite a dense description which is worth elaborating in more detail. 
+
+- It is important to highlight that Word2Vec is an **NN-based** algorithm because around the time of its publication there were other, non-NN-based algorithms like count-based methods e.g. co-occurence matrix factorization methods and GloVe [9]. 
+- It is a **pre-training** algorithm because its resulting word embeddings is mostly used for downstream NLP tasks where these embeddings are either frozen or jointly optimzied in the downstream task. 
+- It is also **unsupervised** which means that no human supervision like labels are being used during training. The supervision comes from the data itself i.e. how words follow each other. 
+
+The success of Word2Vec was based on multiple innovations: 
+
 1. Two new training algorithms:
     - Continous Bag-Of-Word (CBOW)
     - Skip-Gram
-1. Two tricks optimizing computational efficiency
+2. Two tricks optimizing computational efficiency
     - Negative Sampling
     - Hierarchical Softmax
     
-Here, I am using a somewhat sloppy description because strictly speaking Negative Sampling and Hierarchical Softmax are also part of the training algorithm. I just refer to them as "computational tricks" because, to me, they do not really deal with high-level concepts like how to relate context to a specific (center) word but more about the nuanced implementation details of the loss function. I think later this taxonomy will make sense.
+Here, I am using a somewhat sloppy description because strictly speaking Negative Sampling and Hierarchical Softmax are also part of the training algorithm. I just refer to them as "computational tricks" because, to me, they do not really deal with high-level concepts like how to relate context to a specific (center) word but more about the nuanced implementation details of the loss function. As this post progresses this taxonomy will hopefully make sense.
 
 First, let's review the easier of the two training algorithms, CBOW.
 
@@ -103,16 +109,20 @@ In both CBOW and Skip-Gram, we differentiate between center and context words. T
 Let's look at a specific example but instead of using 4, let's use a context window of 2 words. Here, the center Word "ChatGPT" is surrounded by the context words "GPT-4", "outperforms", "in", "general".
 
 <p>
-    <center>
-        <img src="kay_drawings/04_Example_Sentence.PNG"
-        width="100%" height="30%">
-    </center>
+    <img src="kay_drawings/04_Example_Sentence.PNG"
+    width="100%" height="30%">
 </p>
 
 
 **The difference between CBOW and Skip-Gram is what we actually want to predict.** While CBOW uses the context words to predict the center word, Skip-Gram does the opposite and predicts the context words from the center word.
 
 By now, we have a good high-level overview of Word2Vec. It is time to move to the tecnhical implementation of CBOW. We will first look at the trainable weight matrices and an illustrative forward and backward pass. Later, we will interpret the more math-heavy part, the loss function.
+
+<p>
+    <img src="kay_drawings/07_CBOW_SkipGram.PNG"
+    width="100%" height="30%">
+</p>
+
 
 ### Illustrated Forward and Backward Pass
 There are 2 trainable weight matrices: the input and output matrix. N denotes the number of embedding dimensions, V the vocabulary size. N is usually 50-300 and V in the Google News Dataset, as mentioned before, 3M. The input weight matrix is tasked with generating the input embedding for the task, while the output matrix will produce the predictions i.e. probability distribution over the entire vocabulary. This will make more sense in a bit. For now what is crucial to understand, is that each token has an embedding in the input word matrix, this will be its context embedding and an embedding in the output word matrix which is its center embedding in. In other words, each word has 2 embeddings. The tokens in the Vocabulary need to be mapped to indices, so we can look up their embeddings in the input or output matrices using indexing. _FUN FACT: Zyzzyva is an actual word and refers to a type of weevils. I looked up on Google what is the last item in English dictionaries._
