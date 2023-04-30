@@ -10,7 +10,7 @@ website:
       - about.qmd
 format:
   html:
-    theme: morph
+    theme: sketchy
     css: styles.css
 
 
