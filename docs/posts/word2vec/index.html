@@ -188,28 +188,21 @@ ul.task-list li input[type="checkbox"] {
 <h1>Intro</h1>
 <p>Word2Vec is one of the most well-known word embedding algorithms. Although it has been succeeded in efficacy by more recent transformer-based algorithms like BERT and GPT, Word2Vec remains a valuable algorithm to understand. It was the first algorithm to produce word embeddings that captured both syntactic and semantic relationships between words, famously demonstrated by the “king - man + woman = queen” analogy. This made a profound contribution to natural language processing and kicked off a swath of impressive developments. In this post, we will take a deep dive into the nuts and bolts of Word2Vec. But before we do that, let’s first review why word embeddings are crucial for NLP tasks.</p>
 <p>
-</p><center>
 <img src="kay_drawings/00_Highlights_NLP.png" width="100%" height="30%">
-</center>
-<p></p>
+</p>
 </section>
 <section id="word-embeddings" class="level1">
 <h1>Word embeddings</h1>
-<p><strong>[NOTE This section could definitely be more elaborated from a theoretical point. Also, better illustration and more examples could help.]</strong></p>
-<p><strong>Word embeddings</strong> (also called as vectors, representations) <strong>are high-dimensional</strong> (usually 50-1000 dimensions) <strong>dense vectors</strong> over which you can do all kinds of arithmetics and most importantly encode similarity. Arithmetics like the notories example “king–man+woman=queen” or “good-best+bad=worst”. These two examples illustrate how semantic (meaning) and syntactic (grammar) similarities are encoded in the word vectors.</p>
-<p>The whole idea of word embeddings is based on distributional semantics which is the concept of representing a word based on its usual context. This idea waw popularized by a linguist, J. R. Firth, with his famous quote “You shall know a word by the company it keeps” in the 1950s. <a href="https://en.wikipedia.org/wiki/Distributional_semantics">“The basic idea of distributional semantics can be summed up in the so-called distributional hypothesis: linguistic items with similar distributions have similar meanings.”</a></p>
+<p><strong>Word embeddings</strong> (also called as vectors or representations) <strong>are high-dimensional</strong> (usually 50-1000 dimensions) <strong>dense vectors</strong> with which you can do all kinds of arithmetics and most importantly encode similarity. When you hear vector arithmetics think of the famous example “king – man + woman = queen” or “good - best + bad = worst”. These two examples illustrate how semantic (meaning) and syntactic (grammar) similarities are encoded in the word vectors.</p>
+<p>The motivating idea behind word embeddings is the concept of representing a word based on its usual context (also known as distributional semantics). This idea was popularized by a linguist, J. R. Firth, with his famous quote “You shall know a word by the company it keeps” in the 1950s. <a href="https://en.wikipedia.org/wiki/Distributional_semantics">“The basic idea can be summed up in the so-called distributional hypothesis: linguistic items with similar distributions have similar meanings.”</a></p>
 <p>
-</p><center>
 <img src="kay_drawings/05_King_Queen.png" width="100%" height="30%">
-</center>
-<p></p>
+</p>
 <p>What is a reasonable alternative to dense word representations? <strong>One-hot-encoding</strong> (OHE) might first come to your mind which was the way to go in traditional NLP. When using OHE, you basically treat words as discrete, atomic symbols. This way of representing words is usually refered to as <strong>sparse</strong>, in contrast to dense, distributed <strong>representation</strong> (like Word2Vec).</p>
-<p>Let’s look at a toy example to illustrate the differences better. Let’s say I want to represent the words: “Chinese crested dog”, “Dachshund”, “Bolognese”, “Labrador” and “Newfoondland”. Using sparse, OHE representation, we would end up with the below word vectors. The individual words have their own dedicated dimension and if you were to calculate similarity between of these words vectors e.g.&nbsp;dot product, you end up with 0.</p>
+<p>Let’s look at a toy example to illustrate the differences better. Let’s say I want to represent the words: “Ordinary Dachshund”, “Mohawk Dachshund” and “Lion Dachshund”. Using sparse, OHE representation, we would end up with the below word vectors. The individual words have their own dedicated dimension and if you were to calculate similarity between of these words vectors e.g.&nbsp;dot product, you end up with 0.</p>
 <p>
-</p><center>
 <img src="kay_drawings/01_Onehot_Encoding.PNG" width="100%" height="30%">
-</center>
-<p></p>
+</p>
 <p>Let’s see how we could represent these words in a dense way. How about we define 2 dimensions that are suitable to capture the meaning of these words to some extent. I think the body size (y-axis) and the fur size(x-axis) are good candidates for our goal. Below you can see my estimation of the word vectors.</p>
 <p>
 </p><center>
