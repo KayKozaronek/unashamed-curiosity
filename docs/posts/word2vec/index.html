@@ -315,10 +315,8 @@ J(\theta) &amp; = -\frac{1}{T} \log L(\theta) \\
 <h2 class="anchored" data-anchor-id="skip-gram">Skip-Gram</h2>
 <p>Skip-Gram flips the role of the context and center words. Here, the center word is used as input to predict the context (output) words. The forward and backward pass are illustrated below in a similar fashion as for CBOW. Observe the differences between the two architectures. Here, the input matrix is the one containing the center word embeddings, the output contains the context ones. We use the center word representation as input to calcute scores for the context outputs. Just like in CBOW, we make a softmax prediction over the entire vocabulary but we contrast these predictions against the multiple target context words which is indicated by the grey box on the right. In this example, we predict the 4 context words from the center.</p>
 <p>
-</p><center>
-<img src="kay_drawings/Skip-Gram.PNG" width="100%" height="30%">
-</center>
-<p></p>
+<img src="kay_drawings/10_SkipGram.PNG" width="100%" height="30%">
+</p>
 <p>For ease of notation, only a single sample’s training objective will be detailed. Let’s first start with the likelihood function again. Here, <strong>we aim to maximize the probability of context words conditioned on the center word</strong>. If we denote context lenght with c, there are 2c context words of which probabilities we aim to maximize (c history and c future context words).</p>
 <p><span class="math display">\[\text{Likelihood}=L(\theta) =\prod_{j=1}^{2c}P(w_{j} \mid w_t; \theta)\]</span></p>
 <p>It is important to note that the formula implies that we make a <strong>strong conditional independence assumption</strong>. Given a center word, all output words are completely independent (hence you can simply multiply the probabilities). This is definitely not true. Just think of simple grammar. If you have a noun center word followed by a verb context, then the upcoming context is quite unlikely to be a verb again. To give you an example, if you have the word <code>Chelsea</code> (a famous football club and also a district in London) as the center followed be <code>played</code> context then the next context is less likely to be a verb like <code>jump</code> and more likely to be an adjective like <code>marvelously</code>. Seeing this example you may even give semantical arguments why the conditional independence does not hold like nouns more related to football e.g.&nbsp;<code>game</code> is more likely to come up than academics related nouns e.g.&nbsp;<code>conference.</code> Nonetheless, Skip-Gram manages to work well in practice, thus we may be okay with this. By the way, it is the very same assumption that the <a href="https://en.wikipedia.org/wiki/Naive_Bayes_classifier">Naive Bayes Classifier</a> model makes. This naive assumption lets us to break out probabilities so we don’t have to deal with figuring out the joint distributions.</p>
@@ -416,10 +414,8 @@ J &amp; = -\log P(w_{j} \mid w_t) \\
 <h3 class="anchored" data-anchor-id="dataset">Dataset</h3>
 <p>The quality of the dataset is maybe more important than the specific HP settings we choose. The paper used the proprietary Google News dataset but there are now much bigger datasets! Just look at how GloVe [8] benefits from larger and better datasets.</p>
 <p>
-</p><center>
 <img src="kay_drawings/glove_perf.PNG" width="100%" height="30%">
-</center>
-<p></p>
+</p>
 </section>
 <section id="evaluation" class="level3">
 <h3 class="anchored" data-anchor-id="evaluation">Evaluation</h3>
