@@ -128,7 +128,7 @@ By now, we have a good high-level overview of Word2Vec. It is time to move to th
 
 
 
-### Illustrated Forward and Backward Pass
+### Illustrated Forward and Backward Pass 
 There are 2 trainable weight matrices: the input and output matrix. 
 
 - N denotes the number of embedding dimensions, 
@@ -138,7 +138,7 @@ N is usually 50-300 and V in the Google News Dataset, as mentioned before, 3M.
 
 The input weight matrix is tasked with generating the input embedding for the task, while the output matrix will produce the predictions i.e. probability distribution over the entire vocabulary. This will make more sense in a bit. For now what is crucial to understand, is that each token has an embedding in the input word matrix. This will be its context embedding. Additionally each token has an embedding in the output word matrix which is its center embedding. In other words, each word has 2 embeddings. The tokens in the Vocabulary need to be mapped to indices, so we can look up their embeddings in the input or output matrices using indexing. 
 
-*FUN FACT: Zyzzyva is an actual word and refers to a type of weevils. I looked up on Google what is the last item in English dictionaries.*
+> Fun Fact: Zyzzyva is an actual word and refers to a type of weevils. I asked Google: "What is the last item in English dictionaries."
 
 <p>
     <img src="kay_drawings/08_matrices.PNG"
@@ -164,21 +164,31 @@ Let's put all we know together by illustrating the forward and backward pass! Be
 
 ### Objective Function Explained
 
-Now that we have a better understanding of the forward and backward pass of CBOW, let's look into the math part. Actually, the math of the "vanilla" Word2Vec is not too convoluted, we just need to dissect the objective function. Quick disclaimer: you won't find these functions in the original paper. Here, I am making use of [2] and [3] but I make an effort at simplyfying the notation and provide a more detailed explanation.
+Now that we have a better understanding of the forward and backward pass of CBOW, let's examine the math. Actually, the math of the "vanilla" Word2Vec is not too convoluted, we just need to dissect the objective function. 
 
-Our goal is to **maximize the data likelihood** i.e. to maximize the probability of a center word $w_{t-1}$ conditioned on the context words in context window of c $w_{t-c}, \dots, w_{t-1}, w_{t+1}, \dots, w_{t+c}$, a given parameter set of $\theta$ which is the context and center embedding matrices. T denotes the tokens of the dataset i.e. all the words in the dataset.
+> Quick disclaimer: you won't find these functions in the original paper. Here, I am making use of [2] and [3] but I make an effort at simplyfying the notation and provide a more detailed explanation.
+
+Our goal is to **maximize the data likelihood** i.e. to maximize the probability of a center word $w_{t-1}$ conditioned on the context words in context window of c $w_{t-c}, \dots, w_{t-1}, w_{t+1}, \dots, w_{t+c}$, a given parameter set of $\theta$ which is the context and center embedding matrices. $T$ denotes the tokens of the dataset i.e. all the words in the dataset.
 
 $$
 \text{Likelihood} = L(\theta) =  \prod_{t=1}^{T} P(w_t | w_{t-c}, \dots, w_{t-1}, w_{t+1}, \dots, w_{t+c}; \theta) 
 $$ 
 
-How do we calculate $P(w_t | w_{t-c}, \dots, w_{t-1}, w_{t+1}, \dots, w_{t+c})$? We are yet to inject the word embeddings into these functions because now they refer to words. In section "Illustrated Forward and Backward Pass", we said that each word has a corresponding context (input) and center (output) word vector. Let's denote  the context word matrix as $K \in \mathbb{R}^{n \times |V|}$ where $k_{i}$ refers to the i-th column of K meaning the context embedding of word at index i. The center word matrix is denoted by $ U \in \mathbb{R}^{|V| \times n}$ where center word embeddings are stacked row-wise. Similarly, $u_{i}$ refers to the i-th row of U indicating the center embedding of word at index i.
+How do we calculate $P(w_t | w_{t-c}, \dots, w_{t-1}, w_{t+1}, \dots, w_{t+c})$? We are yet to inject the word embeddings into these functions because now they refer to words. In section "Illustrated Forward and Backward Pass", we said that each word has a corresponding context (input) and center (output) word vector. Let's denote  the context word matrix as $K \in \mathbb{R}^{n \times |V|}$ where $k_{i}$ refers to the i-th column of K meaning the context embedding of word at index i. The center word matrix is denoted by $U \in \mathbb{R}^{|V| \times n}$ where center word embeddings are stacked row-wise. Similarly, $u_{i}$ refers to the i-th row of U indicating the center embedding of word at index i.
 
-Let's now write up how to express $P(w_t | w_{t-c}, \dots, w_{t-1}, w_{t+1}, \dots, w_{t+c})$ using the contex and center word embeddings and then explain it in more detail. Below $u_{t}$ refers to the context embedding of the context word at position t. $\bar{k_{c}}$ refers to the average context embedding of the context words. By taking the dot product between these two, we get a similarity metric (an unnormalized one) between the center word and the average context. The higher the dot-product the more similar the vectors are i.e. the vectors point to a similar direction. By calculating the dot product between all center word embedding and the average context embedding in the vocabulary (the denominator) and applying softmax, we get a probability distribution over the entire vocabulary.
+Let's now write up how to express $P(w_t | w_{t-c}, \dots, w_{t-1}, w_{t+1}, \dots, w_{t+c})$ using the contex and center word embeddings and then explain it in more detail. Below $u_{t}$ refers to the context embedding of the context word at position t. $\bar{k_{c}}$ refers to the average context embedding of the context words. By taking the dot product between these two, we get a similarity metric (an unnormalized one) between the center word and the average context. The higher the dot-product the more similar the vectors are i.e. the vectors point to a similar direction. 
+
+<p>
+    <img src="kay_drawings/11_DotProduct.PNG"
+    width="100%" height="30%">
+</p>
+
+
+By calculating the dot product between all center word embedding and the average context embedding in the vocabulary (the denominator) and applying softmax, we get a probability distribution over the entire vocabulary.
 
 $$P(w_t | w_{t-c}, \dots, w_{t-1}, w_{t+1}, \dots, w_{t+c}) = \frac{exp(u_{t}\bar{k_{c}})}{\sum_{w=1}^{V}exp(u_{w}\bar{k_{c}})}$$
 
-In machine learning, it is easier to work with the dual problem of maximizing likelihood which is minimizing the negative log likelihood. Using this trick makes the optimization easier. If you want to know why, I recommend you reading this [thread](https://stats.stackexchange.com/questions/174481/why-to-optimize-max-log-probability-instead-of-probability). Take the log of the product term results in the summation of logs. By convention, we optimize for the average log-likelihood, hence taking $\frac{1}{T}$.
+In machine learning, it is easier to work with the dual problem of maximizing likelihood which is minimizing the negative log likelihood. Using this trick makes the optimization easier. If you want to know why, I recommend reading this [thread](https://stats.stackexchange.com/questions/174481/why-to-optimize-max-log-probability-instead-of-probability). Take the log of the product term results in the summation of logs. By convention, we optimize for the average log-likelihood, hence taking $\frac{1}{T}$.
 
 $$
 \begin{align*}
@@ -199,7 +209,7 @@ Since the target, `y` vector is OHE, J reduces to where the `i` index refers to 
 
 $$J = -y_{i}log(\hat{y_{i}})$$
 
-If you feel like you can extend the formula to contain all training samples of the dataset but this is pretty much all about the CBOW version of Word2Vec except one last thing. In the next section, we will review the training algorithm again and point out its computation complexity and the methods Negative Sampling and Hierarchical Softmas that serve as remedies ot this issue.
+We can extend the formula to contain all training samples of the dataset but this is pretty much all about the CBOW version of Word2Vec. Except for one last thing. In the next section, we will review the training algorithm and point out its computation complexity and 2 methods that reduce the computational complexity: Negative Sampling and Hierarchical Softmax.
 
 ## Skip-Gram
 
@@ -316,7 +326,7 @@ Since Word2Vec is trained on large corpus of data, it will be exposed of all the
 
 ## Acknowledgement
 
-I have made extensive use of the two Word2Vec explainers [1], [5] and the Stanford CS224N notes [3]. I have also used chatGPT to correct my English and generally make the text more comprehensible.
+I have made extensive use of the two Word2Vec explainers [1], [5] and the Stanford CS224N notes [3]. I have also used ChatGPT to correct my English and generally make the text more comprehensible.
 
 # References
 
