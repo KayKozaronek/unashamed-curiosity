@@ -129,7 +129,16 @@ By now, we have a good high-level overview of Word2Vec. It is time to move to th
 
 
 ### Illustrated Forward and Backward Pass
-There are 2 trainable weight matrices: the input and output matrix. N denotes the number of embedding dimensions, V the vocabulary size. N is usually 50-300 and V in the Google News Dataset, as mentioned before, 3M. The input weight matrix is tasked with generating the input embedding for the task, while the output matrix will produce the predictions i.e. probability distribution over the entire vocabulary. This will make more sense in a bit. For now what is crucial to understand, is that each token has an embedding in the input word matrix, this will be its context embedding and an embedding in the output word matrix which is its center embedding in. In other words, each word has 2 embeddings. The tokens in the Vocabulary need to be mapped to indices, so we can look up their embeddings in the input or output matrices using indexing. _FUN FACT: Zyzzyva is an actual word and refers to a type of weevils. I looked up on Google what is the last item in English dictionaries._
+There are 2 trainable weight matrices: the input and output matrix. 
+
+- N denotes the number of embedding dimensions, 
+- V the vocabulary size. 
+ 
+N is usually 50-300 and V in the Google News Dataset, as mentioned before, 3M. 
+
+The input weight matrix is tasked with generating the input embedding for the task, while the output matrix will produce the predictions i.e. probability distribution over the entire vocabulary. This will make more sense in a bit. For now what is crucial to understand, is that each token has an embedding in the input word matrix. This will be its context embedding. Additionally each token has an embedding in the output word matrix which is its center embedding. In other words, each word has 2 embeddings. The tokens in the Vocabulary need to be mapped to indices, so we can look up their embeddings in the input or output matrices using indexing. 
+
+*FUN FACT: Zyzzyva is an actual word and refers to a type of weevils. I looked up on Google what is the last item in English dictionaries.*
 
 <p>
     <img src="kay_drawings/08_matrices.PNG"
@@ -137,13 +146,19 @@ There are 2 trainable weight matrices: the input and output matrix. N denotes th
 </p>
 
 
-Let's put all we know together and a little more by illustrating the forward and backward pass! Below, we use the same example of center and context words. Using the token-index mapping, we look up the indices of the center and context words. The 4 context words are taken from the input matrix and stacked horizontally. To get the average context, we take the row-wise average of the context word embeddings. Using the output (center) matrix, we calculate the dot product between each word in the vocabulary and the averaged context embedding. This is a matrix-vector multiplication. In the resulting score vector each item refers to the similarity (dot product) between the avereage context and the words in the vocabulary. To get a probability distribution over the vocabulary, we apply softmax normalization. The y_true vector will be OHE where the single non-zero element is at the index of the center word. Finally, we apply Cross-Entropy loss and apply backprop to calculate the gradients.
+Let's put all we know together by illustrating the forward and backward pass! Below, we use the same example of center and context words. 
+
+1. Using the token-index mapping, we look up the indices of the center and context words.
+2. The 4 context words are taken from the input matrix and stacked horizontally.
+3. To get the average context, we take the row-wise average of the context word embeddings. 
+4. Using the output (center) matrix, we calculate the dot product between each word in the vocabulary and the averaged context embedding. This is a matrix-vector multiplication. In the resulting score vector each item refers to the similarity (dot product) between the average context and the words in the vocabulary. 
+5. To get a probability distribution over the vocabulary, we apply softmax normalization. 
+6. The y_true vector will be OHE where the single non-zero element is at the index of the center word. 
+7. Finally, we apply Cross-Entropy loss and apply backprop to calculate the gradients.
 
 <p>
-    <center>
-        <img src="kay_drawings/Word2Vec-forw-backw.PNG"
-        width="100%" height="30%">
-    </center>
+    <img src="kay_drawings/09_Word2Vec.PNG"
+    width="100%" height="30%">
 </p>
 
 
