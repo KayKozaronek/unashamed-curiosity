@@ -25,5 +25,26 @@
   },
   "posts/word2vec/reworked_Word2Vec.ipynb": {
     "reworked_Word2Vec.html": "cab71c2f"
+  },
+  "posts/how-to-solve-it/index.qmd": {
+    "index.html": "70bc3d84"
+  },
+  "ideas.md": {
+    "ideas.html": "03eabeef"
+  },
+  "posts/live-your-values/index.qmd": {
+    "index.html": "75bcda51"
+  },
+  "test.qmd": {
+    "test.html": "572e3d9a"
+  },
+  "doing_now.qmd": {
+    "doing_now.html": "4d72f003"
+  },
+  "now.qmd": {
+    "now.html": "8c3e5b45"
+  },
+  "collaborators.qmd": {
+    "collaborators.html": "0b27ece9"
   }
 }

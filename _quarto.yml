@@ -7,11 +7,11 @@ website:
   navbar:
     right:
       - index.qmd
-      - about.qmd
+      - now.qmd
+      - collaborators.qmd
 format:
   html:
     theme: sketchy
     css: styles.css
-
 
 

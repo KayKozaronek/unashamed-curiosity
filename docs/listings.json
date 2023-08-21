@@ -6,5 +6,15 @@
       "/posts/to-be-or-not-to-be/index.html",
       "/posts/covid19-boredom-and-artificial-intelligence/index.html"
     ]
+  },
+  {
+    "listing": "/test.html",
+    "items": [
+      "/posts/live-your-values/index.html",
+      "/posts/how-to-solve-it/index.html",
+      "/posts/word2vec/index.html",
+      "/posts/to-be-or-not-to-be/index.html",
+      "/posts/covid19-boredom-and-artificial-intelligence/index.html"
+    ]
   }
 ]

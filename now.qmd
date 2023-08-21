@@ -1,0 +1,92 @@
+---
+title: "What I'm Doing Now"
+about:
+  template: marquee
+  links:
+    - icon: linkedin
+      text: Kay
+      href: https://www.linkedin.com/in/kay-kozaronek/
+    - icon: github
+      text: Kay
+      href: https://github.com/KayKozaronek
+---
+
+This is a [now page](https://nownownow.com/about), inspired by [Derek Sivers](https://sive.rs/now) and [Thomas Frank](https://thomasjfrank.com/now/). 
+
+I treat this as a public declaration of my priorities and a reminder to myself. 
+I am open to considering new opportunities, as I highly value novelty and growth. However, I aspire to stick to my priorities 70% of the time. As a result, I will say no to the majority of requests that come my way now.
+
+If my activities or priorities happen to change, I’ll update this page to reflect those changes. 
+
+Updated August 21th, 2023
+
+---
+
+## **Setting up a stable homebase**
+- My partner and I have been traveling a lot in the past years. We realized that we need more stability.
+- Now we're spending a few low-key, habit-driven weeks in the polish countryside. 
+- After a short travel stint to Germany and the US I'll be establishing a more stable living situation in Krakow in a new coliving space for at least 9 months. 
+
+
+## **Speaking at Effective Alltruism Global (EAG)**
+- I will be speaking at [EAGx in Berlin](https://www.effectivealtruism.org/ea-global/events/eagxberlin-2023)
+- **Title**: Level Up: Leveraging Self-awareness, Effective Learning, and Community 
+- **Description**: In this interactive workshop, Kay delves into the art of continuous development, blending effective learning strategies with emotional intelligence and community support. Participants will explore self-awareness techniques, navigate the emotional challenges of learning, and harness the power of community. Ideal for individuals at any career stage seeking to enhance their learning journey, attendees will leave with actionable strategies, from "Habit Contracts" and "Nonviolent Communication" to assembling "Feedback Fellows", ensuring a holistic approach to personal and professional growth.
+
+
+## **Personal Development and Exploration**
+- I'm absorbed in thinking about my values and identity. I'm currently writing a post about a valuable exercise I did.
+- A related recurring question is whether I'd like to be a generalist or specialist. Right now I am the former. Do I want it to stay this way? How can I lean in a lot more into this and how can I become a better generalist? 
+- To answer these questions I'm experimenting with coaching to help me become more excellent.  
+- This is also related to trying to find tactics for how to get more real life feedback. I'm building this website precicely for that purpose. Occasionally, the idea of revamping my personal YouTube channel comes up.
+- An idea that might be helpful in making progress more rapidly is that of [forming useful not true beliefs](https://sive.rs/u).
+- I'm exploring how I'd like to continue my path and what kind of work I'd like to produce:
+  - I'd like to become a better leader 
+  - I'm spending some time on exercises for how to be a better strategic thinker 
+
+These thoughts have been inspired by the following quote:
+
+> "It's now critically important to get into the real world and really challenge yourself. Expose yourself to risk Put yourself in situations where you will succeed or fail by your own decisions and actions, and where that success or failure will be highly visible." - Mark Andreesen
+
+
+
+## **AI Safety**
+- I have submitted a video about [Polysemanticity and Capacity in Neural Networks](https://www.youtube.com/watch?v=ovmRuyqbxXU&t=1s&ab_channel=NotodAIResearch) to the [Summer of Math Exposition by 3Blue1Brown](https://some.3b1b.co/). As part of the competition I had to review other participants entires. I have a forthcoming review of my favorite work.
+- I'm currently working on a video about [Causal Scrubbing](https://www.lesswrong.com/posts/JvZhhzycHu2Yd57RN/causal-scrubbing-a-method-for-rigorously-testing). For this project I'm experimenting with delegating tasks via upwork to become better at managing projects and people. It's very fun.
+- I'm slowly reviewing the Mechanistic Interpretability content from the [Alignment Research Engineering Accelerator (ARENA)](https://www.arena.education/) curriculum.
+- In October I'll be spending some time in Vermont to do an [AI Safety related project](https://cavendishlabs.org/fellowship/ai-safety/).
+
+## **Learning and Education**
+- I'm reading a lot:
+  - Atomic Habits
+  - Refuse to Choose!
+  - Range 
+  - The Personal MBA 
+  - Excellent Advice for Living
+  - SPRINT 
+- Doing daily math at [Brilliant.org](https://brilliant.org/):
+  - Linear Algebra with Applications 
+  - Probability Theory
+  - Geometry 
+- I'm learning more about mental-wellbeing:
+  - To become better at noticing things and communicating my needs, feelings and requests I use the [Nonviolent Communication framework (NVC)](https://www.amazon.com/Nonviolent-Communication-Language-Life-Changing-Relationships/dp/189200528X)
+  - An interesting therapeutic approach I have been introduced to is [Positive Disintegration](https://en.wikipedia.org/wiki/Positive_disintegration)
+
+
+## **Health and Exercise**
+- As an early birthday gift to myself I am planning to run a [Marathon on the 21st of April 2024](https://cracoviamaraton.pl/about-the-event?hl=en)
+- To that end, I'll be likely participating in this [Half-Marathon](https://cracoviapolmaraton.pl/about-the-event?hl=en)
+- I will take 1 week of surfing lessons this year 
+- Eating healthily again
+
+## **Miscellaneous Side Projects**
+- I'd like to explore some prompt engineering techniques to become better at interacting with AI and generate ideas for model evaluations:
+  - [Learn Prompting](https://learnprompting.org/)
+  - [Prompt Engineering Course on Coursera](https://www.coursera.org/learn/prompt-engineering)
+- Practicing the guitar every day
+- I'm thinking about doing the [MITx MicroMasters Program in Data Economics and Design of Policy (DEDP)](https://micromasters.mit.edu/dedp/) with the eventual goal of studying at MIT.
+  - This would result in making heavy use of Anki again.
+- Fun and humor are very important to me. To enrich my daily life and improve my public speaking skills I've signed up for the course [Stand Up!; Comedy Writing and Performance Poetry](https://www.edx.org/learn/writing/university-of-cambridge-stand-up-comedy-writing-and-performance-poetry). The goal is to produce a 5 minute standup comedy routine that I can perform sometime in November at a [biweekly Open Mic (English) in Krakow](https://www.facebook.com/krakowstandupcomedy/).
+
+---
+

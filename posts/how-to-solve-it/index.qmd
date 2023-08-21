@@ -1,0 +1,22 @@
+---
+title: "Mathematics is not a spectator's sport"
+description: "Are you dating a problem? Here's some advice."
+author: "Kay Kozaronek"
+date: "2023-06-11"
+categories: [Mathematics, Problem Solving, Scientific Method]
+image: "images/test.png"
+draft: true
+---
+
+# Smelly Vagabounds(,) and Thinkers
+
+> "If you can't solve a problem there's an easier problem you can't solve: Find it.""
+
+<!-- <p>
+    <center>
+        <img src="quarantine.png"
+        width="100%" height="30%">
+    </center>
+</p> -->
+
+
