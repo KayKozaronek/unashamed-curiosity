@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/summer-of-math/index.html",
       "/posts/word2vec/index.html",
       "/posts/to-be-or-not-to-be/index.html",
       "/posts/covid19-boredom-and-artificial-intelligence/index.html"

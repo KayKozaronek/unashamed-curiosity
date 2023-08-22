@@ -75,9 +75,10 @@ These thoughts have been inspired by the following quote:
 
 ## **Health and Exercise**
 - As an early birthday gift to myself I am planning to run a [Marathon on the 21st of April 2024](https://cracoviamaraton.pl/about-the-event?hl=en)
-- To that end, I'll be likely participating in this [Half-Marathon](https://cracoviapolmaraton.pl/about-the-event?hl=en)
+- To that end I am preparing to participate in the [9th Cracovia Royal Half Marathon on October 8th, 2023](https://cracoviapolmaraton.pl/about-the-event?hl=en). This includes daily runs and morning stretches as well as some full body HIIT units.
 - I will take 1 week of surfing lessons this year 
 - Eating healthily again
+- My sleeping schedule is strict and I prioritize getting 8-9 hours of quality sleep.
 
 ## **Miscellaneous Side Projects**
 - I'd like to explore some prompt engineering techniques to become better at interacting with AI and generate ideas for model evaluations:

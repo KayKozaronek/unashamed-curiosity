@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Posts",
     "section": "",
-    "text": "Dachs2Num\n\n\n\n\n\n\n\nML\n\n\nAI\n\n\nNLP\n\n\nWord2Vec\n\n\n\n\nDiscover how to make computers understand the awesomeness of dachshunds. An explainer of Word2Vec.\n\n\n\n\n\n\nApr 29, 2023\n\n\nGerold Csendes, Kay Kozaronek\n\n\n\n\n\n\n  \n\n\n\n\nTo be or not to be\n\n\n\n\n\n\n\nGoals\n\n\nIdentity\n\n\n\n\nWhat I learned from trying too hard: How to start and stick to a new endeavor by shifting your perspective from goal-based to identity-based efforts.\n\n\n\n\n\n\nApr 15, 2020\n\n\nKay Kozaronek\n\n\n\n\n\n\n  \n\n\n\n\nCOVID-19, boredom and artificial intelligence\n\n\n\n\n\n\n\nCovid\n\n\nAI\n\n\nPhilosophy\n\n\n\n\nDiscovering the hidden blessing of the pandemic, finding time for what matters and embarking on a journey to becoming a data scientist.\n\n\n\n\n\n\nMar 25, 2020\n\n\nKay Kozaronek\n\n\n\n\n\n\nNo matching items"
+    "text": "Integration by Parts for Archers\n\n\n\n\n\n\n\nIntegration by Parts\n\n\nCalculus\n\n\nMathematics\n\n\n\n\nI’m showing you my favorite entry from the summer of math exposition by 3 Blue 1 Brown\n\n\n\n\n\n\nAug 21, 2023\n\n\nKay Kozaronek\n\n\n\n\n\n\n  \n\n\n\n\nDachs2Num\n\n\n\n\n\n\n\nML\n\n\nAI\n\n\nNLP\n\n\nWord2Vec\n\n\n\n\nDiscover how to make computers understand the awesomeness of dachshunds. An explainer of Word2Vec.\n\n\n\n\n\n\nApr 29, 2023\n\n\nGerold Csendes, Kay Kozaronek\n\n\n\n\n\n\n  \n\n\n\n\nTo be or not to be\n\n\n\n\n\n\n\nGoals\n\n\nIdentity\n\n\n\n\nWhat I learned from trying too hard: How to start and stick to a new endeavor by shifting your perspective from goal-based to identity-based efforts.\n\n\n\n\n\n\nApr 15, 2020\n\n\nKay Kozaronek\n\n\n\n\n\n\n  \n\n\n\n\nCOVID-19, boredom and artificial intelligence\n\n\n\n\n\n\n\nCovid\n\n\nAI\n\n\nPhilosophy\n\n\n\n\nDiscovering the hidden blessing of the pandemic, finding time for what matters and embarking on a journey to becoming a data scientist.\n\n\n\n\n\n\nMar 25, 2020\n\n\nKay Kozaronek\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -319,7 +319,7 @@
     "href": "now.html#health-and-exercise",
     "title": "What I’m Doing Now",
     "section": "Health and Exercise",
-    "text": "Health and Exercise\n\nAs an early birthday gift to myself I am planning to run a Marathon on the 21st of April 2024\nTo that end, I’ll be likely participating in this Half-Marathon\nI will take 1 week of surfing lessons this year\nEating healthily again"
+    "text": "Health and Exercise\n\nAs an early birthday gift to myself I am planning to run a Marathon on the 21st of April 2024\nTo that end I am preparing to participate in the 9th Cracovia Royal Half Marathon on October 8th, 2023. This includes daily runs and morning stretches as well as some full body HIIT units.\nI will take 1 week of surfing lessons this year\nEating healthily again\nMy sleeping schedule is strict and I prioritize getting 8-9 hours of quality sleep."
   },
   {
     "objectID": "now.html#setting-up-a-stable-homebase",
@@ -355,5 +355,19 @@
     "title": "What I’m Doing Now",
     "section": "Speaking at Effective Alltruism Global (EAG)",
     "text": "Speaking at Effective Alltruism Global (EAG)\n\nI will be speaking at EAGx in Berlin\nTitle: Level Up: Leveraging Self-awareness, Effective Learning, and Community\nDescription: In this interactive workshop, Kay delves into the art of continuous development, blending effective learning strategies with emotional intelligence and community support. Participants will explore self-awareness techniques, navigate the emotional challenges of learning, and harness the power of community. Ideal for individuals at any career stage seeking to enhance their learning journey, attendees will leave with actionable strategies, from “Habit Contracts” and “Nonviolent Communication” to assembling “Feedback Fellows”, ensuring a holistic approach to personal and professional growth."
+  },
+  {
+    "objectID": "posts/summer-of-math/index.html#polysemanticity-and-capacity-in-neural-networks",
+    "href": "posts/summer-of-math/index.html#polysemanticity-and-capacity-in-neural-networks",
+    "title": "Integration by Parts for Archers",
+    "section": "Polysemanticity and Capacity in Neural Networks",
+    "text": "Polysemanticity and Capacity in Neural Networks\nLast but not least, here’s my own entry. It’s a walkthrough of the key concepts necessary to understand the paper “Polysemanticity and Capacity in Neural Networks”.\n\n\n\n\n\n\nJargon Alert\n\n\n\nThis is a video about ongoing research in AI Safety. You might not have the necessary background to understand everything.\nThat’s ok, I tried to introduce all relevant terms and abstract away the math with visual intuitions.\n\n\nFrom the papers abstract:\n\nIndividual neurons in neural networks often represent a mixture of unrelated features. This phenomenon, called polysemanticity, can make interpreting neural networks more difficult and so we aim to understand its causes. We propose doing so through the lens of feature capacity, which is the fractional dimension each feature consumes in the embedding space.\n\nIn the video, I explain:\n\nPolysemiticity and how it’s different from superposition\nThe impact of feature importance and sparsity on representation capacity allocation\nVisualizations of polysemantic and monosemantic neurons\nFeature capacity and its relation to fractional dimension\nBudget allocation plots and their analysis\nPhase diagrams for understanding feature allocation dynamics\n\n\nWhat’s your rating? I’d love to hear some feedback."
+  },
+  {
+    "objectID": "posts/summer-of-math/index.html#conclusion-and-call-to-action",
+    "href": "posts/summer-of-math/index.html#conclusion-and-call-to-action",
+    "title": "Integration by Parts for Archers",
+    "section": "Conclusion and Call to Action",
+    "text": "Conclusion and Call to Action\nWhat a summer it’s been! From delving deep into mathematical wonders to appreciating the art of explaining complex topics, it’s been a whirlwind of learning and fun. And if there’s one thing I’ve taken away from this adventure, it’s the sheer joy of creating math explainers. So, dear reader, I urge you to dive into the world of math exposition. Craft your own stories. Share your passion. Who knows? Maybe next summer, I’ll be watching your video and getting my mind blown!"
   }
 ]

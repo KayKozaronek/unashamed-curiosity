@@ -1,0 +1,169 @@
+---
+title: "Integration by Parts for Archers"
+description: "I'm showing you my favorite entry from the summer of math exposition by 3 Blue 1 Brown"
+author: "Kay Kozaronek"
+date: "2023-08-21"
+categories: [Integration by Parts, Calculus, Mathematics]
+image: "images/archer.png"
+draft: false
+---
+
+<p>
+    <center>
+        <img src="media/archer.png"
+        width="100%" height="30%">
+    </center>
+</p>
+
+# The Summer of Math Exposition
+I recently took part in the Summer of Math Exposition by 3Blue1Brown. Not only did I have to produce my own math explainer, but I also had to grade other people's work. 
+
+Here's the approach I used to grade other entries: 
+
+| Criteria    | Score Range | Description                                                           |
+|-------------|-------------|-----------------------------------------------------------------------|
+| Motivation  | 0/10        | Why should anyone care about this topic?                          |
+| Explanation | 0/10        | How well was the tale told? How transparent was the reasoning?                              |
+| Originality | 0/10         | Was the story a fresh breath of mathematical air?                      |
+| Length      | 0/5         | Was the duration of the story appropriate? Was it engaging all the way?                                      |
+| Overall     | 0/35         | The grand total.                |
+
+
+
+
+My overall favorite was a video about integration by parts. Don't worry if your calculus is a little rusty. Here's a refresher of the standard method.
+
+# Integration by Parts for Calculus Students 
+
+::: {.callout-tip}
+# Tip: Don't look at the Math Alert, it might bore you.
+
+In case you're tired of regular Integration by Parts skip to the next section on **Integration by Parts for Archers**
+:::
+
+Let's suppose you're staring at the following integral $\int x \cos(x) \, dx$.
+How would you solve this? 
+
+::: {.callout-warning collapse="true"}
+# Math Alert - I warned you.
+
+To solve this, we can use integration by parts. The formula for integration by parts is:
+
+$$\int u \, dv = uv - \int v \, du$$
+
+Where:
+
+- $u$ is the function we choose to differentiate
+- $dv$ is the function we choose to integrate
+
+Our goal is to choose $u$ and $dv$ such that their derivatives $du$ and integrals $v$, respectively, simplify the problem.
+
+Let's choose:
+
+$$u = x \implies du = dx$$
+$$dv = \cos(x) \, dx \implies v = \int \cos(x) \, dx$$
+
+Now, we'll determine $du$ and $v$:
+
+$$du = dx$$
+$$v = \int \cos(x) \, dx = \sin(x)$$
+
+
+Now, plug these values into the integration by parts formula:
+
+$$\int x \cos(x) \, dx = x \sin(x) - \int \sin(x) \, dx$$
+
+To finish solving the integral, we just need to integrate $\sin(x)$. Let's do that:
+
+The integral of $\sin(x)$ with respect to $x$ is $-\cos(x)$.
+
+Now, plugging this into our equation, we get:
+
+$$\int x \cos(x) \, dx = x \sin(x) + \cos(x) + C$$
+
+Where $C$ is the constant of integration.
+
+So, the integral of $x \cos(x)$ is:
+
+$$x \sin(x) + \cos(x) + C$$
+:::
+
+Visually it looks like this: 
+![](media/video.mp4) 
+
+
+# Integration by Parts for Archers
+
+Now, wasn't that tedious? Here's the new, improved method:
+
+ > Arrow Marked Integral = Top Product - Outer Integral. 
+ 
+What do all of these mean? I'll let the author of the video explain it to you. Hopefully, you'll find it as insightful as I did. 
+
+
+{{< video https://www.youtube.com/watch?v=bHu3CfJ3ttk&ab_channel=BraverNewMath >}}
+
+
+**My rating:**
+
+| Criteria    | Score       | Description                                                                                                                                                     |
+|-------------|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Motivation  | 10/10       | This video was extremely well-motivated. Thanks for solving the integration by parts pain!                                                                       |
+| Explanation | 10/10       | The explanation was so clear and engaging that I stopped the video at some points and tried the method myself                                                    |
+| Originality | 10/10       | You literally just developed a new approach to doing integration by parts. This is awesome.                                                                      |
+| Length      | 5/5         | The length was appropriate. I always felt stimulated and engaged.                                                                                               |
+| Overall     | 35/35       | Best video I've seen so far at the competition. I also like that you paid attention to the audio quality. Lots of people neglected this.                         |
+
+
+::: {.callout-note collapse="true"}
+# "Zero Knowledge Proofs - My second favorite video. 
+
+This video was a close contender for my overall favorite video but it covered a topic I have not encountered before and was too information dense in the second half of the video.
+
+{{< video https://youtube.com/watch?v=FfeXX6OLq8w >}}
+
+
+**My rating:**
+
+| Criteria    | Score       | Description                                                                                                                                                                                                                                                                                                      |
+|-------------|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Motivation  | 10/10       | The video was very well-motivated. I particularly liked the visually easy-to-follow sudoku example.                                                                                                                                                                                                              |
+| Explanation | 8.5/10      | The video was very well explained until 15:42 when you started talking about polynomial commitments. The screen was very often overwhelmingly full of information and I couldn't follow the content very well.                                                                                                   |
+| Originality | 6.5/10      | As part of the competition I've seen other Zero Knowledge Proof videos, but this one was by far the most thorough. The visualizations were well made and the guiding sudoku example was well chosen. I think this was not the most original work I've seen as the topic could have been covered by lots of other people. The way in which it was covered was sufficiently distinct though. |
+| Length      | 3/5         | For my taste the video was too long. The video should have been split in 2. Part 1 (0:00 - 15:42) and Part 2 (15:42 - 26:48). Part 1 was very well explained and I was fully engaged. My attention started drifting in Part 2 as I couldn't follow the main concepts.                                             |
+| Overall     | 28/35       | The second-best video I've seen so far. Good job!                                                                                                                                                                                                                                                                |
+:::
+## Polysemanticity and Capacity in Neural Networks
+Last but not least, here's my own entry. It's a walkthrough of the key concepts necessary to understand the paper ["Polysemanticity and Capacity in Neural Networks"](https://arxiv.org/pdf/2210.01892.pdf). 
+
+::: {.callout-warning}
+# Jargon Alert 
+This is a video about ongoing research in AI Safety. You might not have the necessary background to understand everything. 
+
+That's ok, I tried to introduce all relevant terms and abstract away the math with visual intuitions. 
+:::
+
+From the papers abstract: 
+
+> Individual neurons in neural networks often represent a mixture of unrelated features. This
+phenomenon, called polysemanticity, can make interpreting neural networks more difficult
+and so we aim to understand its causes. We propose doing so through the lens of feature
+capacity, which is the fractional dimension each feature consumes in the embedding space.
+
+In the video, I explain:
+
+- Polysemiticity and how it's different from superposition
+- The impact of feature importance and sparsity on representation capacity allocation
+- Visualizations of polysemantic and monosemantic neurons 
+- Feature capacity and its relation to fractional dimension
+- Budget allocation plots and their analysis
+- Phase diagrams for understanding feature allocation dynamics
+
+{{< video https://www.youtube.com/watch?v=ovmRuyqbxXU&t=2s >}}
+
+
+What's your rating? I'd love to hear some feedback. 
+
+
+## Conclusion and Call to Action
+What a summer it's been! From delving deep into mathematical wonders to appreciating the art of explaining complex topics, it's been a whirlwind of learning and fun. And if there's one thing I've taken away from this adventure, it's the sheer joy of creating math explainers. So, dear reader, I urge you to dive into the world of math exposition. Craft your own stories. Share your passion. Who knows? Maybe next summer, I'll be watching your video and getting my mind blown!
