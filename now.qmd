@@ -50,11 +50,13 @@ These thoughts have been inspired by the following quote:
 
 
 
-## **AI Safety**
-- I have submitted a video about [Polysemanticity and Capacity in Neural Networks](https://www.youtube.com/watch?v=ovmRuyqbxXU&t=1s&ab_channel=NotodAIResearch) to the [Summer of Math Exposition by 3Blue1Brown](https://some.3b1b.co/). As part of the competition I had to review other participants entires. I have a forthcoming review of my favorite work.
+## **AI Safety & Entrepreneurship**
+- I want to transition away from research to more managerial tasks. My next steps in AI Safety will likely involve doing more strategic and organizational work. I'm exploring ideas for companies to start, who to do it with and where to do it. Until then I am finishing several other projects. 
+- I have submitted a video about [Polysemanticity and Capacity in Neural Networks](https://www.youtube.com/watch?v=ovmRuyqbxXU&t=1s&ab_channel=NotodAIResearch) to the [Summer of Math Exposition by 3Blue1Brown](https://some.3b1b.co/). As part of the competition I had to review other participants entires. Find out more in my post titled ["Integration by Parts for Archers"](https://kaykozaronek.github.io/unashamed-curiosity/posts/summer-of-math/)
 - I'm currently working on a video about [Causal Scrubbing](https://www.lesswrong.com/posts/JvZhhzycHu2Yd57RN/causal-scrubbing-a-method-for-rigorously-testing). For this project I'm experimenting with delegating tasks via upwork to become better at managing projects and people. It's very fun.
 - I'm slowly reviewing the Mechanistic Interpretability content from the [Alignment Research Engineering Accelerator (ARENA)](https://www.arena.education/) curriculum.
-- In October I'll be spending some time in Vermont to do an [AI Safety related project](https://cavendishlabs.org/fellowship/ai-safety/).
+- In October I might be spending some time in Vermont to do an [AI Safety related project](https://cavendishlabs.org/fellowship/ai-safety/).
+ 
 
 ## **Learning and Education**
 - I'm reading a lot:
@@ -88,6 +90,7 @@ These thoughts have been inspired by the following quote:
 - I'm thinking about doing the [MITx MicroMasters Program in Data Economics and Design of Policy (DEDP)](https://micromasters.mit.edu/dedp/) with the eventual goal of studying at MIT.
   - This would result in making heavy use of Anki again.
 - Fun and humor are very important to me. To enrich my daily life and improve my public speaking skills I've signed up for the course [Stand Up!; Comedy Writing and Performance Poetry](https://www.edx.org/learn/writing/university-of-cambridge-stand-up-comedy-writing-and-performance-poetry). The goal is to produce a 5 minute standup comedy routine that I can perform sometime in November at a [biweekly Open Mic (English) in Krakow](https://www.facebook.com/krakowstandupcomedy/).
+- Recently I have received lots of coaching and I realized that I have the necessary skills to try coaching others myself.
 
 ---
 
