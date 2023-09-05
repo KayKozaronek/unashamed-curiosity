@@ -1,0 +1,9 @@
+---
+title: "Integration by Parts for Archers"
+description: "Wanna become a master at Integration by Parts? Let me tell you about my experience with The Summer of Math Exposition by 3Blue1Brown"
+author: "Kay Kozaronek"
+date: "2023-08-22"
+categories: [Integration by Parts, Calculus, Mathematics]
+image: "images/archer.png"
+draft: true
+---
