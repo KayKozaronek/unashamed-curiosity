@@ -4,7 +4,7 @@ description: "Wanna become a master at Integration by Parts? Let me tell you abo
 author: "Kay Kozaronek"
 date: "2023-08-22"
 categories: [Integration by Parts, Calculus, Mathematics]
-image: "images/archer.png"
+image: "media/archer.png"
 draft: false
 ---
 

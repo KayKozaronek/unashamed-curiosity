@@ -4,7 +4,7 @@ description: "A few simple rules for establishing a structured and productive da
 author: "Kay Kozaronek"
 date: "2024-05-21"
 categories: [Writing, Mini-Essay]
-image: "miniessay.png"
+image: "media/miniessay.png"
 draft: false
 ---
 

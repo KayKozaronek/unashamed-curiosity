@@ -1,0 +1,11 @@
+---
+title: "000 Title "
+description: ""
+author: "Kay Kozaronek"
+date: "2024-05-21"
+categories: [Mini-Essay]
+#image: "philosophy.png"
+draft: true # CHANGE THIS TO PUBLISH
+---
+
+# Rules for writing a Mini-Essay:
