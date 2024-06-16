@@ -1,14 +1,21 @@
 ---
-title: "002 Babies are Like Tripping Adults"
+title: "Babies are Like Tripping Adults (Season 1 - Post 2)"
 description: "Children, with their fresh perspectives and less pronounced sense of self, possess a heightened ability to perceive reality similar to adults under the influence of psychedelics."
 author: "Kay Kozaronek"
 date: "2024-05-22"
-categories: [Mini-Essay]
+categories: [Mini-Essay, Season 1]
 image: "media/baby.png"
 draft: false # CHANGE THIS TO PUBLISH
 ---
 
 # Babies are Like Tripping Adults
+
+<p>
+    <center>
+        <img src="media/baby.png"
+        width="100%" height="30%">
+    </center>
+</p>
 
 Imagine experiencing every sight, sound, and sensation as if for the first time. Are children, with their fresh perspectives, untainted by experience, more conscious than adults? This essay explores the intriguing similarity between children's heightened perceptions and those reported by adults under the influence of psychedelics.
 

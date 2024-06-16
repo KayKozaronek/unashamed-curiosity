@@ -1,14 +1,21 @@
 ---
-title: "001 Rules for writing a Mini-Essay"
+title: "Rules for writing a Mini-Essay (Season 1 - Post 1)"
 description: "A few simple rules for establishing a structured and productive daily writing habit."
 author: "Kay Kozaronek"
 date: "2024-05-21"
-categories: [Writing, Mini-Essay]
+categories: [Writing, Mini-Essay, Season 1]
 image: "media/miniessay.png"
 draft: false
 ---
 
 # Rules for writing a Mini-Essay:
+
+<p>
+    <center>
+        <img src="media/miniessay.png"
+        width="100%" height="30%">
+    </center>
+</p>
 
 Have you ever felt overwhelmed by the tyranny of the blank page? Are you wishing to incorporate writing into your life but have failed to do so consistently? 
 
