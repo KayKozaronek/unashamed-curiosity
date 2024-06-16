@@ -2,18 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/001-rules-for-writing-a-mini-essay/index.html",
       "/posts/summer-of-math/index.html",
-      "/posts/word2vec/index.html",
-      "/posts/#001 Rules for writing a Mini-Essay/index.html",
-      "/posts/to-be-or-not-to-be/index.html",
-      "/posts/covid19-boredom-and-artificial-intelligence/index.html"
-    ]
-  },
-  {
-    "listing": "/test.html",
-    "items": [
-      "/posts/live-your-values/index.html",
-      "/posts/how-to-solve-it/index.html",
       "/posts/word2vec/index.html",
       "/posts/to-be-or-not-to-be/index.html",
       "/posts/covid19-boredom-and-artificial-intelligence/index.html"
