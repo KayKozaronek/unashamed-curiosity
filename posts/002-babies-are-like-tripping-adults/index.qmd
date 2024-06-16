@@ -1,0 +1,33 @@
+---
+title: "002 Babies are Like Tripping Adults"
+description: "Children, with their fresh perspectives and less pronounced sense of self, possess a heightened ability to perceive reality similar to adults under the influence of psychedelics."
+author: "Kay Kozaronek"
+date: "2024-05-22"
+categories: [Mini-Essay]
+image: "media/baby.png"
+draft: false # CHANGE THIS TO PUBLISH
+---
+
+# Babies are Like Tripping Adults
+
+Imagine experiencing every sight, sound, and sensation as if for the first time. Are children, with their fresh perspectives, untainted by experience, more conscious than adults? This essay explores the intriguing similarity between children's heightened perceptions and those reported by adults under the influence of psychedelics.
+
+To begin exploring this idea, we'll define consciousness as **having a sense of self coupled with the ability to perceive**. Let's first delve into perception.
+
+Perception is the ability to **accurately experience the stream of information** we're exposed to. Our perception is influenced by our attention, which comes in two forms: **lantern attention (**broad and diffused) and **spotlight attention** (narrow and focused). While adults often rely on spotlight attention to filter and focus, children may utilize more lantern attention, taking in a wider array of stimuli.
+
+These two states of attention are linked to the activity levels in the **brain's default mode network (DMN**), which is most active during normal **adult waking consciousness**. To visualize this, think of adult brains as **cities connected by roads**: a network of sparsely connected nodes with a few high-traffic highways and many smaller roads within any given city.
+
+Having experienced the world more extensively, adult brains, for better or worse, form shortcuts - **high-traffic intercity highways**. By leveraging their mental model of the world, these shortcuts help adults make sense of information and act quickly without exerting much energy. This is known as [**predictive coding.**](https://en.wikipedia.org/wiki/Predictive_coding) But these shortcuts also come at the cost of perceiving information less accurately. 
+
+Scientific studies indicate that psychedelics reduce DMN activity, increasing connectivity between brain regions (Pollan, 2018). This loosening of DMN control allows novel thinking patterns, as brain areas communicate more freely. It is akin to a shift from spotlight to lantern   attention. For example, a study by [Carhart-Harris et al. (2014)](https://www.frontiersin.org/articles/10.3389/fnhum.2014.00020/full) showed that psychedelics like psilocybin disrupt the DMN, **enhancing sensory perception and cognitive flexibility**.
+
+In young children, the DMN is less developed and less active, correlating with a less pronounced sense of self. This reduced DMN activity means children are less focused on past and future selves. The “I” of small children is constrained to the present. They plan, daydream, reflect and ruminate less. This could explain why children exhibit spontaneous, uninhibited behavior and a **heightened sense of wonder.**
+
+Children, like tripping adults possess a heightened ability to perceive reality, due to their **less pronounced sense of self and more diffused attention**. Temporarily disarming the default mode network may afford us a fresh look at the world free from the constraints of the mental models we have constructed over time.
+
+# References
+
+- Pollan, Michael. *How to Change Your Mind*. Chapter Five: The Neuroscience (p. 348-395).
+- https://www.frontiersin.org/articles/10.3389/fnhum.2014.00020/full 
+- https://en.wikipedia.org/wiki/Predictive_coding 
