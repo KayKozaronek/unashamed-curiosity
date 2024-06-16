@@ -3,8 +3,9 @@ title: "001 Rules for writing a Mini-Essay"
 description: "A few simple rules for establishing a structured and productive daily writing habit."
 author: "Kay Kozaronek"
 date: "2024-05-21"
-categories: [Writing]
-#image: "philosophy.png"
+categories: [Writing, Mini-Essay]
+image: "miniessay.png"
+draft: false
 ---
 
 # Rules for writing a Mini-Essay:
