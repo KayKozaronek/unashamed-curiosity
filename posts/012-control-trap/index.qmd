@@ -1,0 +1,46 @@
+---
+title: "Title (Season 1 - Post X)"
+description: ""
+author: "Kay Kozaronek"
+date: "2024-05-21"
+categories: [Mini-Essay, Season 1]
+#image: "media/IMAGE.png"
+draft: true # CHANGE THIS TO PUBLISH
+---
+
+# TITLE:
+
+<p>
+    <center>
+        <img src="media/IMAGE.png"
+        width="100%" height="30%">
+    </center>
+</p>
+
+# Control - Watch out, it might be a trap
+
+## Intro
+
+All things being equal, having a higher degree of control over what you work on is good. However, seeking out control can come with 2 traps.
+
+## Body
+
+1. **The low career capital trap** 
+
+Career capital refers to the amount of relevant and rare skills you have. Interesting opportunities are afforded by spending your career capital. If you seek out more control over your work without any career capital you might find yourself quitting your job only to realize that your options are very limited or that you have no means to competently pursue them. Avoid this trap by acquiring enough career capital first. 
+
+1. **The resistance trap**
+
+In case you want to quit your job and you have enough career capital you will find resistance from other people. This is precisely the point at which your employer will want to keep you. They will make it harder for you to quit. Others will notice too and they will advise you to pursue a well trodden path instead of seeking more control. Don't succumb to the resistance and take it for what it is: a sign you have enough career capital to acquire and exercise control.
+
+1. **The remedy: Financial Viability**
+
+Even if you overcome these 2 traps you might find that it is not easy to  maintain control over your work. More often than not financial viability determines whether you can continue control. To that end, follow this maxim: “Do what others are willing to pay for”. 
+
+## Conclusion
+
+Stay clear of the 2 traps that prohibit you from gaining control. Find a way to make your projects financially viable to retain it.
+
+# References
+
+Cal Newport - So Good They Can't Ignore You

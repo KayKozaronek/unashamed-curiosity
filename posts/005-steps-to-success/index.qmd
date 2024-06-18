@@ -17,3 +17,44 @@ draft: true # CHANGE THIS TO PUBLISH
     </center>
 </p>
 
+# The 5 + 1 Steps to Success
+
+## Intro
+
+Chances are you have tried to achieve something at some point in your life. But how exactly did you try to achieve success? Let me lay out a 6 step process to achieving success.
+
+## Body
+
+1. **Define your goal** 
+
+Be clear about what it is that you want to achieve. Don't worry about practicalities and obstacles just yet. Larger goals are often paradoxically more attainable than smaller ones. Be specific, set a deadline and quantify as much as possible. 
+
+1. **Encounter problems** 
+
+As you go about achieving your goal you'll naturally encounter barriers. This is indespensable if you chose an ambitious goal. Don't let this deter you. Take notice of any problem that arises and aim to assess them as clearly as possible.  
+
+1. **Understand the problems**
+
+The only way to solve a problem is to understand it's root cause. What mechanism is at play that makes or breaks this problem? Once you understand the moving parts you'll be well positioned to devise a solution.
+
+1. **Devise a solution**
+
+Tackle the hard bits of the problem head on. What is the most direct way of solving the problem at hand? Prioritize actions that carry the most leverage.
+
+1. **Implement the solution** 
+
+Plans are useless if they are not acted on. Follow through with the actions you've identified. 
+
+1. **Recommended Extension: Reflect on the process**
+
+Before repeating the loop you'll want to take some time and think about all the steps. Where did you struggle the most? How can you improve your process and who could you ask for help? Ask others for feedback and give yourself feedback, it will speed you up: “Learning doesn't come from experience, it comes from reflecting on experience”.   
+
+## Conclusion
+
+A few general steps underly every success. Make the process work for you and use it as a guiding map.
+
+# References
+
+Ray Dalio - Principles 
+
+https://www.youtube.com/watch?v=aYqoicJOUuk&ab_channel=PrinciplesbyRayDalio

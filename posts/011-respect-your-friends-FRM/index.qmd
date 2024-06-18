@@ -1,0 +1,80 @@
+---
+title: "Title (Season 1 - Post X)"
+description: ""
+author: "Kay Kozaronek"
+date: "2024-05-21"
+categories: [Mini-Essay, Season 1]
+#image: "media/IMAGE.png"
+draft: true # CHANGE THIS TO PUBLISH
+---
+
+# TITLE:
+
+<p>
+    <center>
+        <img src="media/IMAGE.png"
+        width="100%" height="30%">
+    </center>
+</p>
+
+
+# Respect your friends, create an FRM
+
+## Intro
+
+Do you ever feel like you've lost touch with a friend? How can you avoid this and what are the factors at play?
+
+## Body
+
+Let’s define some simple parameters that determine the quality of friendship:
+
+- T_i: Time spent together during a particular interaction
+- Q_i: Quality of time spent together in a particular interaction (on a scale from 0 to 1, where 1 is the highest quality).
+- t: Time since the last meeting.
+- d: Decay factor (a small constant that controls the deterioration speed of friendship quality).
+
+Given these parameters, the **quality of friendship F** can be formulated as:
+
+$$
+F=\frac{\sum(T_i \times Q_i)}{1 + d \times t}
+$$
+
+This suggests that you want to **spend lots of time togethe**r and you want to make sure that the **interactions are of high quality**. So far so good, we know this instinctively. 
+
+But life gets in the way and sometimes it's hard to make time for friends. Instead, we pursue work, family and other projects. Before you know it, it has been weeks, months or even years since you last contacted each other. This will increase the time since the last meeting and if your friendship is not strong enough and the decay factor is large, it'll mean that the quality of friendship will suffer. This suggests that you have to **have regular contact proportional to the strength of your existing friendship.**
+
+This shouldn't be so hard. It's not rocket science! Why is it that most people have elaborate systems to track tasks at work but shy away from instituting a system that would help them stay in touch with the people who arguably contribute most to their wellbeing? 
+
+Enter the spreadsheet. Treat your friends like customers. The product is your mutual friendship. Friends who make you feel great should be treated like key accounts. Create a Customer Relationship Management System (CRM) or **Friend Relationship Management System (FRM)** to manage your friendships**.** 
+
+Here's a **design proposal**. Don't overdo it. Keep track of the simple things. 
+
+**Table 1: Friends** 
+
+- Name
+- Last Contacted (*Lookup Latest Date from **Table 1: Interactions**)*
+- Ideal interaction frequency
+    - Weekly
+    - (Optional: Biweekly)
+    - Monthly
+    - Quarterly
+    - Semiannual
+- Ideal next interaction date (Last contacted + Ideal Interaction frequency)
+- [Optional: List of Interaction Files (Linked to ***Table 2: Interactions***)]
+- [Optional: List of Interactions]
+
+**Table 2: Interactions**
+
+- [Optional: Interaction File]
+- Name (Linked to ***Table 1: Friends***)
+- Interaction Date
+
+## Conclusion
+
+Give your friendships the respect they deserve. Make an FRM.
+
+# References
+
+- Spaced Repetition - Herman Ebbinghaus
+    - https://ncase.me/remember/
+- https://waitbutwhy.com/2014/12/10-types-odd-friendships-youre-probably-part.html

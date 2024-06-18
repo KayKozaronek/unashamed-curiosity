@@ -61,6 +61,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -152,48 +154,67 @@ ul.task-list li input[type="checkbox"] {
 </center>
 <p></p>
 </section>
-<section id="the-5-1-steps-to-success" class="level1">
-<h1>The 5 + 1 Steps to Success</h1>
+<section id="respect-your-friends-create-an-frm" class="level1">
+<h1>Respect your friends, create an FRM</h1>
 <section id="intro" class="level2">
 <h2 class="anchored" data-anchor-id="intro">Intro</h2>
-<p>Chances are you have tried to achieve something at some point in your life. But how exactly did you try to achieve success? Let me lay out a 6 step process to achieving success.</p>
+<p>Do you ever feel like you’ve lost touch with a friend? How can you avoid this and what are the factors at play?</p>
 </section>
 <section id="body" class="level2">
 <h2 class="anchored" data-anchor-id="body">Body</h2>
-<ol type="1">
-<li><strong>Define your goal</strong></li>
-</ol>
-<p>Be clear about what it is that you want to achieve. Don’t worry about practicalities and obstacles just yet. Larger goals are often paradoxically more attainable than smaller ones. Be specific, set a deadline and quantify as much as possible.</p>
-<ol type="1">
-<li><strong>Encounter problems</strong></li>
-</ol>
-<p>As you go about achieving your goal you’ll naturally encounter barriers. This is indespensable if you chose an ambitious goal. Don’t let this deter you. Take notice of any problem that arises and aim to assess them as clearly as possible.</p>
-<ol type="1">
-<li><strong>Understand the problems</strong></li>
-</ol>
-<p>The only way to solve a problem is to understand it’s root cause. What mechanism is at play that makes or breaks this problem? Once you understand the moving parts you’ll be well positioned to devise a solution.</p>
-<ol type="1">
-<li><strong>Devise a solution</strong></li>
-</ol>
-<p>Tackle the hard bits of the problem head on. What is the most direct way of solving the problem at hand? Prioritize actions that carry the most leverage.</p>
-<ol type="1">
-<li><strong>Implement the solution</strong></li>
-</ol>
-<p>Plans are useless if they are not acted on. Follow through with the actions you’ve identified.</p>
-<ol type="1">
-<li><strong>Recommended Extension: Reflect on the process</strong></li>
-</ol>
-<p>Before repeating the loop you’ll want to take some time and think about all the steps. Where did you struggle the most? How can you improve your process and who could you ask for help? Ask others for feedback and give yourself feedback, it will speed you up: “Learning doesn’t come from experience, it comes from reflecting on experience”.</p>
+<p>Let’s define some simple parameters that determine the quality of friendship:</p>
+<ul>
+<li>T_i: Time spent together during a particular interaction</li>
+<li>Q_i: Quality of time spent together in a particular interaction (on a scale from 0 to 1, where 1 is the highest quality).</li>
+<li>t: Time since the last meeting.</li>
+<li>d: Decay factor (a small constant that controls the deterioration speed of friendship quality).</li>
+</ul>
+<p>Given these parameters, the <strong>quality of friendship F</strong> can be formulated as:</p>
+<p><span class="math display">\[
+F=\frac{\sum(T_i \times Q_i)}{1 + d \times t}
+\]</span></p>
+<p>This suggests that you want to <strong>spend lots of time togethe</strong>r and you want to make sure that the <strong>interactions are of high quality</strong>. So far so good, we know this instinctively.</p>
+<p>But life gets in the way and sometimes it’s hard to make time for friends. Instead, we pursue work, family and other projects. Before you know it, it has been weeks, months or even years since you last contacted each other. This will increase the time since the last meeting and if your friendship is not strong enough and the decay factor is large, it’ll mean that the quality of friendship will suffer. This suggests that you have to <strong>have regular contact proportional to the strength of your existing friendship.</strong></p>
+<p>This shouldn’t be so hard. It’s not rocket science! Why is it that most people have elaborate systems to track tasks at work but shy away from instituting a system that would help them stay in touch with the people who arguably contribute most to their wellbeing?</p>
+<p>Enter the spreadsheet. Treat your friends like customers. The product is your mutual friendship. Friends who make you feel great should be treated like key accounts. Create a Customer Relationship Management System (CRM) or <strong>Friend Relationship Management System (FRM)</strong> to manage your friendships<strong>.</strong></p>
+<p>Here’s a <strong>design proposal</strong>. Don’t overdo it. Keep track of the simple things.</p>
+<p><strong>Table 1: Friends</strong></p>
+<ul>
+<li>Name</li>
+<li>Last Contacted (<em>Lookup Latest Date from <strong>Table 1: Interactions</strong>)</em></li>
+<li>Ideal interaction frequency
+<ul>
+<li>Weekly</li>
+<li>(Optional: Biweekly)</li>
+<li>Monthly</li>
+<li>Quarterly</li>
+<li>Semiannual</li>
+</ul></li>
+<li>Ideal next interaction date (Last contacted + Ideal Interaction frequency)</li>
+<li>[Optional: List of Interaction Files (Linked to <strong><em>Table 2: Interactions</em></strong>)]</li>
+<li>[Optional: List of Interactions]</li>
+</ul>
+<p><strong>Table 2: Interactions</strong></p>
+<ul>
+<li>[Optional: Interaction File]</li>
+<li>Name (Linked to <strong><em>Table 1: Friends</em></strong>)</li>
+<li>Interaction Date</li>
+</ul>
 </section>
 <section id="conclusion" class="level2">
 <h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
-<p>A few general steps underly every success. Make the process work for you and use it as a guiding map.</p>
+<p>Give your friendships the respect they deserve. Make an FRM.</p>
 </section>
 </section>
 <section id="references" class="level1">
 <h1>References</h1>
-<p>Ray Dalio - Principles</p>
-<p>https://www.youtube.com/watch?v=aYqoicJOUuk&amp;ab_channel=PrinciplesbyRayDalio</p>
+<ul>
+<li>Spaced Repetition - Herman Ebbinghaus
+<ul>
+<li>https://ncase.me/remember/</li>
+</ul></li>
+<li>https://waitbutwhy.com/2014/12/10-types-odd-friendships-youre-probably-part.html</li>
+</ul>
 
 
 </section>

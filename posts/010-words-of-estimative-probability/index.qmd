@@ -1,0 +1,45 @@
+---
+title: "Title (Season 1 - Post X)"
+description: ""
+author: "Kay Kozaronek"
+date: "2024-05-21"
+categories: [Mini-Essay, Season 1]
+#image: "media/IMAGE.png"
+draft: true # CHANGE THIS TO PUBLISH
+---
+
+# TITLE:
+
+<p>
+    <center>
+        <img src="media/IMAGE.png"
+        width="100%" height="30%">
+    </center>
+</p>
+
+# Words of estimative probability amplify uncertainty
+
+## **Intro**
+
+[Words_of_estimative_probability](https://en.wikipedia.org/wiki/Words_of_estimative_probability) are words used to indicate degrees of (un)certainty.
+
+## **Body**
+
+Have you ever used words like: possibly, unlikely, likely, rare and certain? Most statements carry some inherent uncertainty. The purpose of these words is to indicate how likely we think something is. The only problem is that their usage usually doesn't achieve the intended purpose. 
+
+Ask yourself (and others) the following: “With what probability do you think an event is going to happen if I say it's ‘possible', ‘likely’, ‘unlikely’ or ‘certain’?” I bet you'll make 2 discoveries: 
+
+1. Your own answers will contain a large range (e.g ‘possibly’ means between 40% and 60%) and 
+2. There'll be a mismatch between your assigned probabilities and those of others (e.g. another person might think 'possibly’ means 15% - 27%).
+
+If the goal is to be precise about our level of uncertainty, then we're clearly missing the mark if the words we use are ambiguous. 
+
+What's the remedy? Quantify your statements. Instead of saying “I think it's almost certain that Anna will bake brownies for her birthday” try saying “I think there's a 90% chance Anna will bake brownies for her birthday". 
+
+## **Conclusion**
+
+Replace words of estimative probability with actual probabilities if precision is what you're aiming for.
+
+# **References**
+
+https://en.wikipedia.org/wiki/Words_of_estimative_probability
