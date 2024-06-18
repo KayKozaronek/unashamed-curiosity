@@ -1,5 +1,5 @@
 ---
-title: "Title (Season 1, Post X)"
+title: "Title (Season 1 - Post X)"
 description: ""
 author: "Kay Kozaronek"
 date: "2024-05-21"

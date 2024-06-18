@@ -1,5 +1,5 @@
 ---
-title: "Identifying A Players through Smart Deference (Season 1, Post 14)"
+title: "Identifying A Players through Smart Deference (Season 1 - Post 14)"
 description: "Smart deferece can help you identify 'A players' for your team by narrowing the search space while reducing false positives."
 author: "Kay Kozaronek"
 date: "2024-06-15"

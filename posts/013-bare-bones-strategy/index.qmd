@@ -1,5 +1,5 @@
 ---
-title: "Bare Bones Strategy (Season 1, Post 13)"
+title: "Bare Bones Strategy (Season 1 - Post 13)"
 description: "A strategy consists of a diagnosis, an implementation policy, and a set of coherent actions. This triad of elements forms the core of a strategy."
 author: "Kay Kozaronek"
 date: "2024-06-06"
