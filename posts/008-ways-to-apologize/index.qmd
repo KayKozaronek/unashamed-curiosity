@@ -5,7 +5,7 @@ author: "Kay Kozaronek"
 date: "2024-05-28"
 categories: [Mini-Essay, Season 1]
 image: "media/apology.png"
-draft: true 
+draft: false 
 ---
 
 # (In)effective ways to apologize
