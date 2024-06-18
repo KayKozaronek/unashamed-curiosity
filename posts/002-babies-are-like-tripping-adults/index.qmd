@@ -25,6 +25,16 @@ Perception is the ability to **accurately experience the stream of information**
 
 These two states of attention are linked to the activity levels in the **brain's default mode network (DMN**), which is most active during normal **adult waking consciousness**. To visualize this, think of adult brains as **cities connected by roads**: a network of sparsely connected nodes with a few high-traffic highways and many smaller roads within any given city.
 
+<p>
+    <center>
+        <img src="media/psilocybin.png" width="100%" height="30%">
+        <figcaption>
+            This is a simplified view of the brain network changes caused by psilocybin compared to a placebo. The two diagrams (a and b) compare brain connections under both conditions, focusing on the strongest connections. Different colors represent brain regions, with connection size and thickness indicating strength. Under psilocybin, connections between regions are more numerous and stronger, suggesting increased brain integration. Image from [Petri et al. 2014](https://royalsocietypublishing.org/doi/epdf/10.1098/rsif.2014.0873)
+        </figcaption>
+    </center>
+</p>
+
+
 Having experienced the world more extensively, adult brains, for better or worse, form shortcuts - **high-traffic intercity highways**. By leveraging their mental model of the world, these shortcuts help adults make sense of information and act quickly without exerting much energy. This is known as [**predictive coding.**](https://en.wikipedia.org/wiki/Predictive_coding) But these shortcuts also come at the cost of perceiving information less accurately. 
 
 Scientific studies indicate that psychedelics reduce DMN activity, increasing connectivity between brain regions (Pollan, 2018). This loosening of DMN control allows novel thinking patterns, as brain areas communicate more freely. It is akin to a shift from spotlight to lantern   attention. For example, a study by [Carhart-Harris et al. (2014)](https://www.frontiersin.org/articles/10.3389/fnhum.2014.00020/full) showed that psychedelics like psilocybin disrupt the DMN, **enhancing sensory perception and cognitive flexibility**.
