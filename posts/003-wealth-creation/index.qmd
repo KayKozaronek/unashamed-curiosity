@@ -1,0 +1,32 @@
+---
+title: "Wealth comes from leverage (Season 1, Post 3)"
+description: ""
+author: "Kay Kozaronek"
+date: "2024-05-23"
+categories: [Mini-Essay, Season 1]
+image: "media/leverage.png"
+draft: true # CHANGE THIS TO PUBLISH
+---
+
+# Wealth comes from leverage
+
+<p>
+    <center>
+        <img src="media/leverage.png"
+        width="100%" height="30%">
+    </center>
+</p>
+
+Why do some people grow wealthy while others don't? The secret lies in one powerful principle: leverage. Leverage is the key that multiplies effort and amplifies outcomes, creating a clear path to wealth.
+
+Consider Bobby, a tireless waiter, who grinds through grueling 80-hour workweeks, yet his relentless efforts scarcely reflect in his paycheck. Bobby's hard work is constrained by the limited leverage of his position — his income is directly tied to the hours he puts in.
+
+Now, let's look at Tim, the savvy owner of the restaurant where Bobby works. Tim toiled tirelessly to establish his business. Now, the daily grind falls to his dedicated staff. By delegating essential tasks to employees like Bobby, Tim has effectively cloned himself, liberating his time for new ventures.
+
+Tim's friend Nina has taken leverage to new heights; she commands a thriving restaurant empire, with scores of managers overseeing a bustling workforce of hundreds of waiters and kitchen staff. By scaling her business, Nina amplifies her leverage — each new restaurant adds to her income without a proportional increase in her time investment.
+
+Nina's friend James, a tech wizard, revolutionized the dining experience with his ingenious food delivery app. This digital marvel enables people like Bobby to effortlessly order from Tim’s or any of Nina's restaurants, with transactions seamlessly handled by the software. James' creation operates on autopilot, effortlessly scaling from ten to a thousand restaurants without demanding more of his time.
+
+To fuel his startup, James secured funding from Julia, a shrewd Venture Capitalist. Julia expertly allocates capital, placing strategic bets on promising companies with the hope of multiplying her investments. Her diverse portfolio boasts around 500 companies, including ten similar food delivery apps, reflecting her knack for spotting lucrative opportunities.
+
+Bobby, Tim, Nina, James, and Julia all have the same 24 hours in a day, yet their use of leverage dramatically differentiates their wealth and success. While Bobby's income remains tethered to his time, the others have found ways to multiply their efforts through delegation, scaling, technology, and investments. Leverage is the ultimate force multiplier in wealth creation. So, ask yourself: how are you leveraging your time?

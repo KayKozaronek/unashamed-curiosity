@@ -1,0 +1,36 @@
+---
+title: "Bare Bones Strategy (Season 1, Post X)"
+description: "A strategy consists of a diagnosis, an implementation policy, and a set of coherent actions. This triad of elements forms the core of a strategy."
+author: "Kay Kozaronek"
+date: "2024-06-06"
+categories: [Mini-Essay, Season 1]
+image: "media/strategy.png"
+draft: false # CHANGE THIS TO PUBLISH
+---
+
+# Bare Bones Strategy - A Triad
+
+<p>
+    <center>
+        <img src="media/strategy.png"
+        width="100%" height="30%">
+    </center>
+</p>
+
+Imagine you're navigating a dense forest, seeking a path to safety. You need a map (diagnosis), a clear route to follow (implementation policy), and a guide to lead you step by step (action plan). At its core, a strategy is just like that – a triad of essential elements that guide you through any complex situation.
+
+A couple comes to Eric's office. As a therapist it's his job to sit them down and talk. They express their frustration with the current situation: too little sex, bad financial decisions, distrust, constant bickering, and pesky in-laws. Through the cloud of annoyance, frustration, anger, grief, and resentfulness, Eric identifies a common pattern: the husband spends more time with his friends than his wife because they don't have common interests in past-time activities. Eric probes the couple with questions to arrive at this **problem diagnosis**.
+
+The obvious next question is: "What can the couple do to fix this issue?" Here are a number of examples of **implementation policies**:
+
+1. Try one new hobby each week until they find something both of them like, then double down. (**Explore & Exploit**)
+2. Integrate the wife into at least one activity per week that the husband does with his friends. (**Social Integration**)
+3. Make the wife commit to doing one activity the husband likes for at least one month, once a week, in the hope that she'll acquire useful skills that make her enjoy the activities more. (**Passion through Skill Building**)
+
+The couple likes option 3. A good plan, however, is useless without putting it into action. So they administer an **action plan**:
+
+1. Agree on an activity (e.g., play snooker together).
+2. Set a recurring meeting that works with both schedules (e.g., Monday 19:00-21:00).
+3. Show up and receive rewards (e.g., have their favorite meal after the snooker game).
+
+There we go. At its bare minimum, a strategy is this: a diagnosis, an implementation policy, and an action plan.
