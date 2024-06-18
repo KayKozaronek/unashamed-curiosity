@@ -1,14 +1,14 @@
 ---
-title: "Title (Season 1, Post X)"
-description: ""
+title: "Identifying A Players through Smart Deference (Season 1, Post 3)"
+description: "Smart deferece can help you identify 'A players' for your team by narrowing the search space while reducing false positives."
 author: "Kay Kozaronek"
-date: "2024-05-21"
+date: "2024-06-15"
 categories: [Mini-Essay, Season 1]
 image: "media/powerlaw-talent.png"
 draft: false # CHANGE THIS TO PUBLISH
 ---
 
-# TITLE:
+# Identifying A Players through Smart Deference
 
 <p>
     <center>
@@ -17,15 +17,10 @@ draft: false # CHANGE THIS TO PUBLISH
     </center>
 </p>
 
-### Identifying A Players through Smart Deference
-
-**Introduction:**
-
 Aren't we all dreaming of assembling a team where each member is not just competent but truly exceptional? 'A players' - top-tier talents who drive innovation and excellence - form the backbone of high-performing teams. However, identifying these individuals is challenging. This essay explores strategies to identify A players by leveraging smart deference, effectively narrowing the search space while reducing hiring mistakes.
 
-**Body:**
 
-### Challenges in Identifying A Players
+## Challenges in Identifying A Players
 
 Recruiting A players might seem daunting at first. The primary challenges include:
 
@@ -33,11 +28,11 @@ Recruiting A players might seem daunting at first. The primary challenges includ
 2. **Limited Resources:** Time and money constraints limit the search.
 3. **High Cost of Mistakes:** Hiring mistakes, such as false positives, lead to high churn or team quality degradation, while false negatives waste valuable resources.
 
-### Smart Deference Strategies
+## Smart Deference Strategies
 
 To overcome these challenges, we can use proxies to narrow our search:
 
-#### Proxy 1: The Top is Usually Highlighted
+### Proxy 1: The Top is Usually Highlighted
 
 Paradoxically, it is probably easier to find an A* player than an A or B player. This is due to the power law distribution of talent and achievement, where the higher you get to the top of any field, the less crowded it usually becomes.
 
@@ -46,7 +41,7 @@ Paradoxically, it is probably easier to find an A* player than an A or B player.
 - **Identify the Top Contributors:** Start by identifying the most important contributors in a field.
 - **Prioritize Effort:** Only move to the next rank if no progress is made with the top candidates after considerable effort.
 
-#### Proxy 2: A Players Surround Themselves with Other A Players
+### Proxy 2: A Players Surround Themselves with Other A Players
 
 A players tend to associate with other A players. Identify one noed to tap into their network of excellence.
 
@@ -56,7 +51,7 @@ A players tend to associate with other A players. Identify one noed to tap into 
 - **Ask for References:** Request references and build relationships with these individuals.
 - **Repeat the Process:** Habitually ask, “Who is the most impressive person you know who does X, and why?” and seek introductions.
 
-#### Proxy 3: A Players Work on Impressive Projects
+### Proxy 3: A Players Work on Impressive Projects
 
 A players are often involved in high-impact projects that exemplify the quality of work you seek.
 
@@ -66,7 +61,7 @@ A players are often involved in high-impact projects that exemplify the quality 
 - **Contact Key Contributors:** Reach out to the individuals responsible for these projects, such as first authors on scientific papers or engineering leads behind notable products.
 - **Leverage Your Network:** Ask existing A players to help identify impressive projects.
 
-#### Proxy 4: A Players are Entrepreneurial
+### Proxy 4: A Players are Entrepreneurial
 
 Although entrepreneurial individuals exist in large organizations, they are often harder to identify due to internal hurdles. In contrast, their contributions are more visible in smaller companies.
 
@@ -75,6 +70,5 @@ Although entrepreneurial individuals exist in large organizations, they are ofte
 - **Identify Traction-Driven Startups or Nonprofits :** Look for startups with traction, but avoid being swayed by hype.
 - **Reach Out to Key Players:** Contact individuals working in these startups, usually less than 15 people.
 
-**Conclusion:**
 
-Constrain your search space for A players by deferring to the top, other A players, impressive projects, and small high-performance companies. This strategy aims to reduce false positives, decreasing the pool of potential candidates while enhancing the efficiency and effectiveness of the hiring process.
+To conclude, constrain your search space for A players by deferring to the top, other A players, impressive projects, and small high-performance companies. This strategy aims to reduce false positives, decreasing the pool of potential candidates while enhancing the efficiency and effectiveness of the hiring process.
