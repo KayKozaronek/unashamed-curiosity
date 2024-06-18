@@ -1,0 +1,39 @@
+---
+title: "It Matters Who Is Telling Your Story (Season 1, Post 6)"
+description: ""
+author: "Kay Kozaronek"
+date: "2024-05-26"
+categories: [Mini-Essay, Season 1]
+image: "media/yourstory.png"
+draft: true # CHANGE THIS TO PUBLISH
+---
+
+# It Matters Who Is Telling Your Story
+
+<p>
+    <center>
+        <img src="media/yourstory.png"
+        width="100%" height="30%">
+    </center>
+</p>
+
+
+Have you ever wondered how differently your life could be perceived through someone else's eyes? Stop for a second and marvel at the fact most of life is up to subjective interpretation. Consider these two accounts:
+
+“I am boring. I wake up at the same time every morning. I drink the same brand of coffee, do the same exercise routine, shop at the same supermarket, and take the same road to work. I am a senior accountant at a large firm. Just a tiny cog in an indifferent system. I suck.”
+
+“My dad is amazing. He is so disciplined and consistent. He never fails to get up at 6:00 to prepare coffee and the most delicious family breakfast. His tall and handsome frame make him look like Superman when he puts on his suit for work. I admire how strong he is, especially when he carries four shopping bags from the car to the kitchen in one go. He makes a lot of important decisions at work, leading a team of ten people. He's my hero.”
+
+Both of these accounts describe the same person, yet they take vastly different perspectives. It can be transformative to renew your sense of self by deliberately adopting a different viewpoint. Who is in charge of your story now? Are you over-relying on a rotten self-image or skewed opinion others hold of you? Take a different vantage point to reinvent yourself without remaking yourself.
+
+Identify who is telling your story and how they are doing it. It matters more than you think.
+
+::: {.callout-tip}
+# Inspiration
+
+This piece was inspired by “How to Change Your Mind” (p. 413), where Michael Pollan writes about a type of naturally occurring mystical experience called **savikalpa samadhi**, in the context of astronauts seeing the “Pale Blue Dot” for the first time. This is also known as the [overview effect](https://en.wikipedia.org/wiki/Overview_effect).
+
+> *“[…] the ego vanishes when confronted with the immensity of the universe during the course of a meditation on an object—in this case, planet Earth.”*
+:::
+
+

@@ -5,7 +5,7 @@ author: "Kay Kozaronek"
 date: "2024-05-23"
 categories: [Mini-Essay, Season 1]
 image: "media/leverage.png"
-draft: true # CHANGE THIS TO PUBLISH
+draft: false # CHANGE THIS TO PUBLISH
 ---
 
 # Wealth comes from leverage
