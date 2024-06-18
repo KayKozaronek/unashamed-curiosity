@@ -43,8 +43,3 @@ In young children, the DMN is less developed and less active, correlating with a
 
 Children, like tripping adults possess a heightened ability to perceive reality, due to their **less pronounced sense of self and more diffused attention**. Temporarily disarming the default mode network may afford us a fresh look at the world free from the constraints of the mental models we have constructed over time.
 
-# References
-
-- Pollan, Michael. *How to Change Your Mind*. Chapter Five: The Neuroscience (p. 348-395).
-- https://www.frontiersin.org/articles/10.3389/fnhum.2014.00020/full 
-- https://en.wikipedia.org/wiki/Predictive_coding 
