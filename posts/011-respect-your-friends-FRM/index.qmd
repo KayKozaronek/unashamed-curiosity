@@ -1,55 +1,50 @@
 ---
-title: "Title (Season 1 - Post X)"
+title: "Respect your friends, create an FRM (Season 1 - Post 11)"
 description: ""
 author: "Kay Kozaronek"
-date: "2024-05-21"
+date: "2024-05-31"
 categories: [Mini-Essay, Season 1]
 #image: "media/IMAGE.png"
-draft: true # CHANGE THIS TO PUBLISH
+draft: false 
 ---
 
-# TITLE:
+# Respect your friends, create an FRM
 
-<p>
+<!-- <p>
     <center>
         <img src="media/IMAGE.png"
         width="100%" height="30%">
     </center>
-</p>
+</p> -->
 
+The other day, I looked at my phone and was horrified to realize it had been 18 months since I last spoke to a once very dear friend. It's a sinking feeling. I wondered, "How can we avoid drifting apart from friends?" and "What factors influence the strength of our relationships?"
 
-# Respect your friends, create an FRM
+Let's start by breaking down the key elements that shape our friendships:
 
-## Intro
+- **$T_i$**: The time ($T$) we spend together in any given interaction ($i$).
+- **$Q_i$**: The quality ($Q$) of that time in any given interaction ($i$).
+- **$t$**: The time elapsed since our last meeting.
+- **$d$**: A small decay factor representing how quickly the quality of friendship deteriorates over time.
 
-Do you ever feel like you've lost touch with a friend? How can you avoid this and what are the factors at play?
-
-## Body
-
-Let’s define some simple parameters that determine the quality of friendship:
-
-- T_i: Time spent together during a particular interaction
-- Q_i: Quality of time spent together in a particular interaction (on a scale from 0 to 1, where 1 is the highest quality).
-- t: Time since the last meeting.
-- d: Decay factor (a small constant that controls the deterioration speed of friendship quality).
-
-Given these parameters, the **quality of friendship F** can be formulated as:
+Using these parameters, we can create a formula to quantify the **quality of friendship ($F$)**:
 
 $$
-F=\frac{\sum(T_i \times Q_i)}{1 + d \times t}
+F=\frac{\sum_{i} (T_i \times Q_i)}{1 + d \times t}
 $$
 
-This suggests that you want to **spend lots of time togethe**r and you want to make sure that the **interactions are of high quality**. So far so good, we know this instinctively. 
+This formula shows that to maintain high friendship quality, we need to spend meaningful time together regularly. In other words, $F$ is high, if $T$ is high and $Q$ is high
 
-But life gets in the way and sometimes it's hard to make time for friends. Instead, we pursue work, family and other projects. Before you know it, it has been weeks, months or even years since you last contacted each other. This will increase the time since the last meeting and if your friendship is not strong enough and the decay factor is large, it'll mean that the quality of friendship will suffer. This suggests that you have to **have regular contact proportional to the strength of your existing friendship.**
+This means we should **have many interactions ($i$)**, **spend ample time together during these interactions ($T$)** and ensure that our **interactions are meaningful and qualitative ($Q$)**. Intuitively, we already know this.
 
-This shouldn't be so hard. It's not rocket science! Why is it that most people have elaborate systems to track tasks at work but shy away from instituting a system that would help them stay in touch with the people who arguably contribute most to their wellbeing? 
+However, life often gets in the way. We juggle work, family, and other commitments, and before we know it, weeks or even months have passed without any contact ($t$ increases). The longer we go without connecting, the more our friendships deteriorate, especially if they're not particularly strong to begin with (large deterioration factor $d$). This highlights the need for **regular contact that matches the strength of our friendship**.
 
-Enter the spreadsheet. Treat your friends like customers. The product is your mutual friendship. Friends who make you feel great should be treated like key accounts. Create a Customer Relationship Management System (CRM) or **Friend Relationship Management System (FRM)** to manage your friendships**.** 
+Managing friendships isn't rocket science! We use sophisticated systems to track work tasks, so why not apply a similar approach to our personal lives? It doesn't have to be so hard. 
 
-Here's a **design proposal**. Don't overdo it. Keep track of the simple things. 
+Enter the **Customer Relationship Management System (CRM)**. Think of your friends as valued customers and your friendship as a continuous business relationship. The joy you feel from sustained friendships is akin to positive cashflow from keeping your customers happy. Treat your most important friends like key accounts. Implement a **Friend Relationship Management System (FRM)** to keep track of your friendships.
 
-**Table 1: Friends** 
+Here's a design proposal. Don't overdo it. Keep track of the simple things.
+
+**Table 1: Friends**
 
 - Name
 - Last Contacted (*Lookup Latest Date from **Table 1: Interactions**)*
@@ -69,12 +64,15 @@ Here's a **design proposal**. Don't overdo it. Keep track of the simple things.
 - Name (Linked to ***Table 1: Friends***)
 - Interaction Date
 
-## Conclusion
+Give your friendships the respect they deserve. Start an FRM today and watch your business thrive. Ehm, I mean your friendships. Watch them thrive! 
 
-Give your friendships the respect they deserve. Make an FRM.
-
-# References
+:::::: {.callout-tip}
+Other interesting resources that helped shape the ideas in this post:
 
 - Spaced Repetition - Herman Ebbinghaus
-    - https://ncase.me/remember/
-- https://waitbutwhy.com/2014/12/10-types-odd-friendships-youre-probably-part.html
+  - https://ncase.me/remember/
+- Odd types of friendships
+  - https://waitbutwhy.com/2014/12/10-types-odd-friendships-youre-probably-part.html
+- Unreasonable Hospitality
+  - https://www.amazon.com/Unreasonable-Hospitality-Remarkable-Giving-People/dp/0593418573
+:::

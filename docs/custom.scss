@@ -1,0 +1,25 @@
+/* custom.scss */
+@import "sketchy";
+
+/* Ensure all bold text is bold */
+strong, b {
+    font-weight: 700 !important;
+}
+
+/* Specific rules to override any conflicts */
+body strong, body b {
+    font-weight: 700 !important;
+}
+
+html body strong, html body b {
+    font-weight: 700 !important;
+}
+
+article strong, article b, section strong, section b, div strong, div b {
+    font-weight: 700 !important;
+}
+
+/* Even higher specificity if needed */
+div article strong, div article b, section article strong, section article b {
+    font-weight: 700 !important;
+}

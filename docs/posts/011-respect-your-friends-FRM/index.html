@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Kay Kozaronek">
-<meta name="dcterms.date" content="2024-05-21">
+<meta name="dcterms.date" content="2024-05-31">
 
-<title>Unashamed Curiosity - Title (Season 1 - Post X)</title>
+<title>Unashamed Curiosity - Respect your friends, create an FRM (Season 1 - Post 11)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -107,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Title (Season 1 - Post X)</h1>
+      <h1 class="title">Respect your friends, create an FRM (Season 1 - Post 11)</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">Mini-Essay</div>
                 <div class="quarto-category">Season 1</div>
@@ -128,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">May 21, 2024</p>
+        <p class="date">May 31, 2024</p>
       </div>
     </div>
     
@@ -146,38 +146,32 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="title" class="level1">
-<h1>TITLE:</h1>
-<p>
-</p><center>
-<img src="media/IMAGE.png" width="100%" height="30%">
-</center>
-<p></p>
-</section>
 <section id="respect-your-friends-create-an-frm" class="level1">
 <h1>Respect your friends, create an FRM</h1>
-<section id="intro" class="level2">
-<h2 class="anchored" data-anchor-id="intro">Intro</h2>
-<p>Do you ever feel like you’ve lost touch with a friend? How can you avoid this and what are the factors at play?</p>
-</section>
-<section id="body" class="level2">
-<h2 class="anchored" data-anchor-id="body">Body</h2>
-<p>Let’s define some simple parameters that determine the quality of friendship:</p>
+<!-- <p>
+    <center>
+        <img src="media/IMAGE.png"
+        width="100%" height="30%">
+    </center>
+</p> -->
+<p>The other day, I looked at my phone and was horrified to realize it had been 18 months since I last spoke to a once very dear friend. It’s a sinking feeling. I wondered, “How can we avoid drifting apart from friends?” and “What factors influence the strength of our relationships?”</p>
+<p>Let’s start by breaking down the key elements that shape our friendships:</p>
 <ul>
-<li>T_i: Time spent together during a particular interaction</li>
-<li>Q_i: Quality of time spent together in a particular interaction (on a scale from 0 to 1, where 1 is the highest quality).</li>
-<li>t: Time since the last meeting.</li>
-<li>d: Decay factor (a small constant that controls the deterioration speed of friendship quality).</li>
+<li><strong><span class="math inline">\(T_i\)</span></strong>: The time (<span class="math inline">\(T\)</span>) we spend together in any given interaction (<span class="math inline">\(i\)</span>).</li>
+<li><strong><span class="math inline">\(Q_i\)</span></strong>: The quality (<span class="math inline">\(Q\)</span>) of that time in any given interaction (<span class="math inline">\(i\)</span>).</li>
+<li><strong><span class="math inline">\(t\)</span></strong>: The time elapsed since our last meeting.</li>
+<li><strong><span class="math inline">\(d\)</span></strong>: A small decay factor representing how quickly the quality of friendship deteriorates over time.</li>
 </ul>
-<p>Given these parameters, the <strong>quality of friendship F</strong> can be formulated as:</p>
+<p>Using these parameters, we can create a formula to quantify the <strong>quality of friendship (<span class="math inline">\(F\)</span>)</strong>:</p>
 <p><span class="math display">\[
-F=\frac{\sum(T_i \times Q_i)}{1 + d \times t}
+F=\frac{\sum_{i} (T_i \times Q_i)}{1 + d \times t}
 \]</span></p>
-<p>This suggests that you want to <strong>spend lots of time togethe</strong>r and you want to make sure that the <strong>interactions are of high quality</strong>. So far so good, we know this instinctively.</p>
-<p>But life gets in the way and sometimes it’s hard to make time for friends. Instead, we pursue work, family and other projects. Before you know it, it has been weeks, months or even years since you last contacted each other. This will increase the time since the last meeting and if your friendship is not strong enough and the decay factor is large, it’ll mean that the quality of friendship will suffer. This suggests that you have to <strong>have regular contact proportional to the strength of your existing friendship.</strong></p>
-<p>This shouldn’t be so hard. It’s not rocket science! Why is it that most people have elaborate systems to track tasks at work but shy away from instituting a system that would help them stay in touch with the people who arguably contribute most to their wellbeing?</p>
-<p>Enter the spreadsheet. Treat your friends like customers. The product is your mutual friendship. Friends who make you feel great should be treated like key accounts. Create a Customer Relationship Management System (CRM) or <strong>Friend Relationship Management System (FRM)</strong> to manage your friendships<strong>.</strong></p>
-<p>Here’s a <strong>design proposal</strong>. Don’t overdo it. Keep track of the simple things.</p>
+<p>This formula shows that to maintain high friendship quality, we need to spend meaningful time together regularly. In other words, <span class="math inline">\(F\)</span> is high, if <span class="math inline">\(T\)</span> is high and <span class="math inline">\(Q\)</span> is high</p>
+<p>This means we should <strong>have many interactions (<span class="math inline">\(i\)</span>)</strong>, <strong>spend ample time together during these interactions (<span class="math inline">\(T\)</span>)</strong> and ensure that our <strong>interactions are meaningful and qualitative (<span class="math inline">\(Q\)</span>)</strong>. Intuitively, we already know this.</p>
+<p>However, life often gets in the way. We juggle work, family, and other commitments, and before we know it, weeks or even months have passed without any contact (<span class="math inline">\(t\)</span> increases). The longer we go without connecting, the more our friendships deteriorate, especially if they’re not particularly strong to begin with (large deterioration factor <span class="math inline">\(d\)</span>). This highlights the need for <strong>regular contact that matches the strength of our friendship</strong>.</p>
+<p>Managing friendships isn’t rocket science! We use sophisticated systems to track work tasks, so why not apply a similar approach to our personal lives? It doesn’t have to be so hard.</p>
+<p>Enter the <strong>Customer Relationship Management System (CRM)</strong>. Think of your friends as valued customers and your friendship as a continuous business relationship. The joy you feel from sustained friendships is akin to positive cashflow from keeping your customers happy. Treat your most important friends like key accounts. Implement a <strong>Friend Relationship Management System (FRM)</strong> to keep track of your friendships.</p>
+<p>Here’s a design proposal. Don’t overdo it. Keep track of the simple things.</p>
 <p><strong>Table 1: Friends</strong></p>
 <ul>
 <li>Name</li>
@@ -200,21 +194,34 @@ F=\frac{\sum(T_i \times Q_i)}{1 + d \times t}
 <li>Name (Linked to <strong><em>Table 1: Friends</em></strong>)</li>
 <li>Interaction Date</li>
 </ul>
-</section>
-<section id="conclusion" class="level2">
-<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
-<p>Give your friendships the respect they deserve. Make an FRM.</p>
-</section>
-</section>
-<section id="references" class="level1">
-<h1>References</h1>
+<p>Give your friendships the respect they deserve. Start an FRM today and watch your business thrive. Ehm, I mean your friendships. Watch them thrive!</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Other interesting resources that helped shape the ideas in this post:</p>
 <ul>
 <li>Spaced Repetition - Herman Ebbinghaus
 <ul>
 <li>https://ncase.me/remember/</li>
 </ul></li>
+<li>Odd types of friendships
+<ul>
 <li>https://waitbutwhy.com/2014/12/10-types-odd-friendships-youre-probably-part.html</li>
+</ul></li>
+<li>Unreasonable Hospitality
+<ul>
+<li>https://www.amazon.com/Unreasonable-Hospitality-Remarkable-Giving-People/dp/0593418573</li>
+</ul></li>
 </ul>
+</div>
+</div>
 
 
 </section>
