@@ -1,9 +1,8 @@
 ---
-title: "Words of estimative probability amplify uncertainty
- (Season 1 - Post 10)"
-description: ""
+title: "Words of estimative probability amplify uncertainty (Season 1 - Post 10)"
+description: "I'm almost certainly unsure you're occasionally likely to definitively not use words of estimative probability. Probably..."
 author: "Kay Kozaronek"
-date: "2024-05-21"
+date: "2024-05-30"
 categories: [Mini-Essay, Season 1]
 image: "media/uncertain_words_2.png"
 draft: false

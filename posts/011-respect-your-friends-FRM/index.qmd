@@ -1,25 +1,25 @@
 ---
 title: "Respect your friends, create an FRM (Season 1 - Post 11)"
-description: ""
+description: "Discover how to maintain meaningful friendships with a simple system."
 author: "Kay Kozaronek"
 date: "2024-05-31"
 categories: [Mini-Essay, Season 1]
-#image: "media/IMAGE.png"
+image: "media/FRM.png"
 draft: false 
 ---
 
 # Respect your friends, create an FRM
 
-<!-- <p>
+<p>
     <center>
-        <img src="media/IMAGE.png"
+        <img src="media/FRM.png"
         width="100%" height="30%">
     </center>
-</p> -->
+</p>
 
-The other day, I looked at my phone and was horrified to realize it had been 18 months since I last spoke to a once very dear friend. It's a sinking feeling. I wondered, "How can we avoid drifting apart from friends?" and "What factors influence the strength of our relationships?"
+The other day, I looked at my phone and was horrified to realize it had been 18 months since I last spoke to a once very dear friend. It's a sinking feeling. It made me wonder: "How can we avoid drifting apart from friends?" and "What factors influence the strength of our relationships?"
 
-Let's start by breaking down the key elements that shape our friendships:
+Since I'm a geek we'll start by breaking down the key elements that shape our friendships:
 
 - **$T_i$**: The time ($T$) we spend together in any given interaction ($i$).
 - **$Q_i$**: The quality ($Q$) of that time in any given interaction ($i$).
@@ -44,10 +44,10 @@ Enter the **Customer Relationship Management System (CRM)**. Think of your frien
 
 Here's a design proposal. Don't overdo it. Keep track of the simple things.
 
-**Table 1: Friends**
+### **Table 1: Friends**
 
 - Name
-- Last Contacted (*Lookup Latest Date from **Table 1: Interactions**)*
+- Last Contacted (*Lookup Latest Date from **Table 2: Interactions**)*
 - Ideal interaction frequency
     - Weekly
     - (Optional: Biweekly)
@@ -58,7 +58,7 @@ Here's a design proposal. Don't overdo it. Keep track of the simple things.
 - [Optional: List of Interaction Files (Linked to ***Table 2: Interactions***)]
 - [Optional: List of Interactions]
 
-**Table 2: Interactions**
+### **Table 2: Interactions**
 
 - [Optional: Interaction File]
 - Name (Linked to ***Table 1: Friends***)

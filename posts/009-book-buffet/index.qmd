@@ -1,6 +1,6 @@
 ---
 title: "Two ways of reading - Book Buffet (Season 1 - Post 9)"
-description: ""
+description: "I’m inviting you to try a book buffet. Are you hungry?"
 author: "Kay Kozaronek"
 date: "2024-05-29"
 categories: [Mini-Essay, Season 1]
