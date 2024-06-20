@@ -29,7 +29,7 @@
       "roundness": {
         "type": 2
       },
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1718799250223,
       "link": null,
       "locked": false
@@ -60,7 +60,7 @@
       "roundness": {
         "type": 2
       },
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1718799250223,
       "link": null,
       "locked": false,
@@ -106,7 +106,7 @@
       "roundness": {
         "type": 2
       },
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1718799250223,
       "link": null,
       "locked": false,
@@ -164,7 +164,7 @@
       "roundness": {
         "type": 2
       },
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1718799250223,
       "link": null,
       "locked": false
@@ -195,7 +195,7 @@
       "roundness": {
         "type": 2
       },
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1718799250223,
       "link": null,
       "locked": false
@@ -226,7 +226,7 @@
       "roundness": {
         "type": 2
       },
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1718799250223,
       "link": null,
       "locked": false,
@@ -272,7 +272,7 @@
       "roundness": {
         "type": 2
       },
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1718799250223,
       "link": null,
       "locked": false,
@@ -316,7 +316,7 @@
       ],
       "frameId": null,
       "roundness": null,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1718799250223,
       "link": null,
       "locked": false
@@ -347,7 +347,7 @@
       "roundness": {
         "type": 2
       },
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1718799250223,
       "link": null,
       "locked": false,
@@ -401,7 +401,7 @@
       "roundness": {
         "type": 2
       },
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1718799250223,
       "link": null,
       "locked": false,
@@ -426,40 +426,40 @@
       ]
     },
     {
-      "id": "LlrBj8WeOnKd5-M9Kku3y",
       "type": "text",
-      "x": 398.63568281295466,
-      "y": 192.35005721189088,
-      "width": 203.3585662841797,
-      "height": 80.08067079419772,
-      "angle": 0,
-      "strokeColor": "#1e1e1e",
-      "backgroundColor": "transparent",
+      "version": 280,
+      "versionNonce": 766189500,
+      "isDeleted": false,
+      "id": "LlrBj8WeOnKd5-M9Kku3y",
       "fillStyle": "solid",
       "strokeWidth": 2,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
+      "angle": 0,
+      "x": 398.50287031295466,
+      "y": 192.35005721189088,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 203.3585662841797,
+      "height": 80.08067079419772,
+      "seed": 1481101120,
       "groupIds": [],
       "frameId": null,
       "roundness": null,
-      "seed": 1481101120,
-      "version": 278,
-      "versionNonce": 1930946368,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1718799250223,
+      "boundElements": [],
+      "updated": 1718811808378,
       "link": null,
       "locked": false,
-      "text": "Hey, I'm almost certainly \nunsure you're occasionally likely \nto definitively not use \nwords of estimative probability.\nProbably... ",
       "fontSize": 12.812907327071635,
       "fontFamily": 1,
+      "text": "Hey, I'm almost certainly \nunsure you're occasionally likely \nto definitively not use \nwords of estimative probability.\nProbably... ",
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 75,
       "containerId": null,
       "originalText": "Hey, I'm almost certainly \nunsure you're occasionally likely \nto definitively not use \nwords of estimative probability.\nProbably... ",
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "baseline": 75
     },
     {
       "type": "ellipse",
@@ -751,33 +751,38 @@
       ]
     },
     {
-      "id": "KL6nSI52wELb5KCS2Kf5E",
       "type": "line",
-      "x": 773.102375999833,
-      "y": 337.6229653752878,
-      "width": 22.46875,
-      "height": 0.40234375,
-      "angle": 0,
-      "strokeColor": "#1971c2",
-      "backgroundColor": "#a5d8ff",
+      "version": 47,
+      "versionNonce": 1162495808,
+      "isDeleted": false,
+      "id": "KL6nSI52wELb5KCS2Kf5E",
       "fillStyle": "solid",
       "strokeWidth": 1,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
+      "angle": 0,
+      "x": 773.102375999833,
+      "y": 337.6229653752878,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "width": 22.46875,
+      "height": 0.40234375,
+      "seed": 1259824320,
       "groupIds": [],
       "frameId": null,
       "roundness": {
         "type": 2
       },
-      "seed": 1259824320,
-      "version": 47,
-      "versionNonce": 1162495808,
-      "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1718799250223,
       "link": null,
       "locked": false,
+      "startBinding": null,
+      "endBinding": null,
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": null,
       "points": [
         [
           0,
@@ -787,12 +792,7 @@
           22.46875,
           0.40234375
         ]
-      ],
-      "lastCommittedPoint": null,
-      "startBinding": null,
-      "endBinding": null,
-      "startArrowhead": null,
-      "endArrowhead": null
+      ]
     },
     {
       "type": "ellipse",
@@ -928,40 +928,40 @@
       ]
     },
     {
-      "id": "sp3RTKsoefIL3aWB43a53",
       "type": "text",
-      "x": 496.5409876712789,
-      "y": 343.07575561153527,
-      "width": 210.839599609375,
-      "height": 48.048402476518625,
-      "angle": 0,
-      "strokeColor": "#1e1e1e",
-      "backgroundColor": "transparent",
+      "version": 701,
+      "versionNonce": 702331652,
+      "isDeleted": false,
+      "id": "sp3RTKsoefIL3aWB43a53",
       "fillStyle": "solid",
       "strokeWidth": 2,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
+      "angle": 0,
+      "x": 496.5409876712789,
+      "y": 343.07575561153527,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 210.839599609375,
+      "height": 48.048402476518625,
+      "seed": 559846592,
       "groupIds": [],
       "frameId": null,
       "roundness": null,
-      "seed": 559846592,
-      "version": 700,
-      "versionNonce": 736298176,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1718799250223,
+      "boundElements": [],
+      "updated": 1718811806393,
       "link": null,
       "locked": false,
-      "text": "Yeah well...\nWe should stop being friends, Jim.\n",
       "fontSize": 12.812907327071635,
       "fontFamily": 1,
+      "text": "Yeah well...\nWe should stop being friends, Jim.\n",
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 43,
       "containerId": null,
       "originalText": "Yeah well...\nWe should stop being friends, Jim.\n",
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "baseline": 43
     }
   ],
   "appState": {

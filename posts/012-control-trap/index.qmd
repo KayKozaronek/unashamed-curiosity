@@ -1,46 +1,39 @@
 ---
-title: "Title (Season 1 - Post X)"
-description: ""
+title: "Control - Watch out, it might be a trap (Season 1 - Post 12)"
+description: "This post explores the concept of seeking control over one's career and highlights two significant traps—lack of career capital and resistance from others."
 author: "Kay Kozaronek"
-date: "2024-05-21"
+date: "2024-06-05"
 categories: [Mini-Essay, Season 1]
-#image: "media/IMAGE.png"
-draft: true # CHANGE THIS TO PUBLISH
+image: "media/control_trap.png"
+draft: false
 ---
 
-# TITLE:
+# Control - Watch out, it might be a trap
 
 <p>
     <center>
-        <img src="media/IMAGE.png"
+        <img src="media/control_trap.png"
         width="100%" height="30%">
     </center>
 </p>
 
-# Control - Watch out, it might be a trap
+Tim, an inexperienced software developer, dreams of launching his own tech startup. He boldly breaks free from his corporate chains and dives headfirst into entrepreneurship. His excitement quickly turns to despair as he realizes he lacks the business savvy, professional network, management experience, and financial stability to succeed. Humbled, Tim returns to the corporate grind with the intent to diligently build his skills. When he finally feels ready to leave again, he faces significant resistance: his employer fights to keep him, and his peers advise caution. Having control over your career, while desirable, can sometimes be a double-edged sword. Seeking out control can come with two significant traps. Let's look at each in turn.
 
-## Intro
+### 1. **The Low Career Capital Trap**
 
-All things being equal, having a higher degree of control over what you work on is good. However, seeking out control can come with 2 traps.
+[Career capital refers to the relevant and rare skills & resources you accumulate over time.](https://www.amazon.com/Good-They-Cant-Ignore-You/dp/1455509124) It’s the currency that buys you freedom in your professional journey. If you seek control over your work without sufficient career capital, you might quit your job only to find your options limited and your ability to pursue them inadequate. Avoid this trap by building ample career capital first. 
 
-## Body
+When Tim first tried to leave, his career capital was insufficient to sustain the degree of control he desired. He was wise to return and build more capital before planning his second exit.
 
-1. **The low career capital trap** 
+### 2. **The Resistance Trap**
 
-Career capital refers to the amount of relevant and rare skills you have. Interesting opportunities are afforded by spending your career capital. If you seek out more control over your work without any career capital you might find yourself quitting your job only to realize that your options are very limited or that you have no means to competently pursue them. Avoid this trap by acquiring enough career capital first. 
+When Tim finally felt ready to leave again after building his career capital, he encountered significant resistance. His employer, recognizing his value, fought hard to retain him with offers of promotion and incentives. Meanwhile, his peers urged him to stay on the conventional path, warning him of the risks of entrepreneurship and reminding him of the sweet taste of a regular income. This resistance, while frustrating, was a clear sign that Tim had amassed enough career capital to pursue and exercise control over his professional path confidently.
 
-1. **The resistance trap**
 
-In case you want to quit your job and you have enough career capital you will find resistance from other people. This is precisely the point at which your employer will want to keep you. They will make it harder for you to quit. Others will notice too and they will advise you to pursue a well trodden path instead of seeking more control. Don't succumb to the resistance and take it for what it is: a sign you have enough career capital to acquire and exercise control.
+### 3. **The Remedy: Financial Viability**
 
-1. **The remedy: Financial Viability**
+Even if you overcome these two traps, maintaining control over your work can still be challenging. Financial viability often determines whether you can continue to control your work. To that end, follow this maxim: "Do what others are willing to pay for."
 
-Even if you overcome these 2 traps you might find that it is not easy to  maintain control over your work. More often than not financial viability determines whether you can continue control. To that end, follow this maxim: “Do what others are willing to pay for”. 
+Tim learned the hard way that financial viability is crucial. His first venture failed due to a lack of financial planning and sustainable revenue. Determined to avoid repeating his mistakes, Tim meticulously planned his new startup, ensuring it offered services clients were eager to pay for. By prioritizing financial sustainability, Tim was able to secure the control he desired over his career and continue his entrepreneurial journey with confidence.
 
-## Conclusion
-
-Stay clear of the 2 traps that prohibit you from gaining control. Find a way to make your projects financially viable to retain it.
-
-# References
-
-Cal Newport - So Good They Can't Ignore You
+Avoid the two traps that hinder your quest for control. Ensure your projects are financially viable to sustain them. Remember, control is a powerful tool—wield it wisely and with foresight.
