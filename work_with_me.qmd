@@ -1,0 +1,412 @@
+---
+title: "Work With Me"
+about:
+  template: marquee
+  links:
+    - icon: linkedin
+      text: Kay
+      href: https://www.linkedin.com/in/kay-kozaronek/
+    - icon: github
+      text: Kay
+      href: https://github.com/KayKozaronek
+---
+
+### What is it like to work with me?
+
+Welcome to my “Work with Me” document. My name is Kay Kozaronek, and I am a self-taught generalist dedicated to ensuring the safe development of Artificial General Intelligence (AGI). My diverse background spans machine learning research engineering, management consulting, and non-profit startup experience, allowing me to thrive at the intersection of these fields. Known for my clear communication, I excel in environments that value honest, frequent feedback.
+
+Outside of work, I am an aspiring triathlete, musician, reader, and humorist. The purpose of this document is to give potential co-founders and other close professional contacts a sense of who I am, what I am good at, my shortcomings, and how I like to work. 
+
+### My Values
+
+**The Value of Values**
+
+Knowing what you and the people around you value is crucial. It can make you a better person, coworker, friend, family member, or spouse. After conducting an exercise on my values, I arrived at my top values:
+
+#### Top 10 Values
+1. **Independence**: I cherish autonomy and the freedom to make my own decisions. Financial freedom, in particular, empowers me to decide what I want to do, where I want to be, and who I want to spend my time with.
+2. **Excellence**: Striving for excellence drives me to perform at my best and achieve high standards in everything I do.
+3. **Growth**: Continuous personal and professional growth is essential to me. I seek opportunities to learn and develop.
+4. **Ambition**: My ambition fuels my drive to achieve my goals and make a significant impact.
+5. **Fun**: Enjoying life and having fun are important aspects of my well-being. I believe that work and life should both be enjoyable.
+6. **Curiosity**: My curiosity pushes me to explore new ideas and experiences. I love learning and discovering new things.
+7. **Risk-Taking**: I am not afraid to take calculated risks to achieve my goals and explore new opportunities.
+8. **Education**: Valuing education means I prioritize learning and knowledge acquisition in my life.
+9. **Order**: Maintaining order helps me stay organized and focused, leading to better quality and productivity.
+10. **Responsibility**: Taking responsibility for my actions and commitments is a fundamental principle I live by.
+
+<!-- #### Unique Values
+- **Information-Density**: I value the efficiency of communication and the ability to convey important information concisely and effectively.
+
+#### How I Discovered My Values
+When I found myself in a crisis, a helping hand pointed me to the value of understanding my values. This exercise was a turning point, helping me clarify who I am and what I value. Knowing who you are is imperative to everything you'll ever do. Through a "Clarify Your Values" exercise, I identified what matters most to me.
+
+This exercise involved sorting values into three categories: "Matters most to me," "Matters some to me," and "Doesn't matter to me." It was a reflective process that revealed a lot about my priorities and helped me design a life aligned with my values.
+
+Here are some other values I identified during this exercise:
+
+#### Matters Most to Me
+- **Self-Awareness**
+- **Social Connection**
+- **Passion**
+- **Love**
+- **Optimism**
+- **Respect**
+- **Gratitude**
+- **Genuineness**
+- **Courage**
+- **Resilience**
+- **Contribution**
+- **Self-Expression**
+- **Knowledge**
+- **Creativity**
+- **Career**
+- **Integrity**
+- **Success**
+- **Self-Respect**
+- **Purpose**
+- **Thrift**
+- **Openness**
+- **Vulnerability**
+- **Humor**
+- **Assertiveness**
+- **Forgiveness**
+- **Leadership**
+- **Rationality**
+- **Adventure**
+- **Non-Conformity**
+- **Simplicity**
+
+#### Matters Some to Me
+- **Justice**
+- **Humility**
+- **Work Ethic**
+- **Inclusiveness**
+- **Mindfulness**
+- **Stability**
+- **Beauty**
+- **Health**
+- **Compassion**
+- **Civility**
+- **Kindness**
+- **Loyalty**
+- **Collaboration**
+- **Empathy**
+- **Solitude**
+- **Patience**
+- **Intuition**
+- **Harmony**
+- **Equality**
+- **Wisdom**
+- **Diversity**
+
+#### Doesn't Matter to Me
+- **Activism**
+- **Civic Engagement**
+- **Spirituality**
+- **Romance**
+- **Parenting**
+- **Generosity**
+- **Service**
+- **Environment**
+- **Moderation**
+- **Family** -->
+
+These values guide my decisions and actions, helping me stay true to myself and my goals. They also shape how I interact with others, ensuring that my relationships are meaningful and aligned with my principles.
+<!-- 
+### My Strengths
+
+Understanding and leveraging my strengths has been instrumental in my personal and professional development. Here are some of my key strengths:
+
+1. **Self-Regulation**
+   - Regulating my emotions and actions, maintaining discipline, and controlling my appetites and emotions.
+
+2. **Honesty**
+   - Speaking the truth and presenting myself genuinely, acting sincerely, and taking responsibility for my feelings and actions.
+
+3. **Humor**
+   - Enjoying laughter and bringing smiles to others, seeing the lighter side of life, and making jokes.
+
+4. **Love of Learning**
+   - Mastering new skills and knowledge, whether independently or formally, and continuously adding to what I know.
+
+5. **Forgiveness**
+   - Forgiving those who have wronged me, accepting others’ shortcomings, and giving people second chances.
+
+6. **Curiosity**
+   - Taking an interest in ongoing experiences, finding subjects fascinating, and exploring and discovering new topics.
+
+7. **Fairness**
+   - Treating all people equally, not letting feelings bias my decisions, and giving everyone a fair chance.
+
+8. **Judgment**
+   - Thinking things through, examining them from all sides, and being able to change my mind in light of evidence.
+
+9. **Love**
+   - Valuing close relationships, sharing and caring reciprocally, and being close to people.
+
+10. **Hope**
+    - Expecting the best in the future and working to achieve it, believing in the possibility of a good future.
+
+11. **Creativity**
+    - Thinking of novel and productive ways to conceptualize and do things, including artistic achievements.
+
+12. **Social Intelligence**
+    - Being aware of the motives and feelings of others and myself, knowing how to fit into different social situations.
+
+13. **Prudence**
+    - Being careful about my choices, not taking undue risks, and avoiding actions I might regret later.
+
+14. **Zest**
+    - Approaching life with excitement and energy, living life as an adventure, and feeling alive and activated.
+
+15. **Gratitude**
+    - Being aware of and thankful for the good things that happen, and taking time to express thanks.
+
+16. **Bravery**
+    - Not shrinking from threats, challenges, difficulties, or pain, speaking up for what’s right, and acting on convictions.
+
+17. **Perspective**
+    - Providing wise counsel to others, having ways of looking at the world that make sense to myself and others.
+
+18. **Appreciation of Beauty & Excellence**
+    - Noticing and appreciating beauty, excellence, and skilled performance in various domains of life.
+
+19. **Leadership**
+    - Encouraging group activities, organizing group efforts, and maintaining good relations within the group.
+
+20. **Kindness**
+    - Doing favors and good deeds for others, helping and taking care of them.
+
+21. **Humility**
+    - Letting my accomplishments speak for themselves, not regarding myself as more special than I am.
+
+22. **Teamwork**
+    - Working well as a member of a group, being loyal, and doing my share of the work.
+
+23. **Perseverance**
+    - Finishing what I start, persevering in the face of obstacles, and taking pleasure in completing tasks.
+
+24. **Spirituality**
+    - Having coherent beliefs about the higher purpose and meaning of the universe, and knowing where I fit within the larger scheme.
+
+*Placeholder for examples and anecdotes illustrating these strengths.* -->
+
+### Personality Test Insights
+
+Understanding my personality helps me navigate both personal and professional relationships effectively. Here, I present the results of two personality tests taken in 2018 and 2023, highlighting the similarities and differences over the years.
+
+#### 2023 Results: The Orchestrator
+
+In 2023, my personality was most aligned with "The Orchestrator" archetype. Orchestrators excel at bringing people together, organizing around them, and mobilizing resources to achieve and exceed expectations. They are planful, precise, engaging, and people-oriented. Key attributes include:
+
+- **Organizing People and Resources**: Skilled in connecting people and understanding their unique strengths.
+- **Ambitious Goal Setting**: Setting high standards and systematically planning to achieve them.
+- **Efficiency and Reliability**: Preferring efficient and reliable solutions to solve problems.
+- **Leadership**: Leading by holding others accountable and pushing through to ensure plans are executed.
+
+**Growth Areas**:
+- Learning to be less perfectionistic when circumstances require flexibility.
+- Engaging productively with those who have unstructured thinking styles.
+
+Additionally, I possess attributes of a Strategist and a Shaper, which include generating effective strategies, being driven, and adaptable.
+
+#### 2018 Results: Inspiring Helper (Accommodating)
+
+In 2018, my personality was described as an "Inspiring Helper (Accommodating)." Key attributes included:
+
+- **Friendly and Sociable**: Enjoying social interactions and being a good team player.
+- **Self-Confidence**: Displaying confidence and positivity in various situations.
+- **Compassionate and Sensitive**: Being understanding and warm-hearted towards others.
+- **Harmony-Oriented**: Striving to ensure harmony and equity in interactions.
+
+**Possible Weaknesses**:
+- Difficulty with routine tasks and detailed procedures.
+- Tendency to mask true feelings to avoid unpleasantness.
+- Taking criticism personally and struggling to say "no" when relationships are threatened.
+
+#### Key Differences and Similarities
+
+**Similarities**:
+- **People-Oriented**: Both profiles highlight my strong focus on relationships and my ability to connect with others.
+- **Leadership**: Both emphasize my leadership capabilities, though the 2023 profile adds a strategic and systematic planning component.
+- **Compassion and Sensitivity**: Both highlight my sensitivity to others' needs and my empathetic nature.
+
+**Differences**:
+- **2018**: More focused on being accommodating and ensuring harmony, with a possible weakness in dealing with routine and detailed tasks.
+- **2023**: More emphasis on being organized, ambitious, and systematic, with a strong focus on efficient problem-solving and high standards.
+
+This evolution shows a shift from a more reactive, harmony-focused approach to a proactive, structured, and leadership-oriented style. These changes reflect my growth in professional settings, where systematic planning and high standards have become more pronounced.
+
+*Placeholder for anecdotes illustrating how these personality traits have manifested in real-life situations.*
+
+### Work Style and Preferences
+
+**Preferred Work Environment**
+
+I thrive in environments where I can observe others working and interacting. This inspiration from others' productivity helps me overcome procrastination and fuels a positive feedback loop that enhances my concentration and confidence. While I work remotely, I find coworking spaces most effective as they provide the social environment I need without necessarily involving direct collaboration. I enjoy in-person interactions and seek to create strong bonds with team members, recognizing the value of face-to-face connections.
+
+I appreciate both structured and unstructured environments, depending on the context. I prefer imposing structure on myself, maintaining a fully planned calendar, and being the master of my hours. However, I find unstructured environments challenging when they demand skills I am still developing. My growth and learning-driven nature propels me to close these skill gaps actively.
+
+**Work Habits**
+
+My day starts at 6:00 AM with a structured morning routine:
+- Light morning stretches (10 min)
+- Coffee (5 min)
+- Body scan + gratitude meditation (10 min)
+- Reading (40-60 min)
+- Mini-essay writing (20-60 min)
+- Planning three key tasks for the day (5 min)
+- Sports (run, swim, or cycle) (60 min)
+- Arriving at the coworking space (15 min)
+
+I begin my workday at 9:00 AM with a daily standup call and avoid using my phone until after my writing session. To prioritize tasks, I use custom made "Kay's Operating System" on Notion, tracking weekly, monthly, and quarterly goals, relationships, and daily tasks through a Kanban board. I favor one-week sprints with Monday planning and Friday retrospective meetings, and I strictly cap my workday at 6:00 PM, followed by a brief "end of workday"reflection.
+
+**Collaboration and Teamwork**
+
+I often take on leadership and initiating roles within teams, organizing efforts around a shared cause. To handle conflicts, I employ the "disagree but commit" strategy, which helps in making progress despite disagreements. I am interested in developing a "pre-outcome bets" approach to improve conflict resolution by predicting outcomes before decisions are made.
+
+**Communication Style**
+
+I prefer daily face-to-face communication via short calls, complemented by asynchronous communication through Slack. My communication style is direct, informed by my German background, but I strive to use the nonviolent communication framework (NVC) for feedback and challenging situations. I meticulously prepare for important conversations, ensuring they are solution-oriented with actionable steps. I value conversations with clear agendas, which I prepare when hosting meetings for efficiency.
+
+**Motivation and Productivity**
+
+Uninterrupted deep work time is crucial for my productivity. I thrive on intrinsic motivation, working best when I have no external expectations and am driven by personal goals. Financial security and freedom are important to me, and I aim to build a financial cushion following the FIRE (Financial Independence, Retire Early) philosophy. I rely on colleagues and friends to stay motivated during long projects, with bi-weekly coaching sessions and daily standups as key motivators. Recently, I have experimented with "building in public" for additional motivation.
+
+**Flexibility and Adaptability**
+
+I prefer focusing on one task at a time and completing it promptly. While I handle multiple projects simultaneously, I avoid multitasking as it hampers productivity. I actively combat the urge to multitask to ensure I remain effective and avoid the negative experiences associated with it.
+
+**Building and Maintaining Relationships**
+
+Networking and relationship building are vital, though I sometimes neglect them when diving into technical projects. To counter this, I use a customer relationship management system (CRM) and a friend relationship management system (FRM). I interact with around 40 people weekly, with roughly 30% of those interactions being long or otherwise meaningful. Regular meetings with key individuals in my life, on weekly, bi-weekly, or monthly cadences, are critical for maintaining these relationships.
+
+**Balancing Work and Personal Life**
+
+I maintain a sharp cutoff for work at 6:00 PM to ensure I have energy for personal activities, which helps me start the next day refreshed and productive. My morning routine includes time for myself and my partner, and I spend evenings with friends, my partner, or alone to stay sane and functional. Stress management strategies include talking to a coach, taking regular breaks, engaging in sports, eating healthily, and organizing fun events for friends.
+
+<!-- ### Professional Experience and Skills -->
+
+<!-- **Professional Experience**
+
+Throughout my career, I have accumulated diverse experiences across various domains, particularly focusing on AI safety and machine learning. Here’s an overview of my professional background:
+
+#### Catalyze Impact – Temporary Co-Executive Director
+*Since September 2023*
+- **Role**: Co-leading the development of an incubator for AI Safety research organizations.
+- **Key Contributions**: Overseeing strategic initiatives and ensuring the operational success of the incubator.
+
+#### Cadenza Labs – Co-founder and AI Safety Researcher
+*January 2023 - September 2023*
+- **Role**: Leading AI safety research focused on developing a lie detector for advanced AI systems.
+- **Key Contributions**: Collaborated with ElutherAI to produce the ELK OpenSource Software and shared findings on YouTube.
+
+#### Stanford Existential Risk Initiative (SERI MATS) – AI Safety Research Scholar
+*November 2022 - June 2023*
+- **Role**: Part of a team researching ways to mitigate risks from advanced AI systems.
+- **Key Contributions**: Focused on discovering latent knowledge in large language models.
+
+#### Center for AI Safety (CAIS) – Teaching Assistant for “Intro to ML Safety”
+*September 2022 - April 2023*
+- **Role**: Facilitating a course on machine learning safety.
+- **Key Contributions**: Assisted in course delivery and supported students in understanding ML safety concepts.
+
+#### Swiss Existential Risk Initiative (CHERI) – AI Safety Research Fellow
+*May 2022 - August 2022*
+- **Role**: Researching AI alignment through language feedback.
+- **Key Contributions**: Worked on aligning large language models with human preferences using GPT-3.
+
+#### Ludwig Maximilian University of Munich (LMU) – AI Safety Research Intern
+*April 2022 - June 2022*
+- **Role**: Exploring AI alignment research agendas and reinforcement learning from human feedback.
+- **Key Contributions**: Studied advances in language models and their applications.
+
+#### University of Mannheim – Machine Learning Research Intern
+*July 2021 - August 2021*
+- **Role**: Conducting research in multilingual NLP.
+- **Key Contributions**: Reimplemented the "Attention is All You Need" paper using Pytorch and HuggingFace.
+
+#### DataCamp – Data Science Workspace Architect Intern
+*May 2021 - July 2021*
+- **Role**: Developing code templates for NLP, data visualization, and time series analysis.
+- **Key Contributions**: Created resources used by approximately 9000 users in the first six months.
+
+#### Omdena – Junior Machine Learning Engineer
+*February 2021 - April 2021*
+- **Role**: Developing a weighted scoring algorithm to predict the impact of recommended actions on users' aging rates.
+- **Key Contributions**: Collaborated on a project for the startup "Humanity."
+
+#### Porsche Consulting GmbH – Intern Financial Consulting
+*July 2018 - October 2018*
+- **Role**: Analyzing credit approval workflows for a major German bank.
+- **Key Contributions**: Developed a high-fidelity mockup for an improved digital workflow.
+
+**Projects**
+
+- **Feedback Fellows**: A group of researchers providing weekly feedback on AI safety-related writing.
+- **Reinforcement Learning Study Group**: Founded a study group focused on reinforcement learning, with members committing to extensive weekly study and implementation of key algorithms.
+
+**Education**
+
+- **MIT - Data, Economics, and Design of Policy (MicroMasters Program)**
+  *Since September 2023*
+  - Courses include Designing and Running Randomized Evaluations, Microeconomics, Public Policy Design, Good Economics for Hard Times, Data Analysis.
+
+- **MIT - Statistics and Data Science (MicroMasters Program)**
+  *September 2020 - March 2022*
+  - Courses include Probability Theory, Mathematical Fundamentals of Statistics, Machine Learning with Pytorch, Applied Data Analysis.
+
+- **University of Mannheim – Master in Culture and Economics (M.A.)**
+  *Since September 2019 (Currently inactive)*
+  - Focus on Analytical Philosophy, Entrepreneurship & Design Thinking.
+
+- **IMMUNE Technology Institute Madrid - Data Science Bootcamp**
+  *March 
+
+2020 - September 2020*
+  - Final Project: Fake News detection and generation using GPT-2.
+
+- **University of Mannheim – Business Administration (B. Sc.)**
+  *September 2015 - December 2018*
+  - Bachelor Thesis: Adoption of Cloud Computing in Healthcare Services.
+
+- **Athens University of Economics and Business – Semester Abroad (B.Sc.)**
+  *September 2017 - February 2018*
+  - Focus on Entrepreneurship and Innovation Management.
+
+**Extracurricular Activities**
+
+- **Effective Altruism Global (Berlin)**: Speaker on leveraging community support, self-knowledge, and learning strategies.
+- **Blue Dot Impact**: Course facilitator for AGI Safety Fundamentals, leading weekly discussions on AI alignment.
+- **University of St. Gallen**: Member of the Organization Committee, helping organize alumni conferences and contributing to a think tank on Europe’s future in 2050.
+- **Corps Rheno-Nicaria, Mannheim & Heidelberg**: Served as chairman, organized events, and gave speeches.
+
+**Further Developments**
+
+- **AGI Safety Fundamentals (Technical)** – Effective Altruism Cambridge
+- **Natural Language Processing (NLP)** – Coursera (deeplearning.ai)
+- **Deep Learning Specialization** – Coursera (deeplearning.ai)
+
+**Programming Skills**
+
+- **Python, Pytorch** – Proficient
+
+**Linguistic Proficiency**
+
+- **German, Polish** – Native
+- **English** – Business Fluent (C2)
+- **Spanish, French** – Conversational (B1)
+
+*Placeholder for specific examples or anecdotes illustrating notable projects or roles.* -->
+
+<!-- ### Contact Information
+
+For professional inquiries or to discuss potential collaborations, you can reach me through the following channels:
+
+- **Email**: kozaronek@gmail.com
+- **Mobile**: +49 1743 296979
+- **LinkedIn**: [Kay Kozaronek](https://www.linkedin.com/in/kay-kozaronek/)
+- **Blog**: [Unashamed Curiosity](https://kaykozaronek.github.io/unashamed-curiosity/now.html)
+- **GitHub**: [Kay Kozaronek](http://github.com/KayKozaronek) -->
+

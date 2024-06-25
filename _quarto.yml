@@ -8,6 +8,7 @@ website:
     right:
       - index.qmd
       - now.qmd
+      - work_with_me.qmd
       - collaborators.qmd
 format:
   html:
