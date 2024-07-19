@@ -16,8 +16,12 @@ toc: true
     </center>
 </p> -->
 
+<!-- Notes:
+The executive summary is inadequate. I don't like it here. It doesn't feel in line with the deep emotions I'm working through.
 
-# Executive Summary
+ -->
+
+<!-- # Executive Summary
 
 1. **What did I do?**
    - Attended a psilocybin retreat in the Netherlands, consuming 30 grams of fresh psilocybin truffles as part of a guided ceremony.
@@ -45,35 +49,13 @@ toc: true
    - Create a "trip checklist" and don't start the journey without everything in order. 
    - Be adament about using headphones and make sure to always use my eyeshades
    - Be more assertive about dosage and safety concerns
-
-8. **Resources**
-
-   - **Michael Pollan's "How to Change Your Mind" (Book and Netflix Series)**  
-     - A comprehensive exploration of the history, science, and potential of psychedelic substances, and a docuseries based on the book that delves into the resurgence of psychedelics as medicines.  
-     - [How to Change Your Mind - Michael Pollan (Book)](https://www.amazon.com/Change-Your-Mind-Consciousness-Transcendence/dp/0735224153/ref=sr_1_1?crid=GIZBF6RA7J7Y&dib=eyJ2IjoiMSJ9.fY-VxhMKHDMNs0rA0tZBoDpAcQ8QQh6bEJt2fqHOB7PED4_aNE4I3DOAxEQDLVrWtT7gof-j1IwRE_RPmYIHGQEmbXpz2yInA_-TIeckxECuxUVDdf2DvLGgO8Yg0cLgQL6KasxUcIJzGhex9CQc-AI_OMlx06t2d-mKmnPR2q03kCyjVW0uOdDlKhzHvHfHjVxXh-bFqEVlOuyXaaEMKyvHyuT6XqOia82DibElvpA.39jroK2lI2ObnPYRyLkxlR5MPeOUAG4ItPf4zziWipM&dib_tag=se&keywords=how+to+change+your+mind+michael+pollan&qid=1721043221&s=books&sprefix=Michael+Pollan+%2Cstripbooks%2C234&sr=1-1)  
-     - [How to Change Your Mind - Michael Pollan (Netflix Series)](https://www.netflix.com/title/80229847)
-   - **James Fadiman's "The Psychedelic Explorer's Guide: Safe, Therapeutic, and Sacred Journeys"**  
-     - A practical guide for safe and therapeutic psychedelic use, combining scientific research with practical advice. 
-     - [The Psychedelic Explorer's Guide - James Fadiman (Book)](https://www.amazon.com/Psychedelic-Explorers-Guide-Therapeutic-Journeys/dp/1594774021)
-   - **David Nutt's "Psychedelics: The Revolutionary Drugs That Could Change Your Life—A Guide from the Expert"**  
-     - An insightful guide by David Nutt on the transformative potential of psychedelics and how they can be safely used to enhance mental health.  
-     - [Psychedelics - David Nutt (Book)](https://www.amazon.com/Psychedelics-Revolutionary-Change-Life_A-Expert/dp/0306835282/ref=sr_1_1?crid=3QZIS6Y5KWEBO&dib=eyJ2IjoiMSJ9.j9ima8rO3owgq0hoBlTLWA.PGGykvkaAcP_vBrjq3INeGf44eLtsZrqCpuwfBKqRJE&dib_tag=se&keywords=David+Nutt%27s+%22Psychedelics%3A+The+Revolutionary+Drugs+That+Could+Change+Your+Life%E2%80%94A+Guide+from+the+Expert%22&qid=1721043327&s=books&sprefix=david+nutt%27s+psychedelics+the+revolutionary+drugs+that+could+change+your+life+a+guide+from+the+expert+%2Cstripbooks%2C308&sr=1-1)
-   - **Aldous Huxley's "The Doors of Perception"**  
-     - Huxley's classic account of his mescaline experience and exploration of visionary experiences.  
-     - [The Doors of Perception - Aldous Huxley (Book)](https://www.amazon.com/Doors-Perception-Heaven-Hell/dp/0061729078/ref=sr_1_1?crid=2J2Z350OPY3RW&dib=eyJ2IjoiMSJ9.nOOJyOmqBTxncCrojtkyXxQnbZ0VHY_1oEoDYZt2Kbdi-o3kazwpwDcs9Owf3vDOj_kJR5m_QLniEu5mw1MdvfD7TdJDYfhAqn5sW7PsPNERMU4Re6TaSS3khwTPH9ktjZ6oiqdP_S8WFS-HD1GaPY1bv2l7XrZ8ptQ1VfVWdVTKz4TaMFjczT6OpdcOV50QhP1YpCmPfyS-A40qyIYAxkpkQmW5JCc6tyg-CvfaRYc.I9lTz02P1oT7w73p88dyyjCMQ9qDIuH55cELi7WbDJU&dib_tag=se&keywords=The+Doors+of+Perception+-+Aldous+Huxley+%28Book%29&qid=1721043366&s=books&sprefix=the+doors+of+perception+-+aldous+huxley+book+%2Cstripbooks%2C427&sr=1-1)
-   - **MAPS (Multidisciplinary Association for Psychedelic Studies)**  
-     - An organization that develops medical, legal, and cultural contexts for people to benefit from the careful uses of psychedelics and marijuana.  
-     - [MAPS (Website)](https://maps.org/)
-   - **Retreat Guru**  
-     - A website that makes it easy to find legal psychedelic retreats. 
-     - [retreat.guru (Website)](https://retreat.guru/be/psilocybin-retreats)
    
 
 # Experience Report
 
 ## 1. Encountering "How to Change Your Mind - Michael Pollan"
 
-The journey began long before I booked the retreat or even decided that psychedelics could be a part of my life. It started with a book. Michael Pollan's "How to Change Your Mind" found its way into my hands almost serendipitously. Pollan’s meticulous research and eloquent prose about the transformative potential of psychedelics struck a chord with me. His exploration into the science, history, and personal narratives surrounding substances like LSD, psilocybin and mescaline planted a seed of curiosity. Pollan’s balanced approach—acknowledging both the profound insights and the inherent risks—made the idea of a psychedelic journey seem both intriguing and plausible.
+The journey began long before I booked the retreat or even decided that psychedelics could be a part of my life. It started with a book. Michael Pollan’s “How to Change Your Mind” found its way into my hands almost serendipitously. Pollan’s meticulous research and eloquent prose about the transformative potential of psychedelics struck a chord with me. His exploration into the science, history, and personal narratives surrounding substances like LSD, psilocybin and mescaline planted a seed of curiosity. Pollan’s balanced approach—acknowledging both the profound insights and the inherent risks—made the idea of a psychedelic journey seem both intriguing and plausible.
 
 ## 2. Finding myself in a dark place 
 In the months leading up to the retreat, I found myself in a dark place, grappling with a myriad of challenges that piled into an insurmountable mountain of physical and mental stress. My interest in psilocybin began with its medical applications for depression and terminally ill cancer patients. However, I soon wondered if this medicine could help me, an otherwise healthy individual, navigate my own dark night and find daylight.
@@ -84,7 +66,6 @@ Personally, conflicts among loved ones left me in a constant state of mediation,
 
 On top of these professional and personal challenges, I was dealing with a profound sense of disconnection from my community. Before moving to Krakow, I lived in intellectually stimulating environments like London and Berkeley, surrounded by a community of like-minded rationalists, AI Safety Practitioners, and Effective Altruists. I felt out of sync with the world around me, unable to find a community in Krakow where I truly belonged. This feeling of alienation left me emotionally raw and vulnerable. Integrating my behaviors and mental models made it difficult to maintain meaningful connections and it often left me feeling isolated and misunderstood.
 
-
 In addition to these psychological stressors, I had traveled a lot (on average 8 days / month for 6 months) to different time zones and places all the while training for my first marathon. This left me physically challenged, adding additional, self imposed and certainly positive, but draining stressors.
 
 The weight of these issues became almost unbearable. I was constantly anxious and unable to find peace even in moments of quiet. My daily gratitude practice felt like a chore, and monitoring my composure became the only practical way to manage my anger outbursts. Every day felt like a battle against an invisible enemy, leaving me desperate for a way out of the darkness.
@@ -94,7 +75,15 @@ This overwhelming confluence of stressors led me to seek a radical solution: psy
 
 ## 3. Researching Various Retreats
 
-Inspired by Pollan’s accounts, I embarked on thorough research to find a retreat that resonated with my needs. The process was exhaustive; I scoured the internet for reviews, spoke to retreat representatives, and examined the credentials of various facilitators. My primary criteria were cost, location, type of medicine, retreat duration and earliest possible start date and vibing with the facilitators. Unfortunately I neglected professionalism. I wanted a setting that would allow me to delve deep into my psyche but also provide the support and guidance necessary to navigate any challenging terrain I might encounter. After weighing my options, I settled on a retreat in the Netherlands that promised a comprehensive approach: pre-ceremony preparation, a guided psilocybin journey, and post-ceremony integration sessions. No bells and whistles, but reasonably priced: 240 Euros (as opposed to most other retreats that started at 1800 Euros)
+Inspired by Michael Pollan’s detailed accounts of transformative psychedelic experiences, I embarked on a meticulous quest to find a retreat that would align with my personal needs and aspirations. The research process was extensive and demanding. I delved into countless online reviews, contacted 16 different retreat representatives, and rigorously scrutinized the qualifications of various facilitators.
+
+My primary criteria included cost and the legal status of the retreat’s location. Secondary considerations were the type of psychedelic medicine used, retreat duration, the earliest available start date, and the rapport I felt with the facilitators. Unfortunately, in my eagerness, I overlooked the critical aspect of professionalism and didn’t pay enough attention to the rapport I felt with the facilitators.
+
+I sought a retreat environment conducive to deep psychological exploration, one that offered robust support and expert guidance to help me navigate the potentially challenging terrains of a psychedelic journey. After carefully weighing all my options, I chose a retreat in the Netherlands that promised a comprehensive approach: some pre-ceremony preparation, a guided psilocybin journey, and a post-ceremony integration sessions. It was a no-frills choice but was reasonably priced at 240 Euros, significantly lower than most other retreats, which started at 1800 Euros.
+
+In all sincerity, I was quite stressed about making the right choice, wary of saving on price at the potential expense of retreat quality. I was very nervous about choosing a retreat because I didn’t fully connect with either of the representatives of my final 2 options. Both seemed too “businessy” in their approach, treating me like a customer, which heightened my concerns about their sincerity and professionalism — concerns I should have heeded.
+
+My partner advised me that I might not be ready and suggested waiting before making a decision. Ultimately, I think it’s good that I went because postponing it might have led to never going at all. However, she was right about how rushed my final decision felt in comparison to my research. I spent a few days ruminating before deciding to attend a retreat about one week later. It was initially planned for two weeks later, but the retreat was already booked, which forced me to rush. Those weren’t ideal conditions for retreat preparation.
 
 ## 4. The Retreat
 
@@ -102,23 +91,33 @@ Inspired by Pollan’s accounts, I embarked on thorough research to find a retre
 
 #### Preparation and Travel 
 
-The day began with a sense of anticipation mixed with anxiety. My flight from Krakow to Amsterdam felt like the first tangible step towards what I hoped would be a transformative experience. In the airport lobby, I found myself revisiting my intentions for the retreat—Clarity, Confidence, and Composure. The "3C's" were meant to guide me through the myriad of challenges in my life, from professional uncertainties to personal relationships and a sense of community belonging. I was mentally preparing for what I hoped would be a profound journey into my subconscious.
+The day began with a sense of anticipation mixed with anxiety. I made my way to the airport at 03:30 for the early morning flight from Krakow to Amsterdam. In the airport lobby, I found myself revisiting and refining my intentions for the retreat — Clarity, Confidence, and Composure. The “3C’s” were meant to guide me through the myriad of challenges in my life, from professional uncertainties to personal relationships and a sense of community belonging. I was mentally preparing for what I hoped would be a profound journey into my subconscious.
 
 #### Arrival
 
-Upon arrival at the retreat, my initial feelings of anticipation quickly gave way to unease. The facilitators could not specify the exact psilocybin content in the truffles we were to consume. Although they assured us that 30 grams of fresh truffles was the appropriate dose, their lack of detailed knowledge on the substance made me skeptical. I knew that truffles could contain up to 0.6% psilocybin, but without precise information, I was left to wonder about the potency and safety of what I was about to ingest. This initial uncertainty set a tone of caution and mistrust.
+Upon arrival at the retreat, my initial feelings of anticipation quickly gave way to unease. The facilitators could not specify the exact psilocybin content in the truffles we were to consume. Although they assured us that 30 grams of fresh truffles was an appropriate dose, their lack of detailed knowledge about the psilocybin content raised my skepticism. Knowing that mushrooms typically contain between 0.5% - 2.0% psilocybin, and that a moderate dose for a first-time user is around 1.5 grams, I was alarmed. A ‘heroic dose’ of 5 grams, as termed by Terence McKenna, seemed daunting. Yet, we were assured that 30 grams of truffles would be fine.
+
+“I took 30 grams last week plus an MAO inhibitor and it was fine,” was one of the facilitator’s responses. Another added, “Don’t worry. You have to think less. You are way too much in your head. Each trip is different. Gender, height, weight, none of it matters because everyone reacts differently.” Another participant, who would later have a panic attack, and I were the only ones who had read up on dosage amounts and expressed concerns. After the retreat, I learned from a Google search that truffles could contain between 0.2% and 0.6% psilocybin. Without precise information beforehand, I was left to wonder about the potency and safety of what I was about to ingest. This initial uncertainty set a tone of caution and mistrust.
+
+:::callout-tip
+MAO inhibitors (Monoamine Oxidase Inhibitors) are a class of drugs that prevent the breakdown of monoamine neurotransmitters, thereby increasing their availability. When combined with psilocybin, MAO inhibitors can enhance and prolong the effects by preventing the breakdown of psilocybin into psilocin. This can lead to more intense and longer-lasting trips.
+:::
 
 #### Sharing Circle (Part 1 - Katharsis & Bonding)
 
-The first structured activity was a sharing circle. Each participant was invited to share their background, the challenges they faced, and their hopes for the retreat. This was meant to foster a sense of community and mutual support. As I listened to others’ stories of struggle and hope, I felt a sense of catharsis. When my turn came, I opened up about my own life’s challenges. The act of sharing was emotionally overwhelming; I cried as I spoke, but it also felt liberating. This session helped in building a tentative trust within the group, despite my lingering doubts about the facilitators.
+Once all participants arrived, we began the first structured activity: a sharing circle. Each participant and the facilitators were invited to share their backgrounds, the challenges they faced, and their hopes for the retreat. This exercise was designed to foster a sense of community and mutual support. As I listened to others’ stories of struggle and hope, I felt a profound sense of connection and empathy. Hearing the raw, honest experiences of others made me realize I was not alone in my journey. When my turn came, I opened up about my own life’s challenges. The act of sharing was emotionally overwhelming, and I found myself crying as I spoke. However, this release felt liberating — a moment of catharsis. This was the first glimmer of the healing I hoped to find at the retreat. Additionally, it was empowering to help others by listening to their stories. We built an initial reservoir of trust within the group. The facilitators did an excellent job in helping us open up and providing the space to express ourselves. The healing properties of hearing and being heard were nothing short of miraculous.
 
 #### The Ceremony (Part 1 - Intention Setting)
 
-With the sharing session complete, we moved into the ceremony room to set our intentions for the psilocybin journey. I wrote down "Be brave and heal" as a reminder of my goals for the experience. This act of intention setting felt like a ritual, grounding me in the purpose of the journey ahead. The facilitators explained the procedure and what we might expect, but their explanations did little to ease my concerns about their competence.
+With the sharing session complete, we moved into the ceremony room to set our intentions for the psilocybin journey. We sat in front of candles, each lighting one for ourselves while thanking Mother Earth and expressing our wishes to the truffles. As each person took their turn, the room filled with a collective sense of purpose. When my turn came, I lit my candle and voiced my hopes for clarity, confidence, and composure.
+
+Once we finished, we took our spots on the mattresses that had been prepared for us. In the “trip journal” I brought for this occasion, I wrote down, “Be brave and heal”. This act of intention-setting felt like a ritual, grounding me in the purpose of the journey ahead. I took a last look at the token I brought with me: a Polaroid of my partner and me on Christmas Eve underneath a mistletoe.
+
+The facilitators then made their rounds through the room, approaching each bed individually to wish each participant a good journey and hand them the medicine. They served the truffles in a small translucent bowl, accompanied by a twig of a needle tree, a small pot of honey, and a menthol candy. As they approached my bed, I felt the massive weight of my life challenges looming over me, and I cracked under their weight, tears the size of grapes rolling down my cheeks. I reminded myself, “Be brave and heal.” -->
 
 #### The Ceremony (Part 2 - Trembling, Laughter and Anticipation)
 
-The ingestion of the 30 grams of truffles marked the beginning of the journey. As the psilocybin started to take effect, I felt a mixture of physical sensations—trembling, tingling, and waves of laughter. These initial stages were characterized by a sense of anticipation and openness. I was ready to embrace whatever insights the experience would bring, despite my underlying anxiety about the facilitators’ ability to manage the journey.
+The ingestion of the 30 grams of truffles marked the beginning of the journey. As the psilocybin started to take effect, I felt a mixture of physical sensations — trembling, tingling, and waves of laughter. These initial stages were characterized by a sense of anticipation and openness. I was ready to embrace whatever insights the experience would bring by consistently asking the truffles: “What are you trying to teach me?”
 
 #### The Ceremony (Part 3 - Challenges & Paranoia)
 
@@ -201,86 +200,17 @@ My aunt, who had a more spiritual outlook, offered insights that bridged the gap
 **Coach (Adam)**
 Discussing the retreat with my coach, Adam, was a structured and therapeutic process. He helped me break down the experience into manageable parts, reflecting on both the challenges and the insights. His professional approach provided a safe space to explore my emotions and develop strategies for future journeys. His questions and reflections helped me articulate my thoughts more clearly and identify actionable steps for healing and growth.
 
----
+# Resources
 
-This comprehensive narrative weaves together the various stages and reflections of my psilocybin retreat experience. It captures the anticipation, challenges, insights, and the profound impact it had on my life. By detailing each phase and the interactions with my support network, this narrative aims to provide a holistic view of the journey, much like Michael Pollan’s immersive and introspective style.
-
-<!-- Preparatory Notes  
-
-# Executive Summary:
-
-1. What did I do? 
-2. Why did I do this? 
-3. Did I achieve my purpose? 
-4. What did I learn?
-5. Would I do it again?
-6. Do I recommend this  
-7. What would I change?
-8. Would I recommend this? 
-
-# Timeline 
-
-## 1. Finding "How to Change Your Mind - Michael Pollan"
-
-## 2. Researching various retreats 
-
-## 3. The retreat 
-
-### Day 1  
-
-#### Preparation and Travel 
-
-#### Arrival
-
-#### Sharing Circle (Part 1 - Katharsis & Bonding)
-
-#### The Ceremony (Part 1 - Intention Setting)
-
-#### The Ceremony (Part 2 - Trembling, Laughter and Anticipation)
-
-#### The Ceremony (Part 3 - Challenges & Paranoia)
-
-#### The Ceremony (Part 4 - "Felt" Insights)
-
-#### Post Ceremony (Part 1 - The Afterglow)
-
-#### Post Ceremony (Part 2 - The Rejected Apology) 
-
-#### Post Ceremony (Part 3 - The Accepted Apology)  
-
-### Day 2 
-
-#### Sharing Circle (Part 2 - Shame and Alienation)
-
-#### The acusation: You're a psychopath, where were your insights. You owe your child. Your life is so fucked up.
-
-## 4. Post retreat 
-  
-### Day 3,4 & 5
-- Time with family and friends 
-- Sports (Swim, Bike, Run) 
-- Some Journaling
-- Unfortunately unhealthy food 
-- Could have done less and shouldn't have watched the TV 
-- Should have spent more time by myself or with someone who understands that I need space 
-- Returning back home 
-- Sharing news about pregnancy with my family and friends
-
-
-### Post Ceremony Reflections
-- Sharing ceremony experiences with
-  - Partner
-  - Mother 
-  - Father 
-  - Friends 
-  - Aunt 
-  - Coach   
-
-### Post Ceremony Readings 
-- David Nutt 
-- Aldous Huxley
-
-### Post Ceremony Actions
-- Wrote this blog 
-- Wrote a Google review 
-- Talked a lot with friends, family, coach and ChatGPT  -->
+   - **Michael Pollan's "How to Change Your Mind" ([Book](https://www.amazon.com/Change-Your-Mind-Consciousness-Transcendence/dp/0735224153/ref=sr_1_1?crid=GIZBF6RA7J7Y&dib=eyJ2IjoiMSJ9.fY-VxhMKHDMNs0rA0tZBoDpAcQ8QQh6bEJt2fqHOB7PED4_aNE4I3DOAxEQDLVrWtT7gof-j1IwRE_RPmYIHGQEmbXpz2yInA_-TIeckxECuxUVDdf2DvLGgO8Yg0cLgQL6KasxUcIJzGhex9CQc-AI_OMlx06t2d-mKmnPR2q03kCyjVW0uOdDlKhzHvHfHjVxXh-bFqEVlOuyXaaEMKyvHyuT6XqOia82DibElvpA.39jroK2lI2ObnPYRyLkxlR5MPeOUAG4ItPf4zziWipM&dib_tag=se&keywords=how+to+change+your+mind+michael+pollan&qid=1721043221&s=books&sprefix=Michael+Pollan+%2Cstripbooks%2C234&sr=1-1) and [Netflix Series](https://www.netflix.com/title/80229847))**  
+     - A comprehensive exploration of the history, science, and potential of psychedelic substances, and a docuseries based on the book that delves into the resurgence of psychedelics as medicines.  
+   - **James Fadiman's "[The Psychedelic Explorer's Guide: Safe, Therapeutic, and Sacred Journeys (Book)](https://www.amazon.com/Psychedelic-Explorers-Guide-Therapeutic-Journeys/dp/1594774021)"**  
+     - A practical guide for safe and therapeutic psychedelic use, combining scientific research with practical advice. 
+   - **[David Nutt's "Psychedelics: The Revolutionary Drugs That Could Change Your Life—A Guide from the Expert"](https://www.amazon.com/Psychedelics-Revolutionary-Change-Life_A-Expert/dp/0306835282/ref=sr_1_1?crid=3QZIS6Y5KWEBO&dib=eyJ2IjoiMSJ9.j9ima8rO3owgq0hoBlTLWA.PGGykvkaAcP_vBrjq3INeGf44eLtsZrqCpuwfBKqRJE&dib_tag=se&keywords=David+Nutt%27s+%22Psychedelics%3A+The+Revolutionary+Drugs+That+Could+Change+Your+Life%E2%80%94A+Guide+from+the+Expert%22&qid=1721043327&s=books&sprefix=david+nutt%27s+psychedelics+the+revolutionary+drugs+that+could+change+your+life+a+guide+from+the+expert+%2Cstripbooks%2C308&sr=1-1)**  
+     - An insightful guide by David Nutt on the transformative potential of psychedelics and how they can be safely used to enhance mental health.  
+   - **[Aldous Huxley's "The Doors of Perception"](https://www.amazon.com/Doors-Perception-Heaven-Hell/dp/0061729078/ref=sr_1_1?crid=2J2Z350OPY3RW&dib=eyJ2IjoiMSJ9.nOOJyOmqBTxncCrojtkyXxQnbZ0VHY_1oEoDYZt2Kbdi-o3kazwpwDcs9Owf3vDOj_kJR5m_QLniEu5mw1MdvfD7TdJDYfhAqn5sW7PsPNERMU4Re6TaSS3khwTPH9ktjZ6oiqdP_S8WFS-HD1GaPY1bv2l7XrZ8ptQ1VfVWdVTKz4TaMFjczT6OpdcOV50QhP1YpCmPfyS-A40qyIYAxkpkQmW5JCc6tyg-CvfaRYc.I9lTz02P1oT7w73p88dyyjCMQ9qDIuH55cELi7WbDJU&dib_tag=se&keywords=The+Doors+of+Perception+-+Aldous+Huxley+%28Book%29&qid=1721043366&s=books&sprefix=the+doors+of+perception+-+aldous+huxley+book+%2Cstripbooks%2C427&sr=1-1)**  
+     - Huxley's classic account of his mescaline experience and exploration of visionary experiences.  
+   - **[MAPS - Multidisciplinary Association for Psychedelic Studies (Website)](https://maps.org/)**  
+     - An organization that develops medical, legal, and cultural contexts for people to benefit from the careful uses of psychedelics and marijuana.  
+   - **[Retreat Guru (Website)](https://retreat.guru/be/psilocybin-retreats)**  
+     - A website that makes it easy to find legal psychedelic retreats. 
