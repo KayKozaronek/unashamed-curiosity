@@ -19,9 +19,9 @@ toc: true
 <!-- Notes:
 The executive summary is inadequate. I don't like it here. It doesn't feel in line with the deep emotions I'm working through.
 
- -->
 
-<!-- # Executive Summary
+
+# Executive Summary
 
 1. **What did I do?**
    - Attended a psilocybin retreat in the Netherlands, consuming 30 grams of fresh psilocybin truffles as part of a guided ceremony.
@@ -49,22 +49,22 @@ The executive summary is inadequate. I don't like it here. It doesn't feel in li
    - Create a "trip checklist" and don't start the journey without everything in order. 
    - Be adament about using headphones and make sure to always use my eyeshades
    - Be more assertive about dosage and safety concerns
-   
+ -->   
 
 # Experience Report
 
 ## 1. Encountering "How to Change Your Mind - Michael Pollan"
 
-The journey began long before I booked the retreat or even decided that psychedelics could be a part of my life. It started with a book. Michael Pollan’s “How to Change Your Mind” found its way into my hands almost serendipitously. Pollan’s meticulous research and eloquent prose about the transformative potential of psychedelics struck a chord with me. His exploration into the science, history, and personal narratives surrounding substances like LSD, psilocybin and mescaline planted a seed of curiosity. Pollan’s balanced approach—acknowledging both the profound insights and the inherent risks—made the idea of a psychedelic journey seem both intriguing and plausible.
+The journey began long before I booked the retreat or even decided that psychedelics could be a part of my life. It started with a book. Michael Pollan’s “How to Change Your Mind” found its way into my hands almost serendipitously. Pollan’s meticulous research and eloquent prose about the transformative potential of psychedelics struck a chord with me. His exploration into the science, history, and personal narratives surrounding substances like LSD, psilocybin and mescaline planted a seed of curiosity. Pollan’s balanced approach — acknowledging both the profound insights and the inherent risks — made the idea of a psychedelic journey seem both intriguing and plausible.
 
 ## 2. Finding myself in a dark place 
 In the months leading up to the retreat, I found myself in a dark place, grappling with a myriad of challenges that piled into an insurmountable mountain of physical and mental stress. My interest in psilocybin began with its medical applications for depression and terminally ill cancer patients. However, I soon wondered if this medicine could help me, an otherwise healthy individual, navigate my own dark night and find daylight.
 
 Professionally, I was grappling with significant uncertainties and doubts about my career path, culminating in a burnout that compelled me to take a week off work and subsequently reduce my working hours for an entire month by 20%. The stagnation in progress at the nonprofit I founded left me feeling unfulfilled and incompetent, constantly questioning whether I was on the right track.
 
-Personally, conflicts among loved ones left me in a constant state of mediation, significantly affecting my well-being. Additionally, I had recently moved to Krakow and didn't have many close in-person friends yet. Although it's easy to make acquaintances, deep friendships take time to develop, and that time simply hadn't passed yet. I was left with barely anyone to talk to.
+Personally, conflicts among loved ones left me in a constant state of mediation, significantly affecting my well-being. There's nothing more effective at bringing you down than having two of the most significant people in your life fight, lose trust in each other, and break ties, leaving you as the only hair-thin string holding together the massive, bridgeless raft they created. Additionally, I had recently moved to Krakow and didn't have many close in-person friends yet. Although it's easy to make acquaintances, deep friendships take time to develop, and that time simply hadn't passed yet. I was left with barely anyone to talk to.
 
-On top of these professional and personal challenges, I was dealing with a profound sense of disconnection from my community. Before moving to Krakow, I lived in intellectually stimulating environments like London and Berkeley, surrounded by a community of like-minded rationalists, AI Safety Practitioners, and Effective Altruists. I felt out of sync with the world around me, unable to find a community in Krakow where I truly belonged. This feeling of alienation left me emotionally raw and vulnerable. Integrating my behaviors and mental models made it difficult to maintain meaningful connections and it often left me feeling isolated and misunderstood.
+On top of these professional and personal challenges, I was dealing with a profound sense of disconnection from my community. Before moving to Krakow, I lived in intellectually stimulating environments like London and Berkeley, surrounded by a network of like-minded rationalists, AI Safety researchers, and Effective Altruists. I felt out of sync with the world around me, unable to find a community in Krakow where I truly belonged. This feeling of alienation left me emotionally raw and vulnerable. Previously appreciated behaviors and mental models made turned into weird conversational artfacts that made it difficult to maintain meaningful connections. I was often left feeling isolated and misunderstood.
 
 In addition to these psychological stressors, I had traveled a lot (on average 8 days / month for 6 months) to different time zones and places all the while training for my first marathon. This left me physically challenged, adding additional, self imposed and certainly positive, but draining stressors.
 
@@ -75,15 +75,20 @@ This overwhelming confluence of stressors led me to seek a radical solution: psy
 
 ## 3. Researching Various Retreats
 
-Inspired by Michael Pollan’s detailed accounts of transformative psychedelic experiences, I embarked on a meticulous quest to find a retreat that would align with my personal needs and aspirations. The research process was extensive and demanding. I delved into countless online reviews, contacted 16 different retreat representatives, and rigorously scrutinized the qualifications of various facilitators.
+Inspired by Michael Pollan’s detailed accounts of transformative psychedelic experiences, I embarked on a quest to find a retreat that would align with my personal needs and aspirations. The research process was extensive and demanding. I delved into countless online reviews, talked to 16 different retreat representatives, and scrutinized the qualifications of various facilitators.
 
-My primary criteria included cost and the legal status of the retreat’s location. Secondary considerations were the type of psychedelic medicine used, retreat duration, the earliest available start date, and the rapport I felt with the facilitators. Unfortunately, in my eagerness, I overlooked the critical aspect of professionalism and didn’t pay enough attention to the rapport I felt with the facilitators.
+My primary criteria included cost and the legal status of the retreat’s location. Secondary considerations were the type of psychedelic medicine used, retreat duration, the earliest available start date, and the rapport I felt with the facilitators. Unfortunately, in my eagerness, I overlooked the critical aspect of professionalism and underestimated how much attention I should have paid to the rapport I felt with the facilitators.
 
 I sought a retreat environment conducive to deep psychological exploration, one that offered robust support and expert guidance to help me navigate the potentially challenging terrains of a psychedelic journey. After carefully weighing all my options, I chose a retreat in the Netherlands that promised a comprehensive approach: some pre-ceremony preparation, a guided psilocybin journey, and a post-ceremony integration sessions. It was a no-frills choice but was reasonably priced at 240 Euros, significantly lower than most other retreats, which started at 1800 Euros.
 
-In all sincerity, I was quite stressed about making the right choice, wary of saving on price at the potential expense of retreat quality. I was very nervous about choosing a retreat because I didn’t fully connect with either of the representatives of my final 2 options. Both seemed too “businessy” in their approach, treating me like a customer, which heightened my concerns about their sincerity and professionalism — concerns I should have heeded.
+:::::: {.callout-tip}
+# General Purchasing Heuristic
+When faced with purchasing decisions for items I'm uncertain about, I typically choose the cheapest option. This approach allows me to test the product and determine if it meets my expectations. I evaluate how frequently I use it and whether it provides the desired value. Often, the inexpensive choice is flawed in some unanticipated ways, quickly revealing if an upgrade is necessary. If I decide to upgrade, I then select the best option available within my budget constraints.  
+:::
 
-My partner advised me that I might not be ready and suggested waiting before making a decision. Ultimately, I think it’s good that I went because postponing it might have led to never going at all. However, she was right about how rushed my final decision felt in comparison to my research. I spent a few days ruminating before deciding to attend a retreat about one week later. It was initially planned for two weeks later, but the retreat was already booked, which forced me to rush. Those weren’t ideal conditions for retreat preparation.
+In all sincerity, I was quite stressed about making the right choice, wary of saving on price at the potential expense of retreat quality. Using my General Purchasing Heuristic didn't seem appropriate for an experience as important as this. What if I would have a bad trip? In addition, I was very nervous about choosing a retreat because I didn’t fully connect with either of the representatives of my final 2 options. Both seemed too “businessy” in their approach, treating me like a customer, which heightened my concerns about their sincerity and professionalism — concerns I should have heeded. 
+
+My partner advised that I might not be ready and suggested waiting before making a decision. Ultimately, I think it's good that I went because postponing it might have led to never going at all. However, she was right about how rushed my final decision felt compared to my research. I spent a few days ruminating before deciding to attend a retreat scheduled for two weeks later. A day after my booking, it turned out that the retreat was already at full capacity, and I was offered a spot one week earlier instead. This left me feeling rushed and robbed of an additional week of mental preparation. These weren’t ideal conditions for retreat preparation, but I went ahead anyway. Soon enough, between booking flights, informing friends and family about my trip, and setting my intentions, the day of the retreat arrived.
 
 ## 4. The Retreat
 
@@ -91,21 +96,16 @@ My partner advised me that I might not be ready and suggested waiting before mak
 
 #### Preparation and Travel 
 
-The day began with a sense of anticipation mixed with anxiety. I made my way to the airport at 03:30 for the early morning flight from Krakow to Amsterdam. In the airport lobby, I found myself revisiting and refining my intentions for the retreat — Clarity, Confidence, and Composure. The “3C’s” were meant to guide me through the myriad of challenges in my life, from professional uncertainties to personal relationships and a sense of community belonging. I was mentally preparing for what I hoped would be a profound journey into my subconscious.
+The day began with a sense of anticipation mixed with anxiety. I made my way to the airport at 03:30 for the early morning flight from Krakow to Amsterdam. In the airport lobby, I found myself revisiting and refining my intentions for the retreat: Clarity, Confidence, and Composure. These "3 C’s" were meant to guide me through the myriad of challenges in my life, from professional uncertainties to personal relationships and a sense of community belonging. I was mentally preparing for what I hoped would be a profound journey.
 
-On the day of the retreat I was still working out the details of my intention. The intention I settled on while thinking and writing about it in the Airport lobby was: 
+To arrive at my intention, I wrote out a few things that were on my mind that morning. In the original document, I highlighted the important points. It turned out that professional and AGI-related thoughts were much less pronounced and important during the trip than I had assumed. Here’s what I wrote:
 
-> Gain Clarity, Confidence & Composure (The 3C's)
-> 
-
-To arrive at this, I wrote (In the original doc I highlighted the important things in green. It turned out that professional & AGI related thoughts were much less pronounced and important during the trip than I assumed them to be prior to it. I became much more chill about those things): 
-
-- How should I prioritize the many challenges in my life?
+> - How should I prioritize the many challenges in my life?
     - Professional / Work
         - What do I want to work on?
     - Parenthood & my partnership
         - How can I give my child the best life possible?
-        - How will our relationship be affected during and after the pregnancy
+        - How will our relationship be affected during and after the pregnancy?
         - Do we still want to explore polyamory during or after the pregnancy?
     - Community
         - Krakow, London & Berkeley. Where do I belong?
@@ -113,7 +113,7 @@ To arrive at this, I wrote (In the original doc I highlighted the important thin
         - What do I value?
         - What do I want from life?
         - Why am I so obsessed with excellence?
-        - Why do I think so poorly of Julita and myself?
+        - Why do I think so poorly of myself?
     - What do I really believe when it comes to AGI?
         - What about timelines?
         - How should my beliefs influence all other decisions I make?
@@ -126,41 +126,26 @@ To arrive at this, I wrote (In the original doc I highlighted the important thin
         - Where do I want to go?
         - How should I define a budget for this?
 
-Pre-Flight Reflections and Intention
-Intention: Gain Clarity, Confidence & Composure (The 3C's)
-Prioritization of Challenges:
-Professional/Work:
-Uncertainty about career direction.
-Parenthood & Partnership:
-Concerns about providing the best life for your child.
-Anticipation of relationship changes during and after pregnancy.
-Consideration of polyamory during or after pregnancy.
-Community:
-Uncertainty about where you belong: Krakow, London, or Berkeley.
-Cognitive Dissonance:
-Questioning personal values and life goals.
-Obsession with excellence.
-Negative self-perception and judgment towards Julita.
-AGI Beliefs:
-Uncertainty about timelines.
-Influence of beliefs on decision-making.
-Sports/Triathlon & Ironman:
-Questioning commitment to these activities.
-Friendships:
-Desire to maintain and build strong connections.
-Vacation:
-Struggling with spending money on leisure.
-Defining a vacation budget and desired destinations.
+While writing, I felt that I was lacking clarity in what to prioritize, confidence in my decisions and actions, and the composure necessary to enjoy activities like vacation planning instead of stressing out about them. Voilà, the 3 C’s were synthesized.
 
 #### Arrival
 
+The flight was uneventful, and the ensuing train trip from the airport to the retreat location was calm. I managed to buy a small notebook to accompany me on my trip and started journaling right away.
+
 Upon arrival at the retreat, my initial feelings of anticipation quickly gave way to unease. The facilitators could not specify the exact psilocybin content in the truffles we were to consume. Although they assured us that 30 grams of fresh truffles was an appropriate dose, their lack of detailed knowledge about the psilocybin content raised my skepticism. Knowing that mushrooms typically contain between 0.5% - 2.0% psilocybin, and that a moderate dose for a first-time user is around 1.5 grams, I was alarmed. A ‘heroic dose’ of 5 grams, as termed by Terence McKenna, seemed daunting. Yet, we were assured that 30 grams of truffles would be fine.
 
-“I took 30 grams last week plus an MAO inhibitor and it was fine,” was one of the facilitator’s responses. Another added, “Don’t worry. You have to think less. You are way too much in your head. Each trip is different. Gender, height, weight, none of it matters because everyone reacts differently.” Another participant, who would later have a panic attack, and I were the only ones who had read up on dosage amounts and expressed concerns. After the retreat, I learned from a Google search that truffles could contain between 0.2% and 0.6% psilocybin. Without precise information beforehand, I was left to wonder about the potency and safety of what I was about to ingest. This initial uncertainty set a tone of caution and mistrust.
+:::callout-tip
+Terence McKenna (1946-2000) was an American ethnobotanist, mystic, psychonaut, lecturer, and author. He is best known for his advocacy of the use of naturally occurring psychedelic substances, particularly psilocybin mushrooms, DMT, and ayahuasca. McKenna's work focused on the potential of these substances to catalyze profound personal and cultural transformation.
+
+One of his notable contributions to psychedelic culture is the concept of the "heroic dose" — a high dose of psilocybin mushrooms, typically around 5 grams, taken in a safe and controlled environment. He believed that such a dose could facilitate deep and transformative experiences, allowing individuals to access the far reaches of their consciousness.
+:::
+
+“I took 30 grams last week plus an MAO inhibitor and it was fine,” was one of the facilitator’s responses. Another added, “Don’t worry. You have to think less. You are way too much in your head. Each trip is different. Gender, height, weight, none of it matters because everyone reacts differently.” Another participant, who would later have a panic attack, and I were the only ones who had read up on dosage amounts and expressed concerns. After the retreat, I learned from a Google search that truffles contain between 0.2% and 0.6% psilocybin. The lower potency meant that a larger dosage is required to achieve similar effects as with normal mushrooms. However, without precise information beforehand, I was left to wonder about the potency and safety of what I was about to ingest. This initial uncertainty set a tone of caution and mistrust.
 
 :::callout-tip
 MAO inhibitors (Monoamine Oxidase Inhibitors) are a class of drugs that prevent the breakdown of monoamine neurotransmitters, thereby increasing their availability. When combined with psilocybin, MAO inhibitors can enhance and prolong the effects by preventing the breakdown of psilocybin into psilocin. This can lead to more intense and longer-lasting trips.
 :::
+<!-- 
 
 #### Sharing Circle (Part 1 - Katharsis & Bonding)
 
@@ -669,7 +654,6 @@ talked to psychologists also, you really integrate with the group and you build 
 But these experiences cost 6,000 euros or $1, So that's why I didn't opt for them in the first place.
 
 Or if they're short, will be like a stipend that I can apply to, I will do in August and so maybe, who knows?-->
-
 
 <!-- Summary of Chunk 6 
 
