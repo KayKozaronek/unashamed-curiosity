@@ -31,13 +31,12 @@ Would I do it again? Yes, but under different circumstances with more trusted an
 
 What follows is my recollection of the events leading up to the experience, the psychedelic retreat itself, and the integration phase afterward. This account is the result of long, detailed conversations, messy journal entries, and an tediously extensive refinement process.
 
-# Experience Report
 
-## 1. Encountering "How to Change Your Mind - Michael Pollan"
+# 1. Encountering "How to Change Your Mind - Michael Pollan"
 
 The journey began long before I booked the retreat or even decided that psychedelics could be a part of my life. It started with a book. Michael Pollan’s “How to Change Your Mind” found its way into my hands almost serendipitously. Pollan’s meticulous research and eloquent prose about the transformative potential of psychedelics struck a chord with me. His exploration into the science, history, and personal narratives surrounding substances like LSD, psilocybin and mescaline planted a seed of curiosity. Pollan’s balanced approach — acknowledging both the profound insights and the inherent risks — made the idea of a psychedelic journey seem both intriguing and plausible.
 
-## 2. Finding myself in a dark place 
+# 2. Finding myself in a dark place 
 In the months leading up to the retreat, I found myself in a dark place, grappling with a myriad of challenges that piled into an insurmountable mountain of physical and mental stress. My interest in psilocybin began with its medical applications for depression and terminally ill cancer patients. However, I soon wondered if this medicine could help me, an otherwise healthy individual, navigate my own dark night and find daylight.
 
 Professionally, I was grappling with significant uncertainties and doubts about my career path, culminating in a burnout that compelled me to take a week off work and subsequently reduce my working hours for an entire month by 20%. The stagnation in progress at the nonprofit I founded left me feeling unfulfilled and incompetent, constantly questioning whether I was on the right track.
@@ -53,7 +52,7 @@ The weight of these issues became almost unbearable. I was constantly anxious an
 This overwhelming confluence of stressors led me to seek a radical solution: psychedelic-assisted therapy. I hoped a psilocybin retreat would provide the clarity, new perspective, and reconnection with myself and the world that I desperately needed. Attending the retreat represented a glimmer of hope in an otherwise bleak and overwhelming landscape.
 
 
-## 3. Researching Various Retreats
+# 3. Researching Various Retreats
 
 Inspired by Michael Pollan’s detailed accounts of transformative psychedelic experiences, I embarked on a quest to find a retreat that would align with my personal needs and aspirations. The research process was extensive and demanding. I delved into countless online reviews, talked to 16 different retreat representatives, and scrutinized the qualifications of various facilitators.
 
@@ -70,11 +69,11 @@ In all sincerity, I was quite stressed about making the right choice, wary of sa
 
 My partner advised that I might not be ready and suggested waiting before making a decision. Ultimately, I think it's good that I went because postponing it might have led to never going at all. However, she was right about how rushed my final decision felt compared to my research. I spent a few days ruminating before deciding to attend a retreat scheduled for two weeks later. A day after my booking, it turned out that the retreat was already at full capacity, and I was offered a spot one week earlier instead. This left me feeling rushed and robbed of an additional week of mental preparation. These weren’t ideal conditions for retreat preparation, but I went ahead anyway. Soon enough, between booking flights, informing friends and family about my trip, and setting my intentions, the day of the retreat arrived.
 
-## 4. The Retreat
+# 4. The Retreat
 
-### Day 1  
+## Day 1  
 
-#### Preparation and Travel 
+### Preparation and Travel 
 
 The day began with a sense of anticipation mixed with anxiety. I made my way to the airport at 03:30 for the early morning flight from Krakow to Amsterdam. In the airport lobby, I found myself revisiting and refining my intentions for the retreat: Clarity, Confidence, and Composure. These "3 C’s" were meant to guide me through the myriad of challenges in my life, from professional uncertainties to personal relationships and a sense of community belonging. I was mentally preparing for what I hoped would be a profound journey.
 
@@ -108,7 +107,7 @@ To arrive at my intention, I wrote out a few things that were on my mind that mo
 
 While writing, I felt that I was lacking clarity in what to prioritize, confidence in my decisions and actions, and the composure necessary to enjoy activities like vacation planning instead of stressing out about them. Voilà, the 3 C’s were synthesized.
 
-#### Arrival
+### Arrival
 
 The flight was uneventful, and the ensuing train trip from the airport to the retreat location was calm. I managed to buy a small notebook, a “trip journal”, to accompany me on my trip and started journaling right away.
 
@@ -126,13 +125,13 @@ One of his notable contributions to psychedelic culture is the concept of the "h
 MAO inhibitors (Monoamine Oxidase Inhibitors) are a class of drugs that prevent the breakdown of monoamine neurotransmitters, thereby increasing their availability. When combined with psilocybin, MAO inhibitors can enhance and prolong the effects by preventing the breakdown of psilocybin into psilocin. This can lead to more intense and longer-lasting trips.
 :::
  
-#### Sharing Circle - Katharsis & Bonding
+### Sharing Circle - Katharsis & Bonding
 
 Once all participants arrived, we began the first structured activity: a sharing circle. Each participant and the facilitators were invited to share their backgrounds, the challenges they faced, and their hopes for the retreat. This exercise was designed to foster a sense of community and mutual support. As I listened to others’ stories of struggle and hope, I felt a profound sense of connection and empathy. Hearing the raw, honest experiences of others made me realize I was not alone in my journey.
 
 When my turn came, I opened up about my own life’s challenges. The act of sharing was emotionally overwhelming, and I found myself crying as I spoke. The release felt liberating — a moment of catharsis. This was the first glimmer of the healing I hoped to find at the retreat. Additionally, it was empowering to help others by listening to their stories. We built an initial reservoir of trust within the group. The facilitators did an excellent job of helping us open up and providing the space to express ourselves. The healing properties of hearing and being heard were nothing short of miraculous.
 
-#### The Ceremony - Intention Setting (Part 1)
+### The Ceremony - Intention Setting (Part 1)
 
 With the sharing session complete, we changed into more comfortable clothes and moved into the ceremony room to set our intentions for the psilocybin journey. We sat in front of an altar of candles, each lighting one for ourselves while thanking Mother Earth and expressing our wishes for the journey with the truffles. As each person took their turn, the room filled with a collective sense of purpose. When my turn came, I lit my candle and voiced my hopes for clarity, confidence, and composure.
 
@@ -140,7 +139,7 @@ Once we finished, we took our spots on the mattresses that had been prepared for
 
 The facilitators then made their rounds through the room, approaching each bed individually to wish each participant a good journey and hand them the medicine. They served the truffles in a small translucent bowl, accompanied by a twig of a needle tree, a small pot of honey, and a menthol candy. As they approached my bed, I felt the massive weight of my life challenges looming over me, and I cracked under their weight, tears the size of grapes rolling down my cheeks. I reminded myself, “Be brave and heal.”
 
-#### The Ceremony - The first Challenge (Part 2)
+### The Ceremony - The first Challenge (Part 2)
 
 The ingestion of the 30 grams of truffles marked the beginning of the journey. These initial stages, before the psilocybin took effect, were characterized by a sense of anticipation and openness. I was ready to embrace whatever insights the experience would bring by consistently asking, “What are you trying to teach me?”. As the psilocybin started to take effect, I felt a mixture of physical sensations — trembling, tingling, and waves of laughter.
 
@@ -151,7 +150,7 @@ At the same time, the group leader was absent. Someone went to fetch her, and sh
 
 The soft sound of the handpan, a kind of steel drum, was soothing. I decided to resume my journey, putting my eyeshades back on and trying to relax. I told myself: "Fair enough, humans make mistakes". For a while, I felt one with the soft, wavy sounds from the drums. Eventually, the facilitators managed to get the music working again, and the ceremony continued smoothly for a time.
 
-#### The Ceremony - Musical Fallout (Part 3)
+### The Ceremony - Musical Fallout (Part 3)
 
 The music stopped again. Initially, I laughed at the loud sound when the aux cable was removed, but as the silence continued, my irritation grew. This technical glitch, combined with the facilitators’ visible inability to fix it promptly, shattered my sense of safety and trust. Paranoia set in as I thought, “Why don’t these people know what they are doing? They don’t know how to 'hold space.'”
 
@@ -167,7 +166,7 @@ A tall, muscular, tattooed facilitator, whom I’ll call "Big G," noticed my dis
 Somehow, Big G managed to calm me and convince me to "trust and let go". I assured myself that it's going to be fine and that I shouldn't worry. I thought, "Okay, I'm here to trust, be brave and heal."
 
 
-#### The Ceremony - Detergent Drama (Part 4)
+### The Ceremony - Detergent Drama (Part 4)
 
 And so I lay down, put on my eyeshade again, and eventually, they got the music playing. But the melodies that filled the room were not what I expected. This one had voices and sounded like underground techno. It felt very odd, increasing my feelings of suspicion and paranoia. I didn't like this at all.
 
@@ -187,7 +186,7 @@ Another indication was that not everyone had eyeshades. This is supposed to be o
 
 I thought, "Okay, I have some willpower, I can do stuff, I can talk, I can move. This is not too bad. I'm quite present. I'm awake, not drunk. I can move my limbs. Yes, I can't formulate super tight and bulletproof thoughts, but I know something's wrong here, and I think I should speak up."
 
-#### The Ceremony - "I Have a Voice" (Part 5)
+### The Ceremony - "I Have a Voice" (Part 5)
 
 I looked around and saw that everyone was having a bad time. I thought, "This is the stuff out of which movies are made later on when someone writes about their experience, and they make a Netflix documentary about it. This is how we escaped this drama and nightmare of a psilocybin trip."
 
@@ -204,7 +203,7 @@ I continued to feel justified in my behavior and thought, "Okay, this is happeni
 He told me I couldn't speak or see my stuff. I asked, "Why not?" He said something about the ceremony, but it wasn't a good reason. "You're not explaining it well. Why can't I see my stuff?" I insisted. After multiple requests and him going to the kitchen and back to talk to the ceremony master, who, again, wasn't in the room, he finally told me I could see my stuff.
 
 
-#### The Ceremony - Eyes wide open (Part 6) 
+### The Ceremony - Eyes wide open (Part 6) 
 As I left the ceremony room, I entered the kitch and found the ceremony master looking at me in disgust, saying "Oh, you want to see your belongings? Really? You're making a fool of yourself"
 
 Not only was this unprofessionaly, but she was also eating a Nutella white bread sandwich while unleashing her judgement on me. I'd like to take a second to appreciate the absurdity of this. The whole point of a retreat like this is to promote healthy behaviors, healing and good nutrition and  the ceremony master was eating the least healthy thing that I could muster. 
@@ -296,13 +295,13 @@ They told me, "No, you can't go out. We're here for your safety." At that point,
 
 <!-- ### I'm MISSING A PART HERE ABOUT MY DAD AND THE SHORT CONVERSATION -->
 
-#### The Ceremony - "Felt" Insights (Part 7)
+### The Ceremony - "Felt" Insights (Part 7)
 
 Despite the paranoia, there were moments of profound insight. I grappled with existential questions and the nature of reality. I felt a strong urge to connect with nature, understand the concept of fearlessness, and embrace love. However, these insights were frequently interrupted by the facilitators’ unsupportive comments and my escalating distrust. The experience was a chaotic mix of profound realizations and deep-seated fears.
 
 I realized that I like language. I like structure. I want to love Julita, my partner. I feel like a failure. My experience should have looked different. I love being sober. Who I spend my time with will determine the quality of my life. I hate rules. I hate people who are incompetent or inactive. Hate is such a strong word. I want to love instead. There was so much rejection today. My dad rejected me. Julita rejected me. The ceremony masters rejected me. Everyone rejected me.
 
-#### Post Ceremony - The Afterglow (Part 1)
+### Post Ceremony - The Afterglow (Part 1)
 
 As the effects of the psilocybin began to wane, the facilitators finally allowed me to go outside. I was still on the phone with Julita, which was unsettling to the other participants who were also outside. I was asked to end the conversation, which I did reluctantly.
 
@@ -318,7 +317,7 @@ I realized that the key driver of my experience was my ego. My inability to trus
 
 <!-- INCLUDE PART ABOUT ROB COMING -->
 
-#### Post Ceremony - The Rejected Apology (Part 2)
+### Post Ceremony - The Rejected Apology (Part 2)
 
 That evening, I sought out the ceremony master to apologize for my disruptive behavior during the ceremony. I wanted to reconcile and understand her perspective, hoping it might provide some closure. However, she dismissed me, telling me to wait until the next day. This rejection deepened my feelings of isolation and remorse.
 
@@ -335,11 +334,11 @@ During a conversation with my coach Adam, he pointed out how difficult it is to 
 This insight only reinforced my desire to apologize. I wanted to address any harm I might have caused and understand their perspective. But, being blocked from this attempt left me with unresolved feelings of guilt and confusion.
 
 
-#### Post Ceremony - The Accepted Apology (Part 3)
+### Post Ceremony - The Accepted Apology (Part 3)
 
 <!-- INCLUDE PART ABOUT CONVERSATION WITH JULITA -->
 
-### Day 2 
+## Day 2 
 
 A new day began, promising its own set of challenges, some of which I was still unaware of. As I woke up, I wrote the following:
 
@@ -349,7 +348,7 @@ And then I continued to write what I should change next time:
 > Trust my facilitators more. Use headphones instead of blasting music through speakers. Know the correct dosage. Work with people who are knowledgeable of the science. And get more competent facilitators. Tell people that you don't like authority and that you need reassurance. Get more personal care.
 
 
-#### Sharing Circle - Shame and Alienation
+### Sharing Circle - Shame and Alienation
 
 After a short breakfast, we came together to share our experiences. We gathered in the same room where, a day ago, we had all come together as partly broken people. What did we learn? Who did we become? As part of the ritual, there was a big scepter, and the person holding the scepter was in charge of speaking, invited to share as long as they wanted, as long as they held the scepter. 
 
@@ -370,10 +369,8 @@ The second sharing circle was meant to help us process our experiences, but I fe
 
 To close off the session, the ceremony master had told the group that we were very impressionable because of the psilocybin. She advised us to avoid large groups, news, and anything stressful, recommending we relax and maybe go for a walk in nature. Yet, shortly after this, she would disregard her own advice and insinuate that there might be something seriously wrong with me.
 
-#### A Final Word - The Accusation: 
 
-You're a Psychopath, Where Were Your Insights? You Owe Your Child. Your Life is So Fucked Up.
-#### A Final Word - The Accusation: 
+### A Final Word - The Accusation: 
 
 After the sharing session, the ceremony master invited me to a private conversation. I assumed I would be able to apologize and ask her what she thought went wrong. She began by asking if she could be honest with me. I told her she could be brutally honest, valuing constructive feedback. What ensued, however, was an accusation, much more than feedback. Her words were a harsh blow, delivered without the empathy or professionalism I had expected from a retreat leader. This accusation left me questioning not just my behavior during the trip but my overall character and worth—something I wasn't expecting to have to deal with.
 
@@ -403,9 +400,9 @@ After that, I wrote down three action items:
 - I will meet with a psychiatrist.
 
 
-## 5. Post Retreat
+# 5. Post Retreat
 
-### Day 2-5: Family, Sports, and Journaling
+## Day 2-5: Family, Sports, and Journaling
 
 As my last conversation came to an end, I started packing my belongings and waited outside to be picked up by my father. He was my first point of contact after the retreat and helped me put things into perspective, especially the final accusation. He reassured me that I am empathetic and not a psychopath.
 
@@ -415,7 +412,7 @@ Engaging in physical activities like swimming, biking, and running grounded me a
 
 Unfortunately, my environment didn't have all healthy influences. During these few days, I had a couple of unhealthy meals—pizza, ice cream, etc. In hindsight, I realized that I could have benefitted from more rest and solitude. People around me watching TV and engaging in other distractions prevented me from fully relaxing and processing the experience. I should have spent more time alone or with someone who understood my need for space and introspection. Being constantly surrounded by people, even those who cared for me, sometimes felt overwhelming and counterproductive.
 
-### Days 6-12: Post-Ceremony Reflections
+## Days 6-12: Post-Ceremony Reflections
 
 Returning home marked the end of the retreat but not the end of its impact. The journey back to Krakow presented another challenge: seeking reconciliation with my partner. The two hours we spent on the phone during the retreat were very stressful for her. She felt powerless and overwhelmed when I called her in an altered state of mind and shared that I didn't feel welcome where I was.
 
