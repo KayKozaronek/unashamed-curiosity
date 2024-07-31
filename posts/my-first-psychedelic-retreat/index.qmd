@@ -26,14 +26,16 @@ Would I do it again? Yes, but under different circumstances with more trusted an
 
 What follows is my recollection of the events leading up to the experience, the psychedelic retreat itself, and the integration phase afterward. This account is the result of long, detailed conversations, messy journal entries, and an tediously extensive refinement process.
 
-# 1. Encountering "How to Change Your Mind" by Michael Pollan
+# Before the Retreat - Preparation
+
+## A book - "How to Change Your Mind"
 
 The journey began long before I booked the retreat or even decided that psychedelics could be a part of my life. It started with a book. Michael Pollan’s "How to Change Your Mind" found its way into my hands almost serendipitously. It was hidden in the corner of a staircase library at my local coworking space and didn't look like much. At first glance, it appeared to be a self-help book, and I thought, "Oh well, this one is a bit thick for a self-help book; perhaps there's goodness in here." If it wasn't for the fact that I was doing a book buffet and picked up several books, I don't think I would have bothered opening this one. Once I did, though, I got hooked. 
 
 Pollan’s meticulous research and eloquent prose about the transformative potential of psychedelics struck a chord with me. His exploration into the science, history, and personal narratives surrounding substances like LSD, psilocybin, and mescaline planted a seed of curiosity. Pollan’s balanced approach — acknowledging both the profound insights and the inherent risks — made the idea of a psychedelic journey seem both intriguing and plausible.
 
 
-# 2. Finding myself in a dark place 
+## Finding myself in a dark place 
 In the months leading up to the retreat, I found myself in a dark place, grappling with a myriad of challenges that piled into an insurmountable mountain of physical and mental stress. My interest in psilocybin began with its medical applications for depression and terminally ill cancer patients. However, I soon wondered if this medicine could help me, an otherwise healthy individual, navigate my own dark night and find daylight.
 
 Professionally, I was grappling with significant uncertainties and doubts about my career path, culminating in a burnout that compelled me to take a week off work and subsequently reduce my working hours for an entire month by 20%. The stagnation in progress at the nonprofit I founded left me feeling unfulfilled and incompetent, constantly questioning whether I was on the right track.
@@ -47,7 +49,7 @@ On top of that, I found out that I was going to be a father soon. The news hadn�
 The weight of these issues felt like a crushing boulder on my chest, making each breath a struggle. I was constantly anxious and unable to find peace even in moments of quiet. My daily gratitude practice felt like a chore, and monitoring my composure became the only practical way to manage my anger outbursts. Every day felt like a battle against an invisible enemy, leaving me desperate for a way out of the darkness.
 In my search for relief, I began to explore radical solutions. A psychedelic retreat emerged as a beacon of hope, promising the clarity, new perspective, and reconnection with myself and the world that I desperately needed. Attending the retreat represented a glimmer of hope in an otherwise bleak and overwhelming landscape.
 
-# 3. Researching Various Retreats
+## Researching Various Retreats
 
 Inspired by Michael Pollan’s detailed accounts of transformative psychedelic experiences, I embarked on a quest to find a retreat that would align with my personal needs and aspirations. The research process was extensive and demanding. I delved into countless online reviews, talked to 16 different retreat representatives, and scrutinized the qualifications of various facilitators.
 
@@ -92,6 +94,7 @@ After settling into my seat on the train, I took some time to fill out the first
 Upon arrival at the retreat, my initial feelings of anticipation quickly gave way to unease. The facilitators could not specify the exact psilocybin content in the truffles we were to consume. Although they assured us that 30 grams of fresh truffles was an appropriate dose, their lack of detailed knowledge about the psilocybin content raised my skepticism. Knowing that mushrooms typically contain between 0.5% - 2.0% psilocybin, and that a moderate dose for a first-time user is around 1.5 grams, I was alarmed. A ‘heroic dose’ of 5 grams, as termed by Terence McKenna, seemed daunting. Yet, we were assured that 30 grams of truffles would be fine. Things didn't add up.
 
 :::callout-tip
+# Terence McKena
 Terence McKenna (1946-2000) was an American ethnobotanist, mystic, psychonaut, lecturer, and author. He is best known for his advocacy of the use of naturally occurring psychedelic substances, particularly psilocybin mushrooms, DMT, and ayahuasca. McKenna's work focused on the potential of these substances to catalyze profound personal and cultural transformation.
 
 One of his notable contributions to psychedelic culture is the concept of the "heroic dose" — a high dose of psilocybin mushrooms, typically around 5 grams, taken in a safe and controlled environment. He believed that such a dose could facilitate deep and transformative experiences, allowing individuals to access the far reaches of their consciousness.
@@ -100,6 +103,7 @@ One of his notable contributions to psychedelic culture is the concept of the "h
 “I took 30 grams last week plus an MAO inhibitor and it was fine,” was one of the facilitator’s responses to my concerns. Another added, “Don’t worry. You have to think less. You are way too much in your head. Each trip is different. Gender, height, weight, none of it matters because everyone reacts differently.” Another participant, who would later have a panic attack, and I were the only ones who had read up on dosage amounts and expressed concerns. After the retreat, I learned from a Google search that truffles contain between 0.2% and 0.6% psilocybin. The lower potency meant that a larger dosage is required to achieve similar effects as with normal mushrooms. However, without precise information beforehand, I was left to wonder about the potency and safety of what I was about to ingest. This initial uncertainty set a tone of caution and mistrust.
 
 :::callout-tip
+# What are MAO inhibitors?
 MAO inhibitors (Monoamine Oxidase Inhibitors) are a class of drugs that prevent the breakdown of monoamine neurotransmitters, thereby increasing their availability. When combined with psilocybin, MAO inhibitors can enhance and prolong the effects by preventing the breakdown of psilocybin into psilocin. This can lead to more intense and longer-lasting trips.
 :::
  
@@ -132,6 +136,7 @@ The soft sound of the handpan, a kind of steel drum, was soothing. I decided to 
 The music stopped again. Initially, I laughed at the loud sound when the aux cable was removed, but as the silence continued, my irritation grew. This technical glitch, combined with the facilitators’ visible inability to fix it promptly, shattered my sense of safety and trust. Paranoia set in as I thought, “Why don’t these people know what they are doing? They don’t know how to 'hold space.'”
 
 :::callout-tip
+# Holding Space
 I'm referring here to the common jargon in psychedelic and other healing practices. Holding space is basically the facilitator's or shaman's responsibility while somebody is on a trip, to give them the room necessary, an emotional room, to express anything that they're feeling, and not to judge them. 
 ::: 
 I lifted my eyeshade and saw participants in distress — some vomiting, others panicking or crying heavily. What had previously seemed amusing now felt deeply concerning. The atmosphere grew tense, and my distrust intensified. The facilitators were roaming around, looking suspiciously at each other and at me, reflecting my growing paranoia.
@@ -314,7 +319,7 @@ I left the conversation questioning myself and convinced that what I had experie
 That was it, I was determined to write about my experience.
 
 
-# 5. Post Retreat
+# 5. After the Retreat - Integration
 
 ## Day 2-5: Family, Sports, and Journaling
 
