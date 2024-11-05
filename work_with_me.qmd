@@ -11,14 +11,329 @@ about:
       href: https://github.com/KayKozaronek
 ---
 
-### What is it like to work with me?
+# Manual for Working with Me
+
+## Introduction
+
+Welcome to my “Work with Me” manual. My name is Kay Kozaronek, and I am a self-taught generalist dedicated to ensuring the safe development of Artificial General Intelligence (AGI). My diverse background spans machine learning research engineering, management consulting, and non-profit startup experience. Known for my clear communication, I excel in environments that value honest, frequent feedback.
+
+Outside of work, I’m a triathlete, musician, reader, and humorist. The purpose of this page is to give potential co-founders and close professional contacts a sense of who I am, what I’m good at, my shortcomings, and how I like to work.
+
+## Summary
+
+- Values: Independence, excellence, growth, ambition, fun, curiosity, risk-taking, education, order, responsibility, dependability, honesty, high work quality, speed, and openness to changing my mind.
+  
+- Work Style: I thrive in structured environments, impose structure on myself, and maintain a strict schedule with clear work-life boundaries. I highly value deep work and uninterrupted focus.
+  
+- Communication: I’m a direct communicator who values honest, frequent feedback. I read messages promptly but may take a few days to respond. I prefer in person conversation > calls > messages.
+  
+- Collaboration: I seek collaborators who are smart, dedicated, open-minded, fast, diligent, enthusiastic, and who hold me accountable to high standards. I value humor and the ability to joke around at work.
+
+## Strengths, Weaknesses, and Quirks
+
+### Strengths
+
+- Leadership and Organization: I excel at bringing people together, organizing around shared goals, and mobilizing resources to achieve and exceed expectations.
+  
+- Strategic Planning: I’m skilled in setting high standards and systematically planning to achieve my goals.
+
+- Efficiency and Reliability: I prefer efficient and reliable solutions, ensuring tasks are completed effectively.
+  
+- Resilience and Persistence: I have learned to overcome challenging mental and physical states. Handling setbacks and uncertainty has made me risk tolerance, demonstrating persistence in the face of adversity.
+
+- Self-Awareness and Continuous Improvement: I’m very invested in self-development, keenly self-aware of my personal patterns, and actively work on becoming more capable.
+  
+- High Work Quality: I work independently and maintain high standards in my deliverables.
+
+- Speed and Efficiency: I work fast without sacrificing accuracy.
+
+- Openness to Change: I’m able to articulate my reasoning and willing to update my opinions when faced with new, better evidence.
+
+### Weaknesses
+
+- Perfectionism: I may be overly perfectionistic, which can hinder flexibility when circumstances require adaptability.
+
+- Impostor Syndrome and Self-Criticism: I tend to undervalue my skills and achievements, occasionally leading to feelings of worthlessness or aimlessness.
+
+- Emotional Management: I’m working on in-the-moment awareness of strong emotions and improving emotional regulation.
+
+- Difficulty Embracing Uncertainty: I struggle with accepting uncertainty, which can impact my decision-making and productivity.
+
+- Impatience: I can get annoyed if things don’t progress quickly enough.
+
+- Neurotic Tendencies: I acknowledge being neurotic at times.
+
+### Things I Do That May Annoy You
+
+- Delayed Responses: Although I read messages promptly, it can take me a few days to respond. I recognize this might be frustrating, especially if you value quick replies.
+
+- Strict Work Hours: I don’t work after 18:00 (6 PM), which may affect coordination with team members in different time zones or with different schedules.
+
+- Dislike Being Interrupted: I highly value deep work and prefer not to be interrupted during focused tasks.
+
+- Double Standards on Interruptions: While I dislike being interrupted, I might interrupt you if I’m stuck and need help, even if you’re working. I acknowledge this inconsistency and am working on being more considerate.
+
+### Quicks (Pet Peeves)
+
+- Meaningless Tasks: I dislike meaningless tasks and most forms of unnecessary bureaucracy, though I appreciate self-imposed structure that adds value.
+
+- Lack of Dependability: I value when others follow through on commitments without needing reminders.
+
+- Dishonesty: I expect honesty, including admitting when you don’t know something.
+
+- Low Work Quality: I expect high-quality work from myself and others and can beat myself up if I don't deliver work that I think is good enough.
+
+- Slow Pace: I prefer working fast without losing accuracy and may become frustrated with slower processes.
+
+<!-- ## Personal Values and Philosophy
+
+### Core Values
+
+1.	Independence: I cherish autonomy and the freedom to make my own decisions.
+2.	Excellence: I strive for high standards in all my endeavors.
+3.	Growth: I’m committed to continuous personal and professional development.
+4.	Ambition: I’m driven to achieve my goals and make a significant impact.
+5.	Fun: I believe that work and life should both be enjoyable.
+6.	Curiosity: I’m passionate about exploring new ideas and learning.
+7.	Risk-Taking: I’m willing to take calculated risks to pursue opportunities.
+8.	Education: I value learning and knowledge acquisition.
+9.	Order: I maintain organization and focus to enhance productivity.
+10.	Responsibility: I take ownership of my actions and commitments.
+11.	Dependability: I value reliability in myself and others.
+12.	Honesty: I expect openness and truthfulness.
+13.	High Work Quality: I’m committed to excellence in my work output.
+14.	Speed: I work efficiently without sacrificing quality.
+15.	Openness to Change: I’m willing to update my beliefs when presented with new evidence.
+
+### Mission and Vision
+
+- Vision: I envision a future where AGI benefits humanity, developed under rigorous safety and ethical standards.
+
+- Mission: To contribute significantly to the safe and ethical development of AGI. -->
+
+
+<!-- Ethical Framework
+
+	•	Transparency and Honesty: I prioritize open communication and integrity in all interactions.
+	•	Pro-Social Engineering: I focus on solutions that benefit society and promote ethical use of technology.
+	•	Continuous Learning: I embrace new knowledge and perspectives to inform ethical decision-making. -->
+
+## Work Style
+
+### Work Style Spectrums
+
+- Ask vs. Guess Culture: I lean towards Ask Culture.
+
+- Direct vs. Indirect Feedback: I prefer Direct Feedback.
+
+- Task-Based vs. Relationship-Based Trust: I balance both but have a preference for Task-Based Trust.
+
+- Confrontational vs. Avoids Confrontation: I prefer to address issues directly, using Nonviolent Communication.
+  
+- Consensual vs. Top-Down Decision Making: I favor Collaborative Decision-Making but am comfortable taking leadership when needed.
+  
+- Linear vs. Flexible Scheduling: I value Linear Scheduling, emphasizing structure and punctuality.
+
+<!-- ### Commentary on Work Style Preferences
+
+- Deep Work: I highly value uninterrupted deep work time and prefer not to be interrupted during focused tasks.
+
+- Response to Interruptions: While I prefer not to be interrupted, I might interrupt you if I’m stuck and need help. I acknowledge this double standard and am working on being more respectful of others’ time.
+
+- Creature of Habit: I thrive on routines and structured schedules.
+
+- Dislike for Bureaucracy: I prefer to minimize meaningless tasks and unnecessary bureaucracy but appreciate structured processes that add clear value.
+
+- Speed vs. Quality: I aim for a balance but lean towards working quickly without compromising accuracy.
+
+- Feedback: I highly value giving and receiving feedback to facilitate growth and improvement.
+
+- Flexibility: I prefer focusing on one task at a time and completing it promptly. -->
+
+<!-- ### Communication Style
+
+- Preferred Communication Channels: Slack, Gmail, or WhatsApp.
+
+- Response Time Expectations: I read messages promptly but may take a few days to respond. If something is urgent, please let me know explicitly.
+
+- Feedback Preferences: I value direct, solution-oriented feedback and use the Nonviolent Communication (NVC) framework for challenging situations.
+
+- Meeting Preferences: I appreciate meetings with clear agendas and objectives, prepared in advance for efficiency.
+
+- Communication Etiquette: I prefer not to be interrupted during deep work sessions but understand that collaboration sometimes requires flexibility. -->
+
+<!-- ## Collaboration Expectations
+
+Expectations from Collaborators and Co-founders:
+
+- Attributes: I value working with people who are smart, dedicated, futuristic, open-minded, fast, diligent, and enthusiastic.
+- Accountability: Please hold me accountable to a high standard of work, and I will do the same.
+- Technical Expertise: I prefer co-founders who are more technical (strong engineers or researchers) than I am.
+- Customer Focus: I value collaborators who prioritize customer needs.
+- Reliability: Dependability in following through on commitments is crucial.
+- Humor: I believe in the importance of humor and the ability to joke around at work.
+
+Conflict Resolution Strategies:
+
+- I use the “disagree but commit” approach to move forward despite disagreements.
+- I employ the NVC framework to address conflicts empathetically.
+
+Decision-Making Approach in Teams:
+
+- I favor collaborative decision-making with input from all team members.
+- I’m willing to take leadership roles when necessary.
+
+Delegation and Leadership Style:
+
+- I organize efforts around shared goals.
+- I hold others accountable while providing support.
+
+Non-Negotiables:
+
+- Dependability and honesty are critical.
+- I expect partners to be open to changing their minds when presented with new evidence. -->
+
+### Project Management
+
+Task Management Practices:
+
+- I use a custom-made “Kay’s Operating System” on Notion for tracking goals and tasks.
+- I organize work in one-week sprints with Monday planning and Friday retrospectives.
+
+Tools and Platforms Used:
+
+- Communication: Slack, Gmail, WhatsApp.
+- Building: VS Code (Python), Excalidraw, Figma, Webflow, Canva.
+- Organization: Notion, Google Suite.
+
+Goal Setting and Tracking:
+
+- I set clear objectives with measurable outcomes and always include a definition of done to my tasks.
+- I plan and track weekly, monthly, and quarterly goals.
+
+Meeting Structures and Preferences:
+
+- I complement my daily stand-up calls with a quick written record of my talking points to keep myself accountable.
+- I prefer meetings with prepared agendas that end on actionable steps.
+
+### Availability and Scheduling
+
+
+Typical Working Hours and Time Zone:
+
+- Time Zone: Krakow, Poland (Central European Time, CET).
+- Working Hours: My workday starts after my morning routine and sports, beginning around 9:30 AM, and ends strictly at 18:00 (6 PM).
+- Time Zone Differences: Even though my routine is currently stirct, I’m open to coordinating across time zones with prior planning.
+- Preferred Deep Work Times: Morning hours after the daily standup (usually ends at 10:00) until 12:30. Second block starts after lunch and extends from 13:00 - 15:00 
+- Scheduling Meetings: I prefer to have meetings by the end of my workday in the time window from 16:30 - 18:00. 1 day advance notice for scheduling is appreciated to plan efficiently.
+
+Non-Work Commitments:
+
+- I devote significant time to sports in the morning before starting work.
+- I’m expecting to become a father in February 2025, which may affect my availability around that time.
+- Evenings are reserved for personal activities, rest, or time with friends and my partner.
+
+
+
+<!-- Areas of Expertise and Interest
+
+- Technical Skills:
+- Machine learning research engineering.
+- AI safety and governance.
+- Management consulting.
+
+Research Interests:
+
+- AI safety and ethical development of AGI.
+- Pro-social engineering solutions.
+- Involved in AI governance and policy projects.
+- Participated in policy hackathons and conferences.
+
+Professional Development
+
+Learning and Growth Opportunities:
+
+- I’m aiming to develop the skill set of a world-class product manager.
+- I’m reading extensively on product management and applying these skills to shape the AI Safety market.
+
+Mentorship Preferences:
+
+- I value feedback and guidance from experienced professionals.
+- I’m open to mentoring others in areas of my expertise.
+- Conferences and Events:
+- I participate in EAGx conferences and AI policy events.
+- I’m interested in networking with AI safety and governance communities. -->
+
+### Focus Areas for Growth:
+
+- Improving emotional management and acceptance of uncertainty.
+- Enhancing skills in conflict resolution and communication.
+- Developing expertise in product management to influence the AI Safety market.
+
+<!-- Location Preferences
+
+- London: Ideal due to its developed AI Safety ecosystem and proximity to family and friends in Europe.
+- Other Considerations: Paris, Berkeley, or San Francisco.
+
+Approach to Projects:
+
+- I prefer working from locations with strong AI Safety communities.
+- I’m open to relocation if it aligns with professional goals and personal commitments.
+
+About Me as a Co-founder
+
+Role Vision:
+
+- I envision being a product-focused founder bridging technical/research/engineering understanding with business constraints, customer needs, and design principles.
+
+Expectations from Co-founders:
+- I prefer co-founders who are more technical (strong engineers or researchers) than I am.
+- value a customer-first approach.
+- I expect reliability and accountability to high standards.
+- The importance of humor and a positive work environment cannot be overstated.
+
+Support Needed:
+
+- Please hold me accountable to high standards.
+- Engage in open communication and collaborative problem-solving.
+- Share a commitment to the mission and values outlined.
+
+## Appendix
+
+### Definitions of Work Style Terms
+
+- Ask Culture: Direct communication where requests are made openly.
+- Guess Culture: Indirect communication where one hints at needs.
+- Direct Feedback: Honest and straightforward feedback without much cushioning.
+- Indirect Feedback: Feedback given subtly, often sandwiched between positive comments.
+- Task-Based Trust: Trust built through consistent, reliable work performance.
+- Relationship-Based Trust: Trust built through personal relationships and shared experiences.
+- Confrontational: Openly addressing disagreements and conflicts.
+- Avoids Confrontation: Preferring to minimize or avoid direct conflict.
+- Consensual Decision-Making: Decisions made collaboratively with group agreement.
+- Top-Down Decision-Making: Decisions made by leaders without group input.
+- Linear Scheduling: Strict adherence to schedules and deadlines.
+- Flexible Scheduling: Adaptable approach to time management and deadlines.
+
+Feel free to reach out if you have any questions or if there’s anything you’d like to discuss further. I look forward to the possibility of working together and achieving great things in the realm of AI safety.
+
+ -->
+
+
+<!-- ##################### TESTING ZONE ########################## -->
+
+
+
+
+
+<!-- ### What is it like to work with me?
 
 Welcome to my “Work with Me” document. My name is Kay Kozaronek, and I am a self-taught generalist dedicated to ensuring the safe development of Artificial General Intelligence (AGI). My diverse background spans machine learning research engineering, management consulting, and non-profit startup experience, allowing me to thrive at the intersection of these fields. Known for my clear communication, I excel in environments that value honest, frequent feedback.
 
 Outside of work, I am an aspiring triathlete, musician, reader, and humorist. The purpose of this document is to give potential co-founders and other close professional contacts a sense of who I am, what I am good at, my shortcomings, and how I like to work. 
 
 ### My Values
-s
+
 Knowing what you and the people around you value is crucial. It can make you a better person, coworker, friend, family member, or spouse. After conducting an exercise on my values, I arrived at my top values:
 
 #### Top 10 Values
@@ -31,7 +346,7 @@ Knowing what you and the people around you value is crucial. It can make you a b
 7. **Risk-Taking**: I am not afraid to take calculated risks to achieve my goals and explore new opportunities.
 8. **Education**: Valuing education means I prioritize learning and knowledge acquisition in my life.
 9. **Order**: Maintaining order helps me stay organized and focused, leading to better quality and productivity.
-10. **Responsibility**: Taking responsibility for my actions and commitments is a fundamental principle I live by.
+10. **Responsibility**: Taking responsibility for my actions and commitments is a fundamental principle I live by. -->
 
 <!-- #### Unique Values
 - **Information-Density**: I value the efficiency of communication and the ability to convey important information concisely and effectively.
@@ -110,7 +425,7 @@ Here are some other values I identified during this exercise:
 - **Moderation**
 - **Family** -->
 
-These values guide my decisions and actions, helping me stay true to myself and my goals. They also shape how I interact with others, ensuring that my relationships are meaningful and aligned with my principles.
+<!-- These values guide my decisions and actions, helping me stay true to myself and my goals. They also shape how I interact with others, ensuring that my relationships are meaningful and aligned with my principles. -->
 <!-- 
 ### My Strengths
 
@@ -190,7 +505,7 @@ Understanding and leveraging my strengths has been instrumental in my personal a
 
 *Placeholder for examples and anecdotes illustrating these strengths.* -->
 
-### Personality Test Insights
+<!-- ### Personality Test Insights
 
 Understanding my personality helps me navigate both personal and professional relationships effectively. Here, I present the results of two personality tests taken in 2018 and 2023, highlighting the similarities and differences over the years.
 
@@ -282,7 +597,7 @@ Networking and relationship building are vital, though I sometimes neglect them 
 
 **Balancing Work and Personal Life**
 
-I maintain a sharp cutoff for work at 6:00 PM to ensure I have energy for personal activities, which helps me start the next day refreshed and productive. My morning routine includes time for myself and my partner, and I spend evenings with friends, my partner, or alone to stay sane and functional. Stress management strategies include talking to a coach, taking regular breaks, engaging in sports, eating healthily, and organizing fun events for friends.
+I maintain a sharp cutoff for work at 6:00 PM to ensure I have energy for personal activities, which helps me start the next day refreshed and productive. My morning routine includes time for myself and my partner, and I spend evenings with friends, my partner, or alone to stay sane and functional. Stress management strategies include talking to a coach, taking regular breaks, engaging in sports, eating healthily, and organizing fun events for friends. -->
 
 <!-- ### Professional Experience and Skills -->
 
